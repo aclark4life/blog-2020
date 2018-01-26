@@ -3,11 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. image:: images/aclark-jobs.jpg
+
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
-   ./2017/06/26/17/saml-1-alex-clark-0/index.rst
+   ./2017/06/26/saml-1-alex-clark-0/index.rst
+   ./2017/03/31/ten-years-blogged.rst
    ./2016/12/15/shout-out-to-shout-irc/index.rst
    ./2016/11/23/project-makefile-open-business/index.rst
    ./2016/04/03/yup-this-blog-is-now-powered-by-ablog/index.rst
