@@ -3,11 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to project-app's documentation!
-=======================================
-
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    ./2017/06/26/17/saml-1-alex-clark-0/index.rst
@@ -164,11 +161,3 @@ Welcome to project-app's documentation!
    ./2007/10/17/i-love-the-slrn-news-reader/index.rst
    ./2007/06/25/help-improve-plones-api-documentation/index.rst
    ./2007/03/16/first-post/index.rst
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
