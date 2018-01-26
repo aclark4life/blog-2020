@@ -46,8 +46,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'aclark-blog'
-copyright = '2018, Alex Clark'
+project = "Alex Clark's Blog"
+copyright = '2018 Alex Clark'
 author = 'Alex Clark'
 
 # The version info for the project you're documenting, acts as replacement for
