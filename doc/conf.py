@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'project-app'
+project = 'aclark-blog'
 copyright = '2018, Alex Clark'
 author = 'Alex Clark'
 
@@ -90,7 +90,9 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+    'github_username': 'aclark4life',
+}
 
 html_theme_path = ['_themes']
 
