@@ -4,6 +4,7 @@
    contain the root `toctree` directive.
 
 .. image:: images/aclark-jobs.jpg
+    :align: center
 
 .. toctree::
    :maxdepth: 1
