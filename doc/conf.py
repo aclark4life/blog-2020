@@ -90,8 +90,10 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
+
 html_theme_options = {
-    'github_username': 'aclark4life',
+    'github_user': 'aclark4life',
+    'github_repo': 'blog',
 }
 
 html_theme_path = ['_themes']
