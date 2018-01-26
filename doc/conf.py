@@ -94,6 +94,7 @@ html_theme = 'alabaster'
 html_theme_options = {
     'github_user': 'aclark4life',
     'github_repo': 'blog',
+    'analytics_id': 'UA-112734526-2',
 }
 
 html_theme_path = ['_themes']
