@@ -387,3 +387,7 @@ webpack-init:
 webpack:
 	webpack
 pack: webpack  # Alias
+
+# Blog
+sphinx-deploy:
+	aws s3 cp --recursive doc/_build/html/ s3://blog.aclark.net
