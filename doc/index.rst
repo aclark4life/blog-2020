@@ -13,14 +13,13 @@ Alex Clark
 
 |
 
-`Now </now>`_
-
 Articles
 --------
 
 .. toctree::
    :maxdepth: 1
 
+   ./now/index.rst
    ./2017/06/26/saml-1-alex-clark-0/index.rst
    ./2017/03/31/ten-years-blogged.rst
    ./2016/12/15/shout-out-to-shout-irc/index.rst
