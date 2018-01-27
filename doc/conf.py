@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = "Alex Clark's Blog"
+project = "Alex Clark"
 copyright = '2018 Alex Clark'
 author = 'Alex Clark'
 
