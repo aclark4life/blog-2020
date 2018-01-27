@@ -10,9 +10,13 @@ Alex Clark
 
 .. image:: images/aclark-jobs.jpg
     :align: center
-    :class: c
 
 |
+
+`Now </now>`_
+
+Articles
+--------
 
 .. toctree::
    :maxdepth: 1
@@ -172,7 +176,3 @@ Alex Clark
    ./2007/10/17/i-love-the-slrn-news-reader/index.rst
    ./2007/06/25/help-improve-plones-api-documentation/index.rst
    ./2007/03/16/first-post/index.rst
-
-|
-
-`Now </now>`_
