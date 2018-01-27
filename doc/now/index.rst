@@ -1,7 +1,7 @@
 What I'm doing now
 ==================
 
-I'm in Bethesda, MD, USA, spending all my time on the following tasks:
+I'm in Bethesda, MD, USA, spending all my time on the following:
 
 - **Husband** to Amy.
 - **Owner** of Pomeranian "Quincey".
