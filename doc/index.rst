@@ -6,8 +6,12 @@
 Alex Clark
 ==========
 
+|
+
 .. image:: images/aclark-jobs.jpg
     :align: center
+
+|
 
 .. toctree::
    :maxdepth: 1
