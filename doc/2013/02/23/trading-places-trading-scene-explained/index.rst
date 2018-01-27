@@ -53,4 +53,4 @@ Ding! Ding! Ding! So after all this, here's what's really happening: **the "good
 
 Finally, the "good guys" are able to buy enough to contracts to fulfill the number of "short" sales they made. And they are able to purchase them for much less then they made the "short" sales for. Profit!
 
-**Does it make sense now? If not, let me know in the comments.**
+Does it make sense now? If not, `let me know <https://twitter.com/aclark4life>`_ in the comments.
