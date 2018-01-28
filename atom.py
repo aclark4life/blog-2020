@@ -35,7 +35,7 @@ class Visitor(docutils.nodes.GenericNodeVisitor):
 
     def default_visit(self, node):
         # Pass all other nodes through.
-        pass
+        print(self, node, '\n')
 
 
 fileobj = open(os.path.join('doc', 'index.rst'))
