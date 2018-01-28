@@ -28,6 +28,13 @@ template_in = """
 </feed>
 """
 
+class Visitor(docutils.nodes.GenericNodeVisitor):
+    """
+    """
+    def default_visit(self, node):
+        # Pass all other nodes through.
+        pass
+
 fileobj = open(os.path.join('doc', 'index.rst'))
 
 # https://eli.thegreenplace.net/2017/a-brief-tutorial-on-parsing-restructuredtext-rest/
@@ -36,6 +43,11 @@ default_settings = frontend.OptionParser(
 document = docutils.utils.new_document(fileobj.name, default_settings)
 parser = rst.Parser()
 parser.parse(fileobj.read(), document)
+
+
+visitor = Visitor(document)
+document.walk(visitor)
+
 
 template_obj = Template(template_in)
 date = datetime.datetime.now().isoformat()
