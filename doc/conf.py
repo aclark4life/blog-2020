@@ -114,6 +114,7 @@ html_sidebars = {
     '**': [
         'about.html',
         'searchbox.html',
+        'navigation.html',
     ]
 }
 
@@ -172,3 +173,7 @@ texinfo_documents = [
      author, 'project-app', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+extra_nav_links = {
+    'ACLARK.NET, LLC': 'https://aclark.net',
+}
