@@ -173,3 +173,5 @@ texinfo_documents = [
      author, 'project-app', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+html_show_sourcelink = False
