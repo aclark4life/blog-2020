@@ -1,4 +1,5 @@
 from jinja2 import Template
+import datetime
 
 template_in = """
 <?xml version="1.0" encoding="utf-8"?>
@@ -6,7 +7,7 @@ template_in = """
 
   <title>Example Feed</title>
   <link href="http://example.org/"/>
-  <updated>2003-12-13T18:30:02Z</updated>
+  <updated>{{ date }}</updated>
   <author>
     <name>{{ name }}</name>
   </author>
@@ -24,5 +25,6 @@ template_in = """
 """
 
 template_obj = Template(template_in)
-template_out = template_obj.render(name='Alex Clark')
+date = datetime.datetime.now().isoformat()
+template_out = template_obj.render(name='Alex Clark', date=date)
 print(template_out)
