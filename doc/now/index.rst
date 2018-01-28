@@ -1,5 +1,5 @@
-What I'm doing now
-==================
+What I am doing now
+===================
 
 I'm in Bethesda, MD, USA, spending all my time on: 
 
