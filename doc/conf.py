@@ -96,6 +96,7 @@ html_theme_options = {
     'github_repo': 'blog',
     'analytics_id': 'UA-112734526-2',
     'show_powered_by': False,
+    'pre_bg': '#99D3F6',
 }
 
 html_theme_path = ['_themes']
