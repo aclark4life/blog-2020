@@ -95,6 +95,7 @@ html_theme_options = {
     'github_user': 'aclark4life',
     'github_repo': 'blog',
     'analytics_id': 'UA-112734526-2',
+    'show_powered_by': False,
 }
 
 html_theme_path = ['_themes']
@@ -114,7 +115,6 @@ html_sidebars = {
     '**': [
         'about.html',
         'searchbox.html',
-        'navigation.html',
     ]
 }
 
@@ -173,7 +173,3 @@ texinfo_documents = [
      author, 'project-app', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-extra_nav_links = {
-    'ACLARK.NET, LLC': 'https://aclark.net',
-}
