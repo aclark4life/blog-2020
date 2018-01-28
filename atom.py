@@ -1,5 +1,9 @@
+from docutils import frontend
+from docutils.parsers import rst
 from jinja2 import Template
 import datetime
+import docutils
+import os
 
 template_in = """
 <?xml version="1.0" encoding="utf-8"?>
@@ -23,6 +27,15 @@ template_in = """
 
 </feed>
 """
+
+fileobj = open(os.path.join('doc', 'index.rst'))
+
+# https://eli.thegreenplace.net/2017/a-brief-tutorial-on-parsing-restructuredtext-rest/
+default_settings = frontend.OptionParser(
+    components=(rst.Parser,)).get_default_values()
+document = docutils.utils.new_document(fileobj.name, default_settings)
+parser = rst.Parser()
+parser.parse(fileobj.read(), document)
 
 template_obj = Template(template_in)
 date = datetime.datetime.now().isoformat()
