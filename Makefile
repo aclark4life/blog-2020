@@ -391,3 +391,4 @@ pack: webpack  # Alias
 # Blog
 sphinx-deploy:
 	aws s3 cp --recursive doc/_build/html/ s3://blog.aclark.net
+	aws s3 cp atom.xml s3://blog.aclark.net
