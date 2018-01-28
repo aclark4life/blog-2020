@@ -1,6 +1,6 @@
 from jinja2 import Template
 
-template_atom = """
+template_in = """
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
@@ -23,6 +23,6 @@ template_atom = """
 </feed>
 """
 
-template_obj = Template(template_atom)
+template_obj = Template(template_in)
 template_out = template_obj.render(name='Alex Clark')
 print(template_out)
