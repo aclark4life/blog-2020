@@ -1,22 +1,22 @@
 from docutils import frontend
 from docutils.parsers import rst
 from jinja2 import Template
+from uuid import uuid4
 import datetime
 import docutils
 import os
-
 
 feed = """
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>Example Feed</title>
-  <link href="http://example.org/"/>
+  <title>Alex Clark's Blog</title>
+  <link href="https://blog.aclark.net"/>
   <updated>{{ date }}</updated>
   <author>
-    <name>{{ name }}</name>
+    <name>Alex Clark</name>
   </author>
-  <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+  <id>urn:uuid:{{ uuid }}</id>
 """
 
 entry = """
@@ -38,29 +38,29 @@ class Visitor(docutils.nodes.GenericNodeVisitor):
         """
         """
 
+
 # https://eli.thegreenplace.net/2017/a-brief-tutorial-on-parsing-restructuredtext-rest/
 default_settings = frontend.OptionParser(
     components=(rst.Parser, )).get_default_values()
 parser = rst.Parser()
 date = datetime.datetime.now().isoformat()
-
+uuid = uuid4()
 feed_obj = Template(feed)
-feed_out = feed_obj.render(name='Alex Clark', date=date)
+feed_out = feed_obj.render(date=date, uuid=uuid)
 atom_xml = open('atom.xml', 'w')
 atom_xml.write(feed_out)
-
 entry_obj = Template(entry)
 for root, dirs, files in os.walk('doc'):
     for f in files:
         if f.endswith(".rst"):
             article = open(os.path.join(root, f))
-            document = docutils.utils.new_document(article.name, default_settings)
+            document = docutils.utils.new_document(article.name,
+                                                   default_settings)
             parser.parse(article.read(), document)
             visitor = Visitor(document)
             document.walk(visitor)
             entry_out = entry_obj.render(date=date)
             article.close()
             atom_xml.write(entry_out)
-
 atom_xml.write('\n</feed>\n')
 atom_xml.close()
