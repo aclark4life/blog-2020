@@ -24,7 +24,7 @@ entry = """
     <title>Atom-Powered Robots Run Amok</title>
     <link href="http://example.org/2003/12/13/atom03"/>
     <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
-    <updated>2003-12-13T18:30:02Z</updated>
+    <updated>{{ date }}</updated>
     <summary>Some text.</summary>
   </entry>
 """
@@ -46,7 +46,10 @@ date = datetime.datetime.now().isoformat()
 
 feed_obj = Template(feed)
 feed_out = feed_obj.render(name='Alex Clark', date=date)
+atom_xml = open('atom.xml', 'w')
+atom_xml.write(feed_out)
 
+entry_obj = Template(entry)
 for root, dirs, files in os.walk('doc'):
     for f in files:
         if f.endswith(".rst"):
@@ -55,4 +58,9 @@ for root, dirs, files in os.walk('doc'):
             parser.parse(article.read(), document)
             visitor = Visitor(document)
             document.walk(visitor)
+            entry_out = entry_obj.render(date=date)
             article.close()
+            atom_xml.write(entry_out)
+
+atom_xml.write('\n</feed>\n')
+atom_xml.close()
