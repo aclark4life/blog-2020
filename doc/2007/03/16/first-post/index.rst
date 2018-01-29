@@ -20,7 +20,7 @@ Why? To show Plone can be used for blogging, but also:
 - I want to interact with other Plone users.
 - I want to use new technology.
 
-To that end, this post is about my `build tools <http://svn.plone.org/svn/collective/newzope>`_. But first, I'll note the current likely better alternatives:
+To that end, this post is about my `build tools <http://svn.plone.org/svn/collective/newzope>`_. But first I'll note the current, likely better, alternatives:
 
 - `Buildout <http://www.buildout.org>`_
 - `Buildit <https://agendaless.com/software/Members/chrism/software/buildit/>`_
