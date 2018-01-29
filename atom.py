@@ -23,7 +23,7 @@ entry = """
   <entry>
     <title>Atom-Powered Robots Run Amok</title>
     <link href="http://example.org/2003/12/13/atom03"/>
-    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+    <id>urn:uuid:{{ uuid }}</id>
     <updated>{{ date }}</updated>
     <summary>Some text.</summary>
   </entry>
@@ -59,7 +59,8 @@ for root, dirs, files in os.walk('doc'):
             parser.parse(article.read(), document)
             visitor = Visitor(document)
             document.walk(visitor)
-            entry_out = entry_obj.render(date=date)
+            uuid = uuid4()
+            entry_out = entry_obj.render(date=date, uuid=uuid)
             article.close()
             atom_xml.write(entry_out)
 atom_xml.write('\n</feed>\n')
