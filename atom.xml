@@ -4,15 +4,15 @@
 
   <title>Alex Clark's Blog</title>
   <link href="https://blog.aclark.net"/>
-  <updated>2018-01-30T18:16:15.777093</updated>
+  <updated>2018-01-30T18:19:58.873962</updated>
   <author>
     <name>Alex Clark</name>
   </author>
-  <id>urn:uuid:32f9e742-2986-43c4-998a-aa555171ae26</id>
+  <id>urn:uuid:6da09ff6-f86b-4a0c-9dd0-2af3053cf0ef</id>
   <entry>
     <title>Python</title>
     <link href="https://blog.aclark.net/2017/06/26/saml-1-alex-clark-0/index.html"/>
-    <id>urn:uuid:fba95d29-3d17-4000-9d75-155b79ee4244</id>
+    <id>urn:uuid:99926303-9853-494b-a3de-b24c617d3bc4</id>
     <updated>2017-06-26T00:00:00</updated>
     <summary>SAML: 1, Alex Clark: 0
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -85,7 +85,7 @@ TL;DR: Consider a commercial IdP like OneLogin or Auth0.</summary>
   <entry>
     <title>Todo</title>
     <link href="https://blog.aclark.net/2016/12/15/shout-out-to-shout-irc/index.html"/>
-    <id>urn:uuid:bfd2db82-4f88-42ef-8725-95b8713fbcb2</id>
+    <id>urn:uuid:a31d085b-dfa1-436a-b11e-2bc134fc1517</id>
     <updated>2016-12-15T00:00:00</updated>
     <summary>A Shout Out to Shout IRC
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -168,7 +168,7 @@ systemd
   <entry>
     <title>Open for Business</title>
     <link href="https://blog.aclark.net/2016/11/23/project-makefile-open-business/index.html"/>
-    <id>urn:uuid:a8b010fb-3cc7-4ecc-821e-12b023589689</id>
+    <id>urn:uuid:65badf51-6deb-4a8b-a3a1-888feae15f54</id>
     <updated>2016-11-23T00:00:00</updated>
     <summary>Project Makefile Open for Business
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -319,7 +319,7 @@ https://github.com/aclark4life/project-makefile</summary>
   <entry>
     <title>Yup, this blog is now powered by ABlog</title>
     <link href="https://blog.aclark.net/2016/04/03/yup-this-blog-is-now-powered-by-ablog/index.html"/>
-    <id>urn:uuid:69d93caf-b1f4-4511-9742-602cc9a4bfca</id>
+    <id>urn:uuid:9d729d66-d3b5-41c6-9965-0e8cfb7b30ae</id>
     <updated>2016-04-03T00:00:00</updated>
     <summary>Yup, this blog is now powered by ABlog
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -344,7 +344,7 @@ https://github.com/aclark4life/blog</summary>
   <entry>
     <title>Other nice features</title>
     <link href="https://blog.aclark.net/2016/02/21/updated-django-website/index.html"/>
-    <id>urn:uuid:0c9beae4-4597-433d-988f-24f00b05d9ee</id>
+    <id>urn:uuid:6d609ce9-fe87-4413-9755-1d73be6384bd</id>
     <updated>2016-02-21T00:00:00</updated>
     <summary>Updated Django Website
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -399,15 +399,9 @@ hire my business
   <entry>
     <title>Plock 0-5-0 is out</title>
     <link href="https://blog.aclark.net/2015/10/10/plock-0-5-0-is-out/index.html"/>
-    <id>urn:uuid:8d90cd1f-9f7d-421c-ae2e-13a3e8129327</id>
+    <id>urn:uuid:929cb3bc-649c-4c07-96e0-d469018e45a3</id>
     <updated>2015-10-10T00:00:00</updated>
     <summary>Plock 0-5-0 is out
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2015/10/10
-    :category: Plone
-
 Pip installs Plock. Plock installs Plone.
 The Plock installer for Plone has been 
 updated to support Plone 5
@@ -426,15 +420,9 @@ here
   <entry>
     <title>Instructions</title>
     <link href="https://blog.aclark.net/2015/10/07/dc-python-jobs/index.html"/>
-    <id>urn:uuid:b14b05b4-eaac-4e15-9e60-ec0d8a4f2f71</id>
+    <id>urn:uuid:0b2ed3d5-2147-4b7d-9524-9a301eb279c9</id>
     <updated>2015-10-07T00:00:00</updated>
     <summary>DC Python Jobs
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2015/10/07
-    :category: Misc
-
 This information may eventually live within the DC Python corpus, but for now I prefer to post-it-now-move-it-later.
 DC Python, for those not familiar, is:
 A thriving community full of awesome Python programmers in Washington, DC, USA (DC, MD, VA).
@@ -500,29 +488,17 @@ Good luck!</summary>
   <entry>
     <title>Don't sudo pip install</title>
     <link href="https://blog.aclark.net/2015/10/05/dont-sudo-pip-install/index.html"/>
-    <id>urn:uuid:fca7a001-196f-48ba-ade9-23cadc8cd060</id>
+    <id>urn:uuid:c67f17ef-55cd-4fd6-a386-93194a1ae26e</id>
     <updated>2015-10-05T00:00:00</updated>
     <summary>Don't sudo pip install
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2015/10/05
-    :category: Misc
-
 How many times have you seen this?</summary>
   </entry>
   <entry>
     <title>Pillow 3-0-0 is Out</title>
     <link href="https://blog.aclark.net/2015/10/03/pillow-3-0-0-is-out/index.html"/>
-    <id>urn:uuid:5661d47e-20fa-4253-ad40-cf51d13084ba</id>
+    <id>urn:uuid:3f7cba85-6f85-46d6-bc29-1962c18714e0</id>
     <updated>2015-10-03T00:00:00</updated>
     <summary>Pillow 3-0-0 is Out
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2015/10/03
-    :category: Pillow, Python
-
 Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.
 The 
 Pillow Team
@@ -553,15 +529,9 @@ report'em if you got'em and we'll fix'em
   <entry>
     <title>Report issues</title>
     <link href="https://blog.aclark.net/2015/06/28/pillow-2-9-0-is-almost-out/index.html"/>
-    <id>urn:uuid:b9e4baf5-bfa1-4fad-8b47-ac25290c8ffb</id>
+    <id>urn:uuid:16d4c298-0b23-4c14-844f-9f493e009750</id>
     <updated>2015-06-28T00:00:00</updated>
     <summary>Pillow 2-9-0 Is Almost Out
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2015/06/28
-    :category: Pillow, Python
-
 Pillow 2.9.0 will be released on July 1, 2015.
 Pre-release
 Please help the 
@@ -584,15 +554,9 @@ Thank you!</summary>
   <entry>
     <title>Opinionated</title>
     <link href="https://blog.aclark.net/2015/06/27/plone-on-heroku/index.html"/>
-    <id>urn:uuid:56cdb87d-e292-4541-9b9e-af676c7003af</id>
+    <id>urn:uuid:6baf99ec-2b0b-4674-a98c-36627a5abefb</id>
     <updated>2015-06-27T00:00:00</updated>
     <summary>Plone on Heroku
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2015/06/27
-    :category: Buildout, Plone
-
 Dear Plone, welcome to 2015
 Picture it. The year was 2014. I was incredibly moved and inspired by this blog entry:
 http://www.niteoweb.com/blog/dear-plone-welcome-to-2014
@@ -653,15 +617,9 @@ Plock Pins
   <entry>
     <title>Notes</title>
     <link href="https://blog.aclark.net/2015/06/05/pillow-2015-report/index.html"/>
-    <id>urn:uuid:386d9217-1e90-4898-a1d0-eb73b5c1abcf</id>
+    <id>urn:uuid:75f3701b-dae3-41e3-b841-f534aab89d4d</id>
     <updated>2015-06-05T00:00:00</updated>
     <summary>Pillow 2015 Report
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2015/06/05
-    :category: Pillow, Python
-
 Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.
 The state of the Pillow
 Pillow Fighter #2 Eric Soroos had some time constraints recently so I managed the Pillow 2.8 release. While preparing the release I also reviewed and updated the entire project, including:
@@ -723,15 +681,9 @@ https://github.com/python-pillow/Pillow/pull/1181
   <entry>
     <title>Plone Add-On Development For Command-Line Savvy Developers</title>
     <link href="https://blog.aclark.net/2015/06/01/plone-add-on-development-for-command-line-savvy-developers/index.html"/>
-    <id>urn:uuid:f158b640-a598-4090-b0fd-939f82e91a1d</id>
+    <id>urn:uuid:38b095d8-5ed5-4312-9e3a-d2283ac2a82c</id>
     <updated>2015-06-01T00:00:00</updated>
     <summary>Plone Add-On Development For Command-Line Savvy Developers
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2015/06/01
-    :category: Plone
-
 With Plone 5 heating up, it's time for me to go all-in again on Plone.
 With Plone 5 heating up, it's time for me to go all-in again on Plone. To that end, here's a new tutorial for 
 command-line savvy developers who may be totally unfamiliar with Python but want to learn Plone
@@ -743,15 +695,9 @@ https://github.com/aclark4life/Plone-Add-On-Development-For-Command-Line-Savvy-D
   <entry>
     <title>Footnotes</title>
     <link href="https://blog.aclark.net/2015/04/26/plock-rocks/index.html"/>
-    <id>urn:uuid:28033785-5719-4639-a655-ca2f0a8eb5ed</id>
+    <id>urn:uuid:ca1d161d-ab2e-4c2a-a952-f26671af2b32</id>
     <updated>2015-04-26T00:00:00</updated>
     <summary>Plock Rocks
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2015/04/26
-    :category: Buildout, Plone
-
 Pip installs Plock. Plock installs Plone.
 Understanding Plock
 To understand Plock, you must understand:
@@ -997,15 +943,9 @@ Yes, there is a security and/or reliability issue with doing this; you are clear
   <entry>
     <title>Please Do My Homework</title>
     <link href="https://blog.aclark.net/2015/02/10/please-do-my-homework/index.html"/>
-    <id>urn:uuid:a71cf17c-cb29-4acb-aa3a-70fe83256ade</id>
+    <id>urn:uuid:4a0b32c6-c8ea-4672-963a-3dd5c804e324</id>
     <updated>2015-02-10T00:00:00</updated>
     <summary>Please Do My Homework
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2015/02/10
-    :category: Misc
-
 Reminiscent of A Simple Printer of Nested Lists.
 Reminiscent of 
 this phenomenon
@@ -1042,15 +982,9 @@ start asking more meaningful questions
   <entry>
     <title>Overall</title>
     <link href="https://blog.aclark.net/2015/01/11/new-django-website/index.html"/>
-    <id>urn:uuid:d2a4cce6-0b4c-4ddc-b4d3-d91c352ced9f</id>
+    <id>urn:uuid:fbdf68ce-8c21-4990-a6c7-f54d7078395f</id>
     <updated>2015-01-11T00:00:00</updated>
     <summary>New Django Website
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2015/01/11
-    :category: Django, Python, Pyramid
-
 After a series of Django gigs in 2014, I had the urge to redevelop our company website in Django; I am very happy with the results.
 This overview is roughly in order of development from start to finish. And since I am a "packaging guy", I will take this opportunity to comment on miscellaneous packaging issues too*.
 Same theme, different backend
@@ -1188,15 +1122,9 @@ almost
   <entry>
     <title>Packt is Having a Sale</title>
     <link href="https://blog.aclark.net/2015/01/05/packt-is-having-a-sale/index.html"/>
-    <id>urn:uuid:d8fb8a62-f3e0-4cc9-95b6-909abed83255</id>
+    <id>urn:uuid:2211a50a-8fad-492d-a66a-24eac7a532b2</id>
     <updated>2015-01-05T00:00:00</updated>
     <summary>Packt is Having a Sale
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2015/01/05
-    :category: Misc
-
 Happy new year!
 For those who haven't heard, PACKT is having a $5 "bonanza". 
 Pick up some $5 Python books
@@ -1208,15 +1136,9 @@ check it out
   <entry>
     <title>Pillow Runs Itself</title>
     <link href="https://blog.aclark.net/2014/10/02/pillow-runs-itself/index.html"/>
-    <id>urn:uuid:804703ed-bb3f-4270-a178-3b3c23712c72</id>
+    <id>urn:uuid:36c1d2ee-6299-453c-8dbe-52a57a269e7f</id>
     <updated>2014-10-02T00:00:00</updated>
     <summary>Pillow Runs Itself
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2014/10/02
-    :category: Pillow, Python
-
 As of Pillow 2.6.0, the Pillow project almost completely runs itself!
 Of course when I say "runs itself" I mean "runs without me", which is what 
 every open source project lead hopes for
@@ -1255,15 +1177,9 @@ Pure Pelican Theme
   <entry>
     <title>Acknowledgements</title>
     <link href="https://blog.aclark.net/2014/07/05/pillow-2-5-0-is-out/index.html"/>
-    <id>urn:uuid:ae17f1f2-5043-4b13-90e8-bf340005252e</id>
+    <id>urn:uuid:c55f8999-a955-49c8-8d65-6d59212ba55f</id>
     <updated>2014-07-05T00:00:00</updated>
     <summary>Pillow 2-5-0 is Out
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2014/07/05
-    :category: Pillow, Python
-
 Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors
 Since Pillow 2.0 the Pillow Team has adopted a quarterly release cycle; as such, Pillow 2.5.0 is out! Here's what's new in this release:
 2.5.0 (2014-07-01)
@@ -1365,15 +1281,9 @@ https://github.com/python-imaging/Pillow/issues</summary>
   <entry>
     <title>Thanks</title>
     <link href="https://blog.aclark.net/2014/06/18/plone-5-0-alpha2-is-here/index.html"/>
-    <id>urn:uuid:884422e3-0806-4a39-9347-cfeaa489d996</id>
+    <id>urn:uuid:2eeaf7a1-613a-4c87-8853-2a2b20b2427e</id>
     <updated>2014-06-18T00:00:00</updated>
     <summary>Plone 5 Alpha 2 is Here
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2014/06/18
-    :category: Plone, Pyramid
-
 This post is long overdue since Plone 5 alpha 2 was released on 2014-04-20!
 It is also too short. I may do a followup blog entry to review more features, depending on how well this one is received. I also want to talk more about Plock.
 When Plone 4 alpha 1 was released, I was so excited I immediately 
@@ -1449,15 +1359,9 @@ https://raw.github.com/plock/pins/master/plone-5-0
   <entry>
     <title>Plone site debug</title>
     <link href="https://blog.aclark.net/2014/06/02/i-love-collective-recipe-plonesite/index.html"/>
-    <id>urn:uuid:cdd18edd-a1b7-4655-b3fb-a3b32884c3e3</id>
+    <id>urn:uuid:badbeb21-271a-4398-869b-c80bc8f91601</id>
     <updated>2014-06-02T00:00:00</updated>
     <summary>I Love collective-recipe-plonesite
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2014/06/02
-    :category: Buildout, Plone
-
 Whenever I answer tech support questions, I usually begin with a clean slate
 E.g.:
 $ pip install tmp virtualenv
@@ -1960,15 +1864,9 @@ or both
   <entry>
     <title>Conclusion</title>
     <link href="https://blog.aclark.net/2014/05/19/matplotlib-plotting-cookbook-review/index.html"/>
-    <id>urn:uuid:07796e2c-5418-4571-80cd-07a8693df20b</id>
+    <id>urn:uuid:c8e3d407-0e21-4b73-8f00-30d7f00808a2</id>
     <updated>2014-05-19T00:00:00</updated>
     <summary>Matplotlib Plotting Cookbook Review
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2014/05/19
-    :category: Python
-
 Here is my review
 I was given a copy of 
 Matplotlib Plotting Cookbook by Alexandre Devert
@@ -2059,15 +1957,9 @@ Bokeh
   <entry>
     <title>Conclusion</title>
     <link href="https://blog.aclark.net/2014/05/03/we-pioneer/index.html"/>
-    <id>urn:uuid:baca0d48-7217-4ec9-b716-ff618f297ac6</id>
+    <id>urn:uuid:42d170cd-e2e2-41fb-bb0d-f14e23ee27cc</id>
     <updated>2014-05-03T00:00:00</updated>
     <summary>We Pioneer
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2014/05/03
-    :category: Plone
-
 One of the subjects I find myself thinking about a lot is: Plone (surprise!)
 One of the subjects I find myself thinking about a lot is: Plone (surprise!) In Plone-land, we deliver the 
 best Python-based CMS money can't buy on top of an aging Zope 2 "application server"
@@ -2121,15 +2013,9 @@ Early, pioneering implementation which inspired Diazo.</summary>
   <entry>
     <title>Logo</title>
     <link href="https://blog.aclark.net/2014/04/07/bro-do-you-even-pillow/index.html"/>
-    <id>urn:uuid:7211e08d-c2e8-4d85-a168-648e5b39d2f0</id>
+    <id>urn:uuid:7add2bca-e5b8-4e32-aa68-535d5409412b</id>
     <updated>2014-04-07T00:00:00</updated>
     <summary>Bro, do you even Pillow?
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2014/04/07
-    :category: Pillow, Python
-
 Pillow is a fork of the Python Imaging Library. Here is an update on the status of the project.
 2.4.0 released
 Pillow 2.4.0 is out! Here are the highlights:
@@ -2177,15 +2063,9 @@ Keep using and supporting Pillow!</summary>
   <entry>
     <title>Introducing Plock Pins</title>
     <link href="https://blog.aclark.net/2014/03/20/introducing-plock-pins/index.html"/>
-    <id>urn:uuid:9d8bcd09-f3e5-487a-bf2e-63d2bd9cd4d1</id>
+    <id>urn:uuid:26226b89-4dc6-4a0f-866c-945c8e4529c5</id>
     <updated>2014-03-20T00:00:00</updated>
     <summary>Introducing Plock Pins
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2014/03/20
-    :category: Buildout, Plone
-
 "Plock Pins are the greatest thing to happen to Plone since Buildout" — Alex Clark
 Plock Pins are the final incarnation of a collection of Plone Buildouts I've been developing since 2010. They attempt to make it easy to install Plone with only Python installed 
 1
@@ -2226,15 +2106,9 @@ Remember to use Python 2.4 for < Plone 4</summary>
   <entry>
     <title>Virtualenv and setuptools</title>
     <link href="https://blog.aclark.net/2014/03/19/virtualenv-support-update/index.html"/>
-    <id>urn:uuid:1684e30a-1793-48d7-b3e7-fe3a39889718</id>
+    <id>urn:uuid:0073009f-ce32-487c-ab5a-54568bff2033</id>
     <updated>2014-03-19T00:00:00</updated>
     <summary>Virtualenv Support Update
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2014/03/19
-    :category: Buildout, Python
-
 This is you: I use virtualenv all the time and I love it!
 This is you: "I use virtualenv all the time and I love it! But I hate having to manually upgrade setuptools within my virtualenvs because the 
 PyPA has been so prolific with setuptools releases lately
@@ -2266,15 +2140,9 @@ attempting to upgrade Setuptools…</summary>
   <entry>
     <title>ZopeSkel</title>
     <link href="https://blog.aclark.net/2014/01/11/hello-plone-updated/index.html"/>
-    <id>urn:uuid:d9feb5aa-e8c3-4245-a194-90531210ef9e</id>
+    <id>urn:uuid:173a5339-6f52-4f09-b2e7-93c3b5e3ded7</id>
     <updated>2014-01-11T00:00:00</updated>
     <summary>Hello Plone Updated
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2014/01/11
-    :category: Buildout, Plone
-
 Over two years ago I wrote a blog entry called "Hello, Plone!"
 Over two years ago I wrote a blog entry called 
 "Hello, Plone!"
@@ -2313,15 +2181,9 @@ http://blog.aclark.net/2011/08/20/hello-plone/
   <entry>
     <title>Distributions</title>
     <link href="https://blog.aclark.net/2014/01/01/pillow-2-3-0-is-out/index.html"/>
-    <id>urn:uuid:e96d34de-f153-443f-b561-54ebc9f3864d</id>
+    <id>urn:uuid:fc892de9-ac44-4ace-bc92-b3a7bcd87244</id>
     <updated>2014-01-01T00:00:00</updated>
     <summary>Pillow 2-3-0 is Out
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2014/01/01
-    :category: Pillow, Python
-
 Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors
 Since Pillow 2.0, the Pillow Team has adopted a quarterly release cycle; as such, Pillow 2.3.0 has just been released. Here's what's new in this release:
 2.3.0 (2014-01-01)
@@ -2408,15 +2270,9 @@ In case I'm hit by a bus, Eric Soroos has the keys.</summary>
   <entry>
     <title>What is the top software, application or library you wish someone would write next year?</title>
     <link href="https://blog.aclark.net/2013/12/30/new-years-python-meme-2014/index.html"/>
-    <id>urn:uuid:a2925320-c30b-448c-a515-942850e75d76</id>
+    <id>urn:uuid:f6cc2c9b-c15f-429d-acd5-339ff75a0b3d</id>
     <updated>2013-12-30T00:00:00</updated>
     <summary>New Year's Python Meme 2014
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/12/30
-    :category: Python
-
 Tarek Ziadé's New Year's Python Meme
 What’s the coolest Python application, framework or library you discovered this year?
 This year we have a tie between two must-have packaging-related utilities:
@@ -2478,15 +2334,9 @@ What is the top software, application or library you wish someone would write ne
   <entry>
     <title>Removed themes</title>
     <link href="https://blog.aclark.net/2013/12/29/plonetheme-report/index.html"/>
-    <id>urn:uuid:22edb272-eb88-4a0b-ac45-84a3386505d9</id>
+    <id>urn:uuid:aa2b70b4-c614-43f2-85b2-bdd8d722f177</id>
     <updated>2013-12-29T00:00:00</updated>
     <summary>Plonetheme Report
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/12/29
-    :category: Buildout, Plone
-
 Here is another report on Plone themes.
 Here is another report on Plone themes 
 1
@@ -2668,15 +2518,9 @@ https://plock.github.com
   <entry>
     <title>Enjoy</title>
     <link href="https://blog.aclark.net/2013/10/13/python-packages-open-sourced/index.html"/>
-    <id>urn:uuid:316c8194-7cb8-4f71-818f-a4fbfeb1a54e</id>
+    <id>urn:uuid:9cf7bbf1-97c5-487c-a7d4-3ddaf5f9f5f4</id>
     <updated>2013-10-13T00:00:00</updated>
     <summary>Python Packages Open Sourced
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/10/13
-    :category: Python
-
 Today I am open sourcing the code that ran pythonpackages.com from late 2011 to late 2012.
 You can find it here:
 https://github.com/pythonpackages/vanity_app
@@ -2701,15 +2545,9 @@ aclark@aclark.net
   <entry>
     <title>Support</title>
     <link href="https://blog.aclark.net/2013/10/03/pillow-2.2.1-released/index.html"/>
-    <id>urn:uuid:7fa34458-9a92-4d88-96fe-0981e716f0ff</id>
+    <id>urn:uuid:164f0d62-627a-4af9-b25a-44d91e33fe8f</id>
     <updated>2013-10-03T00:00:00</updated>
     <summary>Pillow 2.2.1 Released
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/10/03
-    :category: Pillow, Python
-
 Pillow is the "friendly" PIL fork. PIL is the Python Imaging Library.
 An earlier version of this entry was published yesterday with the wrong date. Apologies for any annoyance or confusion.
 The Pillow 2.2.1 source distribution is 
@@ -2792,15 +2630,9 @@ supporting its development
   <entry>
     <title>Issues</title>
     <link href="https://blog.aclark.net/2013/07/29/whats-new-as-of-plock-0-1-2/index.html"/>
-    <id>urn:uuid:17c82e32-4731-420c-bac7-24ea9dab089f</id>
+    <id>urn:uuid:7024b048-4819-4ec9-ad44-03b8b4e02b62</id>
     <updated>2013-07-29T00:00:00</updated>
     <summary>What's new as of Plock 0-1-2?
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/07/29
-    :category: Plone
-
 Plock is a Plone Installer for the Pip-Loving Crowd.
 I blogged about Plock after 0.0.1 was released and a lot of progress has been made since then, so I thought I'd give an update. But rather than a traditional list-the-changelog-style-blog-entry, I thought I'd walk you through what you can do with Plock as of version 0.1.2.
 Install Plone
@@ -2846,15 +2678,9 @@ https://github.com/aclark4life/plock/issues</summary>
   <entry>
     <title>Add-ons</title>
     <link href="https://blog.aclark.net/2013/07/19/introducing-plock/index.html"/>
-    <id>urn:uuid:95e60b75-d579-4806-82b7-9a88bd232c23</id>
+    <id>urn:uuid:06ddc488-799f-449d-b1e1-057656a1e084</id>
     <updated>2013-07-19T00:00:00</updated>
     <summary>Introducing Plock
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/07/19
-    :category: Buildout, Plone
-
 Plock is a Plone Installer for the Pip-Loving Crowd. Plone is a Python-based CMS.
 Installing Plone with 
 Plock
@@ -2897,15 +2723,9 @@ Install the add-on(s) in Plone via Site Setup -> Add-ons.</summary>
   <entry>
     <title>Go get it now</title>
     <link href="https://blog.aclark.net/2013/07/02/pillow-2-1-0-is-out/index.html"/>
-    <id>urn:uuid:a120f543-5160-4fc3-af2c-e1a3c8ddeb04</id>
+    <id>urn:uuid:a15c8a55-39fa-46dc-85fe-d64e0be784cf</id>
     <updated>2013-07-02T00:00:00</updated>
     <summary>Pillow 2-1-0 is Out
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/07/02
-    :category: Pillow, Python
-
 Pillow is a popular fork of PIL by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors
 Pillow 2.1.0 is out!
  With this release, the Pillow team has 
@@ -2934,15 +2754,9 @@ Which began with the first release of Pillow 1.0 on 2010-07-31 in which support 
   <entry>
     <title>Conclusion</title>
     <link href="https://blog.aclark.net/2013/06/22/plone-org-upgraded/index.html"/>
-    <id>urn:uuid:149753ba-1112-4d86-839e-e5b754f1251d</id>
+    <id>urn:uuid:dcc93edf-142b-459d-a95f-c1710440e680</id>
     <updated>2013-06-22T00:00:00</updated>
     <summary>Plone.org Upgraded
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/06/22
-    :category: Plone
-
 Recently I upgraded plone.org from Plone 4.2 to Plone 4.3.
 Recently at the behest of Liz Leddy, I 
 upgraded plone.org from Plone 4.2 to Plone 4.3
@@ -3055,15 +2869,9 @@ https://github.com/plone/Products.PloneOrg/commit/b04105f7c9cacf3880c12effba5ffe
   <entry>
     <title>Who cares</title>
     <link href="https://blog.aclark.net/2013/04/22/new-pyramid-site/index.html"/>
-    <id>urn:uuid:7f3a732a-1eaa-4767-beb8-249869d5566b</id>
+    <id>urn:uuid:a781834d-6236-4f53-847c-6a636d896f2e</id>
     <updated>2013-04-22T00:00:00</updated>
     <summary>New Pyramid Site
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/04/22
-    :category: Pyramid, Python
-
 For the first time in 10 years, http://aclark.net is not powered by Plone.
 Nothing against Plone: it's still one of the greatest loves of my life (inasmuch as you can love a software and community, as I do).
 Why
@@ -3271,15 +3079,9 @@ what makes them happy
   <entry>
     <title>About 2.0.0</title>
     <link href="https://blog.aclark.net/2013/03/15/the-story-of-pillow/index.html"/>
-    <id>urn:uuid:1807d92e-4d52-490e-b2d8-20af8681f002</id>
+    <id>urn:uuid:e1876317-1386-492e-a129-9b20c5216629</id>
     <updated>2013-03-15T00:00:00</updated>
     <summary>The Story of Pillow
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/03/15
-    :category: Pillow, Python
-
 On March 4, 2013 I got an email from the Python Software Foundation
 On March 4, 2013 I got an email from the Python Software Foundation (PSF):
 This email notification is being sent to you to inform you of the PSF Board’s decision to fund the facilitation of a Python 3 compatible release of the Python Imaging Library for the amount of $1,300 USD. Please see the resolution that was passed unanimously on March 4, 2013 via email below:
@@ -3317,15 +3119,9 @@ consider a gittip
   <entry>
     <title>Built with Plone, Powered by GitHub Pages</title>
     <link href="https://blog.aclark.net/2013/02/23/built-with-plone-powered-by-github-pages/index.html"/>
-    <id>urn:uuid:22ddecc5-fa10-4e88-bd12-855d3f460bce</id>
+    <id>urn:uuid:3c47d03c-3680-4432-b690-df62e623d79e</id>
     <updated>2013-02-23T00:00:00</updated>
     <summary>Built with Plone, Powered by GitHub Pages
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/02/23
-    :category: Plone
-
 Is Plone the next great static website generator? Probably not, but it definitely could be.
 I am always looking for ways to improve, streamline and otherwise hack my e-life. And this post is about all of the above.
 
@@ -3358,15 +3154,9 @@ What do you think about Plone as a static site generator and/or Plone in the clo
   <entry>
     <title>Checkoutmanager</title>
     <link href="https://blog.aclark.net/2013/02/08/i-love-checkoutmanager-and-dotfiles/index.html"/>
-    <id>urn:uuid:7dc91613-c612-44cf-9484-633e8ebd5f41</id>
+    <id>urn:uuid:614fde5c-f0c4-4da6-a793-e2d9ec8e79e4</id>
     <updated>2013-02-08T00:00:00</updated>
     <summary>I Love Checkoutmanager and Dotfiles
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/02/08
-    :category: Misc, Python
-
 An ode to my OS X development workstation setup
  
 1
@@ -3674,15 +3464,9 @@ Well, 2.4 through 3.3 at last count.</summary>
   <entry>
     <title>Play as Work</title>
     <link href="https://blog.aclark.net/2013/01/31/please-help-me-do-open-source-work/index.html"/>
-    <id>urn:uuid:f9e9754e-4ded-4b86-b289-ec94077269d4</id>
+    <id>urn:uuid:1bb6f834-122a-4274-94ad-4daa02cc0fc5</id>
     <updated>2013-01-31T00:00:00</updated>
     <summary>Please Help Me Do Open Source Work
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/01/31
-    :category: Misc
-
 From my 'mid-life-crisis' series of blog entries
 Open Source Work
 Open Source Work
@@ -3732,15 +3516,9 @@ src="https://www.gittip.com/assets/widgets/0002.js">
   <entry>
     <title>What's in it for you</title>
     <link href="https://blog.aclark.net/2013/01/10/python-3-porting/index.html"/>
-    <id>urn:uuid:f08271f5-ab76-45dc-9f02-53915cf46714</id>
+    <id>urn:uuid:8808cd85-a1eb-426c-a738-68a05868086f</id>
     <updated>2013-01-10T00:00:00</updated>
     <summary>Python 3 Porting
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/01/10
-    :category: Python
-
 The 3 in 2013 is for Python 3
 I tend to like projects that everyone else 
 hates
@@ -3778,15 +3556,9 @@ take a serious look at Python 3
   <entry>
     <title>Introducing The Plone Kitty</title>
     <link href="https://blog.aclark.net/2013/01/09/introducing-the-plone-kitty/index.html"/>
-    <id>urn:uuid:4f419df4-0c50-4546-b6b1-dd4d2183c41f</id>
+    <id>urn:uuid:af9301e1-44e8-4cee-9362-c5ef6aca4017</id>
     <updated>2013-01-09T00:00:00</updated>
     <summary>Introducing The Plone Kitty
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2013/01/09
-    :category: Plone
-
 Actually: re-introducing the Plone Kitty from Plone 1!
 Plone Kitty
  is the name of a theme (then called "skin") that shipped with the earliest versions of 
@@ -3810,7 +3582,7 @@ please do so here
   <entry>
     <title>New Year's Python Meme 2012</title>
     <link href="https://blog.aclark.net/2012/12/29/new-years-python-meme-2012/index.html"/>
-    <id>urn:uuid:00f3977c-0761-44f9-a25f-dcffbbb9f243</id>
+    <id>urn:uuid:ba7b95e5-705f-4fd7-b3d0-e232f3eb8665</id>
     <updated>2012-12-29T00:00:00</updated>
     <summary>New Year's Python Meme 2012
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -3859,7 +3631,7 @@ Tweet it with the
   <entry>
     <title>The Zen of Zope, by Alex Clark</title>
     <link href="https://blog.aclark.net/2012/12/09/the-zen-of-zope/index.html"/>
-    <id>urn:uuid:ec68c9fa-12cf-4a9b-816c-1042be398c91</id>
+    <id>urn:uuid:05718a5b-2d38-4672-a352-0dbb556609b4</id>
     <updated>2012-12-09T00:00:00</updated>
     <summary>The Zen of Zope, by Alex Clark
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -3894,15 +3666,9 @@ Implicit namespace packages are one honking great idea -- let's do more of those
   <entry>
     <title>How much?</title>
     <link href="https://blog.aclark.net/2012/11/23/plone-guide/index.html"/>
-    <id>urn:uuid:80c5b80b-626e-44e9-8b56-35d7c75eacda</id>
+    <id>urn:uuid:7189d0ff-44a1-432a-99d7-e90b2cebdc79</id>
     <updated>2012-11-23T00:00:00</updated>
     <summary>Plone Guide
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2012/11/23
-    :category: Plone
-
 For anyone new to my blog, welcome.
 Who
 For anyone new to my blog, welcome. I am Alex Clark: Python Web Developer.
@@ -3929,15 +3695,9 @@ https://plone-guide.readthedocs.org/en/latest/
   <entry>
     <title>Discussion</title>
     <link href="https://blog.aclark.net/2012/11/02/pillow-1-7-8/index.html"/>
-    <id>urn:uuid:5aa1a31b-64c5-40bd-b4c0-232c947d4d32</id>
+    <id>urn:uuid:6ef9d950-90ff-490f-b9dd-3726aaeba3db</id>
     <updated>2012-11-02T00:00:00</updated>
     <summary>Pillow 1-7-8
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2012/11/02
-    :category: Pillow, Python
-
 Pillow is the friendly PIL fork. Initially just a packaging fork, now considering image code bug fixes and Python 3 support. To be friendly, we attempt to track changes against upstream tickets in PIL.
 Pillow 1.7.8 is out! Read about it here:
 http://pypi.python.org/pypi/Pillow/1.7.8
@@ -3988,7 +3748,7 @@ https://github.com/python-imaging/Pillow/issues</summary>
   <entry>
     <title>Greatness</title>
     <link href="https://blog.aclark.net/2012/10/23/plone-secrets-episode-5-the-community/index.html"/>
-    <id>urn:uuid:2fc5c4cd-1b3f-4f7f-9dd7-a4a71f1d93d1</id>
+    <id>urn:uuid:e55513b8-236c-411f-93e5-bd47404af9a0</id>
     <updated>2012-10-23T00:00:00</updated>
     <summary>Plone Secrets 5: The Community
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -4056,7 +3816,7 @@ Term coined by Wyn Williams</summary>
   <entry>
     <title>Fix</title>
     <link href="https://blog.aclark.net/2012/10/22/why-split-the-lists/index.html"/>
-    <id>urn:uuid:36bd5dc9-1c71-426a-9cf6-4d3041cb6899</id>
+    <id>urn:uuid:0191794c-b2ae-486e-900a-b6e92d5cf8b8</id>
     <updated>2012-10-22T00:00:00</updated>
     <summary>Why Split The Lists
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -4083,15 +3843,9 @@ As someone who volunteers to help maintain the lists for the community, I don't 
   <entry>
     <title>Policy makes perfect</title>
     <link href="https://blog.aclark.net/2012/10/20/mailing-list-etiquette/index.html"/>
-    <id>urn:uuid:c7fc0eab-c986-4e3f-92fa-d8590dd27a05</id>
+    <id>urn:uuid:eb2f1174-39e6-49b2-afe2-f28a533e469e</id>
     <updated>2012-10-20T00:00:00</updated>
     <summary>Mailing List Etiquette
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2012/10/20
-    :category: Plone
-
 I read a lot of mailing lists.
 Also, I've been subscribing to, reading, and participating in discussions on mailing lists since about the time Mailman 1.0 was released circa 1999 
 1
@@ -4163,7 +3917,7 @@ http://thinkexist.com/quotation/the_single_biggest_problem_in_communication_is/1
   <entry>
     <title>I have vision</title>
     <link href="https://blog.aclark.net/2012/10/19/gittip-misundood/index.html"/>
-    <id>urn:uuid:83c5e3d1-0715-4da9-a50c-71ed762ed601</id>
+    <id>urn:uuid:8841fe52-c1b5-4b4c-a193-c97bdd4358a9</id>
     <updated>2012-10-19T00:00:00</updated>
     <summary>Gittip, Misunderstood
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -4224,7 +3978,7 @@ http://blogs.hbr.org/ashkenas/2011/02/your-communications-may-not-be.html</summa
   <entry>
     <title>Final Thoughts</title>
     <link href="https://blog.aclark.net/2012/10/17/top-3-favorite-logical-fallacies/index.html"/>
-    <id>urn:uuid:4b7bef24-eeab-4545-936e-54ee3f3ff7fc</id>
+    <id>urn:uuid:9676899f-0d06-4d6a-baee-90401b2793bc</id>
     <updated>2012-10-17T00:00:00</updated>
     <summary>Top 3 Favorite Logical Fallacies
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -4278,7 +4032,7 @@ There may be no tangible right or wrong, just preference. Discuss your preferenc
   <entry>
     <title>Test post</title>
     <link href="https://blog.aclark.net/2012/10/15/django-test/index.html"/>
-    <id>urn:uuid:8e1b3ab1-347f-47c1-a41b-50aa2360c0b0</id>
+    <id>urn:uuid:29079a18-ab4f-413b-8d42-701e7caf2ad8</id>
     <updated>2012-10-15T00:00:00</updated>
     <summary>Hello, Django
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -4294,15 +4048,9 @@ Hello, Django planet!</summary>
   <entry>
     <title>Looking For Projects</title>
     <link href="https://blog.aclark.net/2012/10/04/looking-for-projects/index.html"/>
-    <id>urn:uuid:19135a1d-c5af-46d2-88f8-cfa5068b0fab</id>
+    <id>urn:uuid:157566ce-ca7f-4394-9fd8-2ab3c4b3e708</id>
     <updated>2012-10-04T00:00:00</updated>
     <summary>Looking For Projects
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2012/10/04
-    :category: Misc, Python
-
 With pythonpackages.com winding down, I am now actively seeking projects for Q4 2012 and beyond.
 I am good at:
 Deploying Plone sites: 
@@ -4328,15 +4076,9 @@ aclark@aclark.net
   <entry>
     <title>My deployment is awesome</title>
     <link href="https://blog.aclark.net/2012/10/03/plone-4-3-alpha-1-in-production/index.html"/>
-    <id>urn:uuid:1b17f91c-2cba-4edb-bad6-632eb90a4bf0</id>
+    <id>urn:uuid:9aded871-187a-4d76-a317-a901a646021e</id>
     <updated>2012-10-03T00:00:00</updated>
     <summary>Plone 4-3 Alpha 1 In Production
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2012/10/03
-    :category: Plone
-
 I love upgrading Plone. Given the choice between an afternoon in the sun and upgrading Plone… OK I'd probably pick the sun, but it'd be close.
 Always upgrading?
 I would love to see the trend of continuous integration make its way all the way to deployment, so that one day our Plone sites are getting new code as soon as it's released. Until then, it's nice to know that Plone's upgrade procedure is fairly predictable and stable, if not entirely straightforward 
@@ -4722,7 +4464,7 @@ https://dev.plone.org/ticket/13178</summary>
   <entry>
     <title>What can you do to help?</title>
     <link href="https://blog.aclark.net/2012/09/28/pythonpackages-com-one-year-later/index.html"/>
-    <id>urn:uuid:8abac49d-4c38-4a5e-b49f-25070b970800</id>
+    <id>urn:uuid:f5246213-cb1d-4909-a799-34cf444e7744</id>
     <updated>2012-09-28T00:00:00</updated>
     <summary>PythonPackages: One Year Later
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -4781,7 +4523,7 @@ Thanks for considering!</summary>
   <entry>
     <title>What is the point?</title>
     <link href="https://blog.aclark.net/2012/09/24/diazo-themes-revisited/index.html"/>
-    <id>urn:uuid:b62e75da-072e-4ce2-8762-ef84e2c15c86</id>
+    <id>urn:uuid:84789513-5d94-430a-94dd-febb42670305</id>
     <updated>2012-09-24T00:00:00</updated>
     <summary>Diazo Themes Revisited
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -4991,7 +4733,7 @@ It's getting harder to define what "old style" theming is. For this blog entry, 
   <entry>
     <title>publishconf.py</title>
     <link href="https://blog.aclark.net/2012/09/22/sorry-for-the-blog-spam/index.html"/>
-    <id>urn:uuid:1841817e-ee72-4a18-9303-1188c6a4bce5</id>
+    <id>urn:uuid:d886a415-b5f4-4be7-9928-df675b86605f</id>
     <updated>2012-09-22T00:00:00</updated>
     <summary>Sorry for the blog spam
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5055,7 +4797,7 @@ I removed the extraneous pelicanconf.py and put everything in one file</summary>
   <entry>
     <title>Gittip is the Future</title>
     <link href="https://blog.aclark.net/2012/09/21/gittip-is-the-future/index.html"/>
-    <id>urn:uuid:b1faeb7e-34f0-4f4a-a4a9-f51c9f132ef8</id>
+    <id>urn:uuid:f4a8efcc-0190-4112-812a-9efb37affa91</id>
     <updated>2012-09-21T00:00:00</updated>
     <summary>Gittip is the Future
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5103,7 +4845,7 @@ http://blog.gittip.com/post/30116848405/with-payouts-gittip-is-minimally-viable<
   <entry>
     <title>Bootstrapping a Buildout 1-6 release</title>
     <link href="https://blog.aclark.net/2012/08/13/bootstrapping-a-buildout-1-6-release/index.html"/>
-    <id>urn:uuid:8ba001ee-67d6-4687-b49e-42018c89832e</id>
+    <id>urn:uuid:e73f1145-7438-4766-80e1-b74bb56d2016</id>
     <updated>2012-08-13T00:00:00</updated>
     <summary>Bootstrapping a Buildout 1-6 release
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5143,7 +4885,7 @@ distutils-sig
   <entry>
     <title>PLONE DEVS: Y U NO MOVE REPOS?</title>
     <link href="https://blog.aclark.net/2012/08/10/all-my-python-packages-are-belong-to-github/index.html"/>
-    <id>urn:uuid:036f9b17-90a0-4d81-87c6-ba24f9a5f9c7</id>
+    <id>urn:uuid:a4edd4a5-9b60-4a07-b311-f1d1328360dd</id>
     <updated>2012-08-10T00:00:00</updated>
     <summary>All My Python Packages Are Belong To GitHub
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5170,7 +4912,7 @@ aclark@aclark.net
   <entry>
     <title>Register and upload your package</title>
     <link href="https://blog.aclark.net/2012/08/07/pythonpackages-com-using-pypis-oauth1-support-to-register-and-upload-packages/index.html"/>
-    <id>urn:uuid:f443a6a8-683a-4673-8f5e-6b75b42f18eb</id>
+    <id>urn:uuid:72af3515-37cd-456c-aee8-54e60c51faf5</id>
     <updated>2012-08-07T00:00:00</updated>
     <summary>pythonpackages.com: Using PyPI's OAuth1 support to register and upload packages
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5207,7 +4949,7 @@ give it a try
   <entry>
     <title>Big Picture</title>
     <link href="https://blog.aclark.net/2012/08/01/building-windows-installers-in-the-cloud/index.html"/>
-    <id>urn:uuid:a83891ee-bac5-40f7-b691-169c77e5eb44</id>
+    <id>urn:uuid:0725e808-7e5a-4885-ae33-d7d73631df5f</id>
     <updated>2012-08-01T00:00:00</updated>
     <summary>Building Windows Installers in the Cloud
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5266,7 +5008,7 @@ Dia
   <entry>
     <title>Pillow Moved to python-imaging Organization</title>
     <link href="https://blog.aclark.net/2012/07/25/pillow-moved-to-python-imaging-organization/index.html"/>
-    <id>urn:uuid:4cdf442d-9697-48c7-a8a4-fcd8de8b735f</id>
+    <id>urn:uuid:10ad4c76-94b1-4e19-938c-572128a8af4c</id>
     <updated>2012-07-25T00:00:00</updated>
     <summary>Pillow Moved to python-imaging Organization
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5327,7 +5069,7 @@ https://github.com/python-imaging/Pillow</summary>
   <entry>
     <title>The Plones Templer</title>
     <link href="https://blog.aclark.net/2012/07/12/the-plones-templer/index.html"/>
-    <id>urn:uuid:7d851ec9-0320-4529-94b0-1d897c979d22</id>
+    <id>urn:uuid:034c963f-203b-4f72-8a22-89e020a2b88b</id>
     <updated>2012-07-12T00:00:00</updated>
     <summary>The Plones Templer
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5412,7 +5154,7 @@ IRC).</summary>
   <entry>
     <title>GitHub Organization support</title>
     <link href="https://blog.aclark.net/2012/07/04/pythonpackages-com-beta-launch/index.html"/>
-    <id>urn:uuid:793d7fa1-1d26-42d2-9921-77e7d6b1e6d8</id>
+    <id>urn:uuid:e034fbde-1d9e-41c3-95f4-668fe03868f1</id>
     <updated>2012-07-04T00:00:00</updated>
     <summary>pythonpackages.com beta launch
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5441,7 +5183,7 @@ crash course
   <entry>
     <title>Zope2 Bootstrap</title>
     <link href="https://blog.aclark.net/2012/06/12/zope2-bootstrap/index.html"/>
-    <id>urn:uuid:bc0a44db-dddb-4cd5-a889-917f1dd87cb5</id>
+    <id>urn:uuid:91e7c3a1-53e2-45c4-9c0f-9b7b5090681f</id>
     <updated>2012-06-12T00:00:00</updated>
     <summary>Zope2 Bootstrap
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5482,15 +5224,9 @@ here
   <entry>
     <title>A Simple Printer of Nested Lists</title>
     <link href="https://blog.aclark.net/2012/05/23/a-simple-printer-of-nested-lists/index.html"/>
-    <id>urn:uuid:c5974ff5-8258-453c-9723-e0965ee14baa</id>
+    <id>urn:uuid:61dcd4fe-587b-41ac-8c20-0de0e0196201</id>
     <updated>2012-05-23T00:00:00</updated>
     <summary>A Simple Printer of Nested Lists
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2012/05/23
-    :category: Python
-
 A rant
 Do you ever get the urge to kill? How many of us cringe whenever we see these words? Lately I've been spending a lot of time developing 
 pythonpackages.com
@@ -5516,15 +5252,9 @@ simple printers of nested lists
   <entry>
     <title>Where we are all headed</title>
     <link href="https://blog.aclark.net/2012/05/11/adam-yauch-has-passed/index.html"/>
-    <id>urn:uuid:e70fdc21-7aa9-42d3-ad40-4f35144526b6</id>
+    <id>urn:uuid:07c27e31-f118-45f6-836e-d7529497e28d</id>
     <updated>2012-05-11T00:00:00</updated>
     <summary>Adam Yauch has passed
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2012/05/11
-    :category: Misc
-
 And why it matters to tech people like me.
 (I hope my tech colleagues will indulge my thoughts on the recent passing of Beastie Boy Adam Yauch.)
 TL;DR: I <3 the Beastie Boys and will miss Adam Yauch; and I suspect many others in the tech world do, and will, too
@@ -5546,16 +5276,10 @@ you
   <entry>
     <title>Workflow</title>
     <link href="https://blog.aclark.net/2012/04/04/test-plone-tmp/index.html"/>
-    <id>urn:uuid:b2e20503-4f2a-4367-b305-89bce0df139a</id>
+    <id>urn:uuid:8fc5f5c1-438a-4ffd-98da-001dd3ed93cc</id>
     <updated>2012-04-04T00:00:00</updated>
     <summary>Test-plone 
 tmp
-No directive entry for "post" in module "docutils.parsers.rst.languages.en".
-Trying "post" as canonical directive name.
-Unknown directive type "post".
-.. post:: 2012/04/04
-    :category: Plone, Python
-
 Since Day 1 with Plone circa 2004, I've always taken pride in and greatly enjoyed refining my development environment.
 It's been stable for a while now (> 1 year or so) so I thought I'd share.
 Operating system
@@ -5610,7 +5334,7 @@ Enjoy.</summary>
   <entry>
     <title>Pyramid</title>
     <link href="https://blog.aclark.net/2012/01/30/new-vanity-release/index.html"/>
-    <id>urn:uuid:e1816be7-5bbf-48d6-80e0-8ab50f323e64</id>
+    <id>urn:uuid:d30aae16-6a51-4b66-822b-cca58d133ee8</id>
     <updated>2012-01-30T00:00:00</updated>
     <summary>New Vanity Release
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5773,7 +5497,7 @@ Duplicate implicit target name: "vanity".</summary>
   <entry>
     <title>Hello Plone theming</title>
     <link href="https://blog.aclark.net/2012/01/25/hello-plone-theming/index.html"/>
-    <id>urn:uuid:4fb160a2-1c3b-4306-8ea4-3538f4701890</id>
+    <id>urn:uuid:45c14886-5ded-4c88-b883-8cbbd4189efe</id>
     <updated>2012-01-25T00:00:00</updated>
     <summary>Hello Plone theming
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5795,7 +5519,7 @@ new tutorial on pythonpackages.com
   <entry>
     <title>New Year's Python Meme 2011</title>
     <link href="https://blog.aclark.net/2011/12/21/new-years-python-meme-2011/index.html"/>
-    <id>urn:uuid:2cbf1c46-20ec-4af5-8a69-d70f5c163080</id>
+    <id>urn:uuid:d7d9f692-7f30-4acf-b2e5-7d19554e6b8f</id>
     <updated>2011-12-21T00:00:00</updated>
     <summary>New Year's Python Meme 2011
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5850,7 +5574,7 @@ pythonpackages.com
   <entry>
     <title>Conclusion</title>
     <link href="https://blog.aclark.net/2011/11/29/introducing-pythonpackages-com/index.html"/>
-    <id>urn:uuid:89afea17-7df7-4f9f-809c-9c1f01048a3a</id>
+    <id>urn:uuid:505f37ec-d33c-452b-879c-f52d8fa9c1cf</id>
     <updated>2011-11-29T00:00:00</updated>
     <summary>Introducing pythonpackages.com
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5906,7 +5630,7 @@ https://bitbucket.org/pythonpackages/pythonpackages.com/issues/new</summary>
   <entry>
     <title>Notes</title>
     <link href="https://blog.aclark.net/2011/11/09/plone-secrets-episode-4-varnish-in-front/index.html"/>
-    <id>urn:uuid:dc9865d1-ea2f-4da6-af8d-8f179b5981f9</id>
+    <id>urn:uuid:c9a27c1b-dad5-4737-9002-fccfce4d8e44</id>
     <updated>2011-11-09T00:00:00</updated>
     <summary>Plone secrets: Episode 4 - Varnish in front
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -5976,7 +5700,7 @@ to stomach this yet.</summary>
   <entry>
     <title>Introducing: Plone packages!</title>
     <link href="https://blog.aclark.net/2011/10/24/plone-first-class-python-citizen/index.html"/>
-    <id>urn:uuid:739bd99c-f1c9-4b98-aa65-3cc5fce6bc55</id>
+    <id>urn:uuid:e2ad4ed9-0d87-4cf2-a203-aa7b71e41060</id>
     <updated>2011-10-24T00:00:00</updated>
     <summary>Plone: First Class Python Citizen
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -6040,7 +5764,7 @@ and
   <entry>
     <title>Bottom line accommodations</title>
     <link href="https://blog.aclark.net/2011/10/14/pillow-one-year-later/index.html"/>
-    <id>urn:uuid:bf050006-26e4-4ab8-a40b-307c4231f991</id>
+    <id>urn:uuid:eae5c0e0-3d11-43d6-9c95-bbc943627edc</id>
     <updated>2011-10-14T00:00:00</updated>
     <summary>Pillow: One Year Later
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -6073,7 +5797,7 @@ This may never happen of course, which is part of the reason for the fork. You c
   <entry>
     <title>Notes</title>
     <link href="https://blog.aclark.net/2011/10/03/vagrant-puppet-and-mozilla-oh-my/index.html"/>
-    <id>urn:uuid:9c46f1e9-a3dd-4bc6-b3c8-c5be555e94a0</id>
+    <id>urn:uuid:0025a388-3226-4d36-8280-adfe2e91984b</id>
     <updated>2011-10-03T00:00:00</updated>
     <summary>Vagrant, Puppet and Mozilla, Oh my
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -6161,7 +5885,7 @@ Duplicate implicit target name: "vagrant".</summary>
   <entry>
     <title>Notes</title>
     <link href="https://blog.aclark.net/2011/09/22/mozilla-and-pypi/index.html"/>
-    <id>urn:uuid:1e5bcae6-f990-4bcb-bee8-152100b2e98f</id>
+    <id>urn:uuid:b472f538-4945-4856-9238-4a6006fe20e5</id>
     <updated>2011-09-22T00:00:00</updated>
     <summary>Mozilla and PyPI
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -6254,7 +5978,7 @@ Duplicate implicit target name: "playdoh".</summary>
   <entry>
     <title>Setup</title>
     <link href="https://blog.aclark.net/2011/08/28/hello-mod_wsgi/index.html"/>
-    <id>urn:uuid:a6cf92a5-cda5-41f1-a11f-be2606f6556c</id>
+    <id>urn:uuid:05b2da94-53e8-45ee-bd91-1d4495e91f3d</id>
     <updated>2011-08-28T00:00:00</updated>
     <summary>Hello mod_wsgi
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -6334,7 +6058,7 @@ Zope 2.13
   <entry>
     <title>Step 3 - Next steps</title>
     <link href="https://blog.aclark.net/2011/08/20/hello-plone/index.html"/>
-    <id>urn:uuid:b17b7b3b-e57a-4693-a56a-669414f52a38</id>
+    <id>urn:uuid:89ac8068-78fa-4455-923f-639dc97097bf</id>
     <updated>2011-08-20T00:00:00</updated>
     <summary>Hello Plone
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -6444,7 +6168,7 @@ Diazo
   <entry>
     <title>Notes</title>
     <link href="https://blog.aclark.net/2011/08/09/plone-secrets-episode-3-collective-recaptcha-installation/index.html"/>
-    <id>urn:uuid:ae013a4f-0e22-41bd-a79e-abf89ff590e5</id>
+    <id>urn:uuid:861f05a3-28e9-4ce8-a286-ce4829c1caf7</id>
     <updated>2011-08-09T00:00:00</updated>
     <summary>Plone Secrets: Episode 3 - Collective Recaptcha Installation
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -6664,7 +6388,7 @@ Notes
   <entry>
     <title>Notes</title>
     <link href="https://blog.aclark.net/2011/07/06/plone-secrets-episode-2-collective-python-buildout/index.html"/>
-    <id>urn:uuid:8b9853d9-3550-4eb6-ab77-159c09a478b1</id>
+    <id>urn:uuid:dbcd667a-a67c-4c24-9537-34cb77c86bb6</id>
     <updated>2011-07-06T00:00:00</updated>
     <summary>Plone Secrets: Episode 2 - Collective Python Buildout
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -6820,7 +6544,7 @@ Github
   <entry>
     <title>Results</title>
     <link href="https://blog.aclark.net/2011/06/20/plone-secrets-episode-1-site-actions-contact-link/index.html"/>
-    <id>urn:uuid:23546db0-8bb0-4d6e-b230-be2f0f374093</id>
+    <id>urn:uuid:6a913f1a-0a50-4d79-8485-6057976b165f</id>
     <updated>2011-06-20T00:00:00</updated>
     <summary>Plone Secrets Episode 1 Site Actions Contact Link
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -6919,7 +6643,7 @@ I will speculate that long term Plone will move away from Zope 2, and everything
   <entry>
     <title>Notes</title>
     <link href="https://blog.aclark.net/2011/06/16/youre-so-vain-so-why-not-use-vanity/index.html"/>
-    <id>urn:uuid:97913d98-58b8-471c-922d-7691c49494ae</id>
+    <id>urn:uuid:df291da0-1d5f-46b8-adc7-1cc3c6f78fe4</id>
     <updated>2011-06-16T00:00:00</updated>
     <summary>You're So Vain, So Why Not Use Vanity?
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -6986,7 +6710,7 @@ known issue
   <entry>
     <title>Notes</title>
     <link href="https://blog.aclark.net/2011/06/14/aclark-net-seeks-unique-candidate-for-part-time-business-consulting/index.html"/>
-    <id>urn:uuid:a693b275-a62d-48b9-8288-04cb05b43d67</id>
+    <id>urn:uuid:acc689cf-51b4-4f7e-a24c-36a0e5e2ab9b</id>
     <updated>2011-06-14T00:00:00</updated>
     <summary>ACLARK.NET, LLC Seeks Unique Candidate For Part-Time Business Consulting Opportunity
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -7038,7 +6762,7 @@ http://aclark.net/clients</summary>
   <entry>
     <title>Disclaimer</title>
     <link href="https://blog.aclark.net/2011/05/27/new-plone-theming-has-arrived/index.html"/>
-    <id>urn:uuid:7963609e-8b66-419f-b399-c26b22cacca9</id>
+    <id>urn:uuid:4e7e51e7-ecd0-4219-bde7-04f8164efeeb</id>
     <updated>2011-05-27T00:00:00</updated>
     <summary>New Plone Theming Has Arrived
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -7096,7 +6820,7 @@ These are my experiences with relatively new Plone technologies. If I've made a 
   <entry>
     <title>BaaS (Buildout as a Service)</title>
     <link href="https://blog.aclark.net/2011/05/10/top-10-reasons-plone-3-3-site-admin-book-is-still-for-you/index.html"/>
-    <id>urn:uuid:9c6c842d-d788-4ba6-960d-115de355e2d5</id>
+    <id>urn:uuid:fdb1d563-9b59-499f-a599-e4645856e0a6</id>
     <updated>2011-05-10T00:00:00</updated>
     <summary>Top 10 Reasons Plone 3.3 Site Admin Book is Still for You
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -7187,7 +6911,7 @@ That is to say: buildouts are frequently changing in response to what is going o
   <entry>
     <title>The story</title>
     <link href="https://blog.aclark.net/2011/05/03/plone-conference-2008-is-a-wrap/index.html"/>
-    <id>urn:uuid:72fee214-89b5-4e2a-9914-000fb3fc495c</id>
+    <id>urn:uuid:25f4239b-0487-4d24-b425-9a4d652a68c5</id>
     <updated>2011-05-03T00:00:00</updated>
     <summary>Plone Conference 2008 is Finally a Wrap
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -7233,7 +6957,7 @@ help transferring the video
   <entry>
     <title>Credits</title>
     <link href="https://blog.aclark.net/2011/04/15/collective-transmogrifier-without-plone/index.html"/>
-    <id>urn:uuid:8d3c29ec-897b-4184-a84e-78235e4c004e</id>
+    <id>urn:uuid:114d6688-a94b-466d-9c19-23ff8ad416c2</id>
     <updated>2011-04-15T00:00:00</updated>
     <summary>Collective.transmogrifier Without Plone?
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -7307,7 +7031,7 @@ Thanks Martijn Pieters for creating collective.transmogrifier; thanks Martin Asp
   <entry>
     <title>After charm</title>
     <link href="https://blog.aclark.net/2011/03/29/introducing-charm-death-to-charm/index.html"/>
-    <id>urn:uuid:e9d9c4cd-cc43-401a-acaf-adcda1ded5f5</id>
+    <id>urn:uuid:fb75faeb-d5a3-4ec2-a56a-78e3aef2e17f</id>
     <updated>2011-03-29T00:00:00</updated>
     <summary>Introducing Charm; Death to Charm
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -7383,7 +7107,7 @@ mr.migrator
   <entry>
     <title>Post-sprint sprinting</title>
     <link href="https://blog.aclark.net/2011/02/16/cioppino-sprint-report/index.html"/>
-    <id>urn:uuid:b1f40fb3-b03a-4e24-bd00-d009cc087e5a</id>
+    <id>urn:uuid:5840edf7-5936-40d6-8d7f-68a44bb2ae89</id>
     <updated>2011-02-16T00:00:00</updated>
     <summary>Cioppino Sprint Report
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -7495,7 +7219,7 @@ Only three days left, and I'm still a few dollars short!</summary>
   <entry>
     <title>Conclusion</title>
     <link href="https://blog.aclark.net/2011/01/31/in-defense-of-pypi/index.html"/>
-    <id>urn:uuid:6c560cc0-c5ba-4494-b005-0d12f49a8f55</id>
+    <id>urn:uuid:046825ca-75a3-4040-b0c7-41a04ac12c17</id>
     <updated>2011-01-31T00:00:00</updated>
     <summary>In Defense of PyPI
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -7555,7 +7279,7 @@ Did you enjoy reading this article? If so, please consider `helping me help Plon
   <entry>
     <title>Conclusion</title>
     <link href="https://blog.aclark.net/2011/01/26/hostout-rules/index.html"/>
-    <id>urn:uuid:d200dcbf-a024-4cf4-bd9b-93e52085b000</id>
+    <id>urn:uuid:80a93253-f2dc-485b-97f8-46e1b03697dd</id>
     <updated>2011-01-26T00:00:00</updated>
     <summary>Hostout Rules
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -7695,7 +7419,7 @@ Plone in February 2011`_.</summary>
   <entry>
     <title>Conclusion</title>
     <link href="https://blog.aclark.net/2011/01/25/you-should-buy-plone-3-for-education-right-now/index.html"/>
-    <id>urn:uuid:dda9a3e6-0e55-44ac-8ece-e6896fabf734</id>
+    <id>urn:uuid:1312a9d2-afaf-43e8-b3d5-079681818e73</id>
     <updated>2011-01-25T00:00:00</updated>
     <summary>You Should Buy Plone 3 for Education Right Now
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -7787,7 +7511,7 @@ Alex Clark (January 2011)</summary>
   <entry>
     <title>How much should you donate</title>
     <link href="https://blog.aclark.net/2011/01/21/help-alex-clark-help-plone/index.html"/>
-    <id>urn:uuid:358ca45b-93a9-47e3-91a5-2c0eda834770</id>
+    <id>urn:uuid:e9e7e3a2-5ad2-43ac-be58-1ec086b921ac</id>
     <updated>2011-01-21T00:00:00</updated>
     <summary>Help Alex Clark help Plone
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -7842,7 +7566,7 @@ Alex Clark (January 2011)</summary>
   <entry>
     <title>To the future</title>
     <link href="https://blog.aclark.net/2011/01/19/new-website-for-2011/index.html"/>
-    <id>urn:uuid:9767d6f6-5067-49ff-9b08-855b02ab3f80</id>
+    <id>urn:uuid:959dee24-b7ed-484d-94f1-1c203d7b4187</id>
     <updated>2011-01-19T00:00:00</updated>
     <summary>New Website For 2011!
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -7957,7 +7681,7 @@ Onwards Plone team! Here is to 2011.</summary>
   <entry>
     <title>Bug report please?</title>
     <link href="https://blog.aclark.net/2010/11/04/a-report-on-plonetheme/index.html"/>
-    <id>urn:uuid:ee0133c6-8ec4-4297-90e2-57d1c8cb5ef4</id>
+    <id>urn:uuid:0c440da9-9c66-43eb-bf1e-8602395c7071</id>
     <updated>2010-11-04T00:00:00</updated>
     <summary>A Report On Plonetheme.*
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -8100,7 +7824,7 @@ Bluegray Theme 1.0.0b2
   <entry>
     <title>I Reinstalled Recently</title>
     <link href="https://blog.aclark.net/2010/10/15/i-reinstalled-recently/index.html"/>
-    <id>urn:uuid:84f74dc5-c77b-43f7-aa92-a3de81fc8235</id>
+    <id>urn:uuid:7c2cdede-3586-4032-b6bc-f4c6582cef57</id>
     <updated>2010-10-15T00:00:00</updated>
     <summary>I Reinstalled Recently
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -8177,7 +7901,7 @@ allow Time Machine to restore my home directory, because that feels
   <entry>
     <title>Conclusion</title>
     <link href="https://blog.aclark.net/2010/07/12/the-apache-modules-for-xdv/index.html"/>
-    <id>urn:uuid:6f75ca64-6718-4ffb-8102-956d46d99c84</id>
+    <id>urn:uuid:7579949e-62d7-44e6-ad9b-119e3492d89f</id>
     <updated>2010-07-12T00:00:00</updated>
     <summary>The Apache Modules For XDV
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -8396,7 +8120,7 @@ Plone 3.3 Site Administration
   <entry>
     <title>P.S. Looking for Plone experts? Hire ACLARK.NET, LLC.</title>
     <link href="https://blog.aclark.net/2010/03/30/blood-sweat-tears-and-a-new-plone-book/index.html"/>
-    <id>urn:uuid:8e4400ca-deec-45f4-8f8b-a4786eb51867</id>
+    <id>urn:uuid:abe5f470-9a85-4237-b383-aba054bc3e93</id>
     <updated>2010-03-30T00:00:00</updated>
     <summary>Blood, Sweat, Tears and a New Plone Book
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -8479,7 +8203,7 @@ get in touch.
   <entry>
     <title>I Need Something To Do</title>
     <link href="https://blog.aclark.net/2010/03/22/i-need-something-to-do/index.html"/>
-    <id>urn:uuid:1ee107c6-b201-4e89-bbd5-60d452580f91</id>
+    <id>urn:uuid:18010ed4-76ad-42d1-bad2-7df04e33edd9</id>
     <updated>2010-03-22T00:00:00</updated>
     <summary>I Need Something To Do
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -8577,7 +8301,7 @@ http://aclark.net/team/aclark/resume-pdf
   <entry>
     <title>The actual point</title>
     <link href="https://blog.aclark.net/2010/03/15/using-buildout-to-deploy-a-plone-2-1-site-to-the-cloud/index.html"/>
-    <id>urn:uuid:7583c51b-314e-409d-a449-7143d72aa6e6</id>
+    <id>urn:uuid:4de86a7d-117f-458c-9194-6ec4d91680d9</id>
     <updated>2010-03-15T00:00:00</updated>
     <summary>Using Buildout To Deploy a Plone 2.1 Site To The Cloud
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -8649,7 +8373,7 @@ Since Plone 2.1 community support has expired for this release, and since Plone 
   <entry>
     <title>No, Really, You Can Just Use Buildout To Install Plone</title>
     <link href="https://blog.aclark.net/2010/01/07/no-really-you-can-just-use-buildout-to-install-plone/index.html"/>
-    <id>urn:uuid:83154dd3-9c24-494f-bf03-1d7442bfc1f7</id>
+    <id>urn:uuid:43c21bbc-829c-4d1b-a83f-a76089452bdf</id>
     <updated>2010-01-07T00:00:00</updated>
     <summary>No, Really, You Can Just Use Buildout To Install Plone
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -8729,7 +8453,7 @@ Happy Plone 4'ing all!</summary>
   <entry>
     <title>Yup, This Blog Is Now Powered By WordPress</title>
     <link href="https://blog.aclark.net/2010/01/06/yup-this-blog-is-now-powered-by-wordpress/index.html"/>
-    <id>urn:uuid:f5d519de-8f0f-4c1a-8a3b-68d62663849a</id>
+    <id>urn:uuid:0f606e15-b23a-491d-821d-9de8ca671a2e</id>
     <updated>2010-01-06T00:00:00</updated>
     <summary>Yup, This Blog Is Now Powered By WordPress
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -8755,7 +8479,7 @@ Python software
   <entry>
     <title>Next Sprint:</title>
     <link href="https://blog.aclark.net/2010/01/01/toronto-plone-add-ons-sprint-1-report/index.html"/>
-    <id>urn:uuid:6601caa8-6912-4a1a-93df-f20d36647904</id>
+    <id>urn:uuid:262edf5a-25c4-4212-a021-5a5c832e50e9</id>
     <updated>2010-01-01T00:00:00</updated>
     <summary>Toronto Plone Add-ons Sprint #1 Report
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -8788,7 +8512,7 @@ Shooting for January 22.  Hopefully that will work for most people.  Please hel
   <entry>
     <title>What are the three top things you want to learn in 2010?</title>
     <link href="https://blog.aclark.net/2009/12/31/new-years-python-meme/index.html"/>
-    <id>urn:uuid:13ba0823-a33c-4196-99b2-fcfc31051253</id>
+    <id>urn:uuid:f1304561-3320-4ce2-bdff-66ff25045858</id>
     <updated>2009-12-31T00:00:00</updated>
     <summary>New Year’s Python Meme
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -8841,7 +8565,7 @@ Happy (Python) New Year everyone!</summary>
   <entry>
     <title>Chapter 15</title>
     <link href="https://blog.aclark.net/2009/09/22/review-of-veda-williams-plone-3-theming/index.html"/>
-    <id>urn:uuid:22e64577-9b02-416f-8e79-ec8c56dfca05</id>
+    <id>urn:uuid:6fdc99c2-2217-4b3a-979f-6d6d01a3d459</id>
     <updated>2009-09-22T00:00:00</updated>
     <summary>Review of Veda Williams' Plone 3 Theming
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -8923,7 +8647,7 @@ http://www.packtpub.com/plone-3-theming-create-flexible-powerful-professional-te
   <entry>
     <title>In Conclusion</title>
     <link href="https://blog.aclark.net/2009/06/18/a-sane-buildout-for-repoze-zope2-plone/index.html"/>
-    <id>urn:uuid:24606ade-6ff9-41ca-b97e-1f6ae54bd47f</id>
+    <id>urn:uuid:923f441e-4a53-4c30-b8d4-68c4ebded1d2</id>
     <updated>2009-06-18T00:00:00</updated>
     <summary>A Sane Buildout For repoze.zope2 + Plone
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9074,7 +8798,7 @@ repoze.zope2
   <entry>
     <title>Break It Down</title>
     <link href="https://blog.aclark.net/2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/index.html"/>
-    <id>urn:uuid:132e8ec8-0c0d-4cbe-a966-a8b82de18725</id>
+    <id>urn:uuid:f9e4b2d4-18bf-4aa8-8276-92254e641906</id>
     <updated>2009-04-21T00:00:00</updated>
     <summary>A LAMP Buildout for Wordpress and Other PHP Apps
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9228,7 +8952,7 @@ http://svn.aclark.net/svn/public/buildout/lamp/trunk/
   <entry>
     <title>Is Anyone Using plone.org's New PyPI Functionality?</title>
     <link href="https://blog.aclark.net/2009/03/13/is-anyone-using-plone-orgs-new-pypi-functionality/index.html"/>
-    <id>urn:uuid:0ebe05ef-69fe-4447-a5a4-a8e309b6aca9</id>
+    <id>urn:uuid:12942dab-244e-46b8-8733-cc4bfb88e31d</id>
     <updated>2009-03-13T00:00:00</updated>
     <summary>Is Anyone Using plone.org's New PyPI Functionality?
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9262,7 +8986,7 @@ So if you are using it, I'd definitely like to hear your experiences. Or if not,
   <entry>
     <title>Nirvana Old Age Interrupted</title>
     <link href="https://blog.aclark.net/2009/02/07/nirvana-old-age-interrupted/index.html"/>
-    <id>urn:uuid:50fa40c5-b9ac-4a47-b5bb-bfc77d6a9571</id>
+    <id>urn:uuid:5456ca30-6f31-459b-a55b-73aa9346483c</id>
     <updated>2009-02-07T00:00:00</updated>
     <summary>Nirvana Old Age Interrupted
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9278,7 +9002,7 @@ Unknown directive type "post".
   <entry>
     <title>Help Eric Steele Go To Baarn</title>
     <link href="https://blog.aclark.net/2009/01/23/help-esteele-go-to-baarn/index.html"/>
-    <id>urn:uuid:9efd4c97-e9b5-4797-a649-d4f26e4c79e4</id>
+    <id>urn:uuid:1d1e287e-1121-4999-b799-6b56c325e445</id>
     <updated>2009-01-23T00:00:00</updated>
     <summary>Help Eric Steele Go To Baarn
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9311,7 +9035,7 @@ So please help! :-D</summary>
   <entry>
     <title>Getting Excited About Plone as Eggs</title>
     <link href="https://blog.aclark.net/2008/12/15/getting-excited-about-plone-as-eggs/index.html"/>
-    <id>urn:uuid:cb1e8be0-ad5e-448e-8956-aac454f5f8af</id>
+    <id>urn:uuid:5e670cea-a008-4a2f-826f-ca22bae107bb</id>
     <updated>2008-12-15T00:00:00</updated>
     <summary>Getting Excited About Plone as Eggs
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9342,7 +9066,7 @@ Thanks framework team and core developers for this impressive release.</summary>
   <entry>
     <title>ZPUGDC Meeting Tonight</title>
     <link href="https://blog.aclark.net/2008/12/02/zpugdc-meeting-tonight/index.html"/>
-    <id>urn:uuid:88277b65-32bc-440d-9a31-1feb9ce41873</id>
+    <id>urn:uuid:09a82a34-4c38-4442-ab09-de91aa5d0ef3</id>
     <updated>2008-12-02T00:00:00</updated>
     <summary>ZPUGDC Meeting Tonight
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9357,7 +9081,7 @@ http://python-groups.blogspot.com/2008/12/zpugdc-dc-python-meetup-december.html<
   <entry>
     <title>Naked Plone Theme</title>
     <link href="https://blog.aclark.net/2008/11/19/naked-plone-theme/index.html"/>
-    <id>urn:uuid:aa027ab1-d222-44e9-a3cd-27add136429f</id>
+    <id>urn:uuid:c1329a12-e6df-42ea-93b9-b1baa39c6c2f</id>
     <updated>2008-11-19T00:00:00</updated>
     <summary>Naked Plone Theme
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9379,7 +9103,7 @@ string:manage_main
   <entry>
     <title>Products.todo 0.1</title>
     <link href="https://blog.aclark.net/2008/11/13/products-todo-0-1/index.html"/>
-    <id>urn:uuid:53f1a59d-579d-4162-9f8e-e5f95b424bd9</id>
+    <id>urn:uuid:f6804f5c-fca4-49d8-849f-f7739716e696</id>
     <updated>2008-11-13T00:00:00</updated>
     <summary>Products.todo 0.1
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9413,7 +9137,7 @@ Write some tests.</summary>
   <entry>
     <title>repoze.bfg Tonight</title>
     <link href="https://blog.aclark.net/2008/09/02/repoze-bfg-tonight-ftw/index.html"/>
-    <id>urn:uuid:4600df31-48e6-488e-9352-4c110f38548a</id>
+    <id>urn:uuid:1cdc037d-c6cf-4e3d-a45a-1702f2204102</id>
     <updated>2008-09-02T00:00:00</updated>
     <summary>repoze.bfg
  Tonight
@@ -9438,7 +9162,7 @@ Familiarity
   <entry>
     <title>collective.recipe.supervisor: Thank You</title>
     <link href="https://blog.aclark.net/2008/08/10/re-collective-recipe-supervisor-thank-you/index.html"/>
-    <id>urn:uuid:743e208b-7d1b-4af2-9965-34337e32712f</id>
+    <id>urn:uuid:36a5091c-b072-472b-a2ec-47f5868eddbd</id>
     <updated>2008-08-10T00:00:00</updated>
     <summary>collective.recipe.supervisor
 : Thank You
@@ -9528,7 +9252,7 @@ Mustapha Benali, Author & Hanno Schlichting, Contributor
   <entry>
     <title>Plone Conference 2008: Please Register</title>
     <link href="https://blog.aclark.net/2008/07/01/plone-conference-2008-please-register-for-an-early-bird-admission-today/index.html"/>
-    <id>urn:uuid:d48555bb-2470-4af1-920d-ea767a14c21e</id>
+    <id>urn:uuid:b7d77308-a2a2-4b64-a1d1-8e5d3cf056a3</id>
     <updated>2008-07-01T00:00:00</updated>
     <summary>Plone Conference 2008: Please Register
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9562,7 +9286,7 @@ http://ploneconf2008.eventbrite.com
   <entry>
     <title>3. Add CSS (Navigate to /portal_skins/plone_styles/ploneCustom.css and customize)</title>
     <link href="https://blog.aclark.net/2008/06/02/placeful-theming/index.html"/>
-    <id>urn:uuid:eec05b2a-028d-4f55-971a-871e23b16e67</id>
+    <id>urn:uuid:883e46ba-8a9e-4e1a-88e5-28224424a404</id>
     <updated>2008-06-02T00:00:00</updated>
     <summary>Placeful Theming
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9613,7 +9337,7 @@ I hope this helps someone get started with placeful theming.</summary>
   <entry>
     <title>Plone.org Upgrade Remote Sprint</title>
     <link href="https://blog.aclark.net/2008/05/22/plone-org-upgrade-remote-sprint/index.html"/>
-    <id>urn:uuid:b1073475-caa1-490a-9fb3-8f992a91fb37</id>
+    <id>urn:uuid:730103b8-41ae-4307-b168-c433cfdca130</id>
     <updated>2008-05-22T00:00:00</updated>
     <summary>Plone.org Upgrade Remote Sprint
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9639,7 +9363,7 @@ collective.psc.externalstorage
   <entry>
     <title>Supervisor Rocks</title>
     <link href="https://blog.aclark.net/2008/05/15/supervisor-rocks/index.html"/>
-    <id>urn:uuid:bf2a6ccc-c4c0-4ec1-bdcd-9473560b8b32</id>
+    <id>urn:uuid:c50f11d0-f0da-4348-80ab-ebf4fe176b5c</id>
     <updated>2008-05-15T00:00:00</updated>
     <summary>Supervisor Rocks
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9715,7 +9439,7 @@ contributors
   <entry>
     <title>Plone.org Upgrade Update</title>
     <link href="https://blog.aclark.net/2008/05/01/plone-org-upgrade-update/index.html"/>
-    <id>urn:uuid:b0da8fbb-643a-41fd-a6d1-950e0cccab6a</id>
+    <id>urn:uuid:1b55d917-28cb-45e2-bf47-3de7bd287c77</id>
     <updated>2008-05-01T00:00:00</updated>
     <summary>Plone.org Upgrade Update
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9733,7 +9457,7 @@ Steve McMahon and I converted the remaining dependencies from Zope products to P
   <entry>
     <title>Help Me Upgrade plone.org</title>
     <link href="https://blog.aclark.net/2008/04/18/help-me-upgrade-plone-org/index.html"/>
-    <id>urn:uuid:84a92f93-a4f7-4095-bd1c-e9d67c599946</id>
+    <id>urn:uuid:df964f1e-a376-4835-ba52-1d08142fa825</id>
     <updated>2008-04-18T00:00:00</updated>
     <summary>Help Me Upgrade plone.org
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9764,7 +9488,7 @@ Now without further ado, please donate-away!</summary>
   <entry>
     <title>NASA Story Slashdotted</title>
     <link href="https://blog.aclark.net/2008/04/12/nasa-story-slashdotted/index.html"/>
-    <id>urn:uuid:722b08c1-6999-41cb-9b10-e532aa938109</id>
+    <id>urn:uuid:eb1367dc-e715-47f4-82bb-b1aaf7fd3186</id>
     <updated>2008-04-12T00:00:00</updated>
     <summary>NASA Story Slashdotted
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9780,7 +9504,7 @@ http://science.slashdot.org/science/08/04/12/0010230.shtml</summary>
   <entry>
     <title>NASA Launches New Science Web Site Powered By Plone</title>
     <link href="https://blog.aclark.net/2008/04/10/nasa-starts-new-science-web-site-powered-by-plone/index.html"/>
-    <id>urn:uuid:fda88b47-649f-4b00-aba1-2bce9c67454d</id>
+    <id>urn:uuid:e9e3f99e-b894-4acd-a8dc-37f9adc9cb09</id>
     <updated>2008-04-10T00:00:00</updated>
     <summary>NASA Launches New Science Web Site Powered By Plone
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9797,7 +9521,7 @@ http://nasascience.nasa.gov
   <entry>
     <title>Take Back The Tap</title>
     <link href="https://blog.aclark.net/2008/03/17/take-back-the-tap/index.html"/>
-    <id>urn:uuid:feed9695-f581-4bdf-a3a0-9a555864dedc</id>
+    <id>urn:uuid:e2eb5d44-6b00-4880-a2f4-01e606ccc70d</id>
     <updated>2008-03-17T00:00:00</updated>
     <summary>Take Back The Tap
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9821,7 +9545,7 @@ webcouturier.dropdownmenu 1.1.2</summary>
   <entry>
     <title>UNIX Tips For The Elderly</title>
     <link href="https://blog.aclark.net/2008/03/06/unix-tips-for-the-elderly/index.html"/>
-    <id>urn:uuid:19689975-d316-4e0a-a14a-e5a2a1622824</id>
+    <id>urn:uuid:6dc51bfa-3946-4923-94ca-1595976b9f2a</id>
     <updated>2008-03-06T00:00:00</updated>
     <summary>UNIX Tips For The Elderly
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9862,7 +9586,7 @@ Music//iTunes/iTunes Music/Yael Naïm/Yael Naïm/03 New Soul.m4a: ISO Media, MPE
   <entry>
     <title>Fix for Spaces in Mac OS X Leopard</title>
     <link href="https://blog.aclark.net/2008/01/01/spaces-spaces-spaces-fix-for-spaces-app-in-mac-os-x-leopard/index.html"/>
-    <id>urn:uuid:7042a560-b80e-495b-a102-0867955e1a33</id>
+    <id>urn:uuid:08078564-2f25-447f-9ad1-e39473773df5</id>
     <updated>2008-01-01T00:00:00</updated>
     <summary>Fix for Spaces in Mac OS X Leopard
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9877,7 +9601,7 @@ I primarily develop on Mac OS X and immediately install updates when they are re
   <entry>
     <title>Buildout Recipe Tip: hexagonit.recipe.download</title>
     <link href="https://blog.aclark.net/2007/11/28/zcbuildout-recipe-tip-hexagonitrecipedownload-ftw-for-the-win/index.html"/>
-    <id>urn:uuid:9498029e-f5a0-4319-825d-b6fa813acf69</id>
+    <id>urn:uuid:9a56b30c-f2bf-4ed2-8b4f-f12bb2a4e3ea</id>
     <updated>2007-11-28T00:00:00</updated>
     <summary>Buildout Recipe Tip: 
 hexagonit.recipe.download
@@ -9937,7 +9661,7 @@ products/
   <entry>
     <title>Zope User Groups</title>
     <link href="https://blog.aclark.net/2007/11/20/usergroup-a-palooza/index.html"/>
-    <id>urn:uuid:77c42dbe-fd6e-4198-8c0f-55c1c02a6323</id>
+    <id>urn:uuid:ff54b232-4a09-4d6e-9475-cfae365fb281</id>
     <updated>2007-11-20T00:00:00</updated>
     <summary>Zope User Groups
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9958,7 +9682,7 @@ better than the old one
   <entry>
     <title>Repoze Meetups</title>
     <link href="https://blog.aclark.net/2007/10/28/repoze-meetups/index.html"/>
-    <id>urn:uuid:a43e33c1-a9c3-42a6-9c14-a14656a46a7b</id>
+    <id>urn:uuid:fdec637b-88b1-4243-95a5-2f230d92cd34</id>
     <updated>2007-10-28T00:00:00</updated>
     <summary>Repoze Meetups
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -9985,7 +9709,7 @@ the other dude
   <entry>
     <title>My Plone Days October 2007</title>
     <link href="https://blog.aclark.net/2007/10/18/my-plone-days-october-2007/index.html"/>
-    <id>urn:uuid:dfce0761-9004-48b5-9423-c4baf7761928</id>
+    <id>urn:uuid:21ed0b58-74de-42af-b73d-f8e9f47c697c</id>
     <updated>2007-10-18T00:00:00</updated>
     <summary>My Plone Days October 2007
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -10002,7 +9726,7 @@ PloneSoftwareCenter (PSC)
   <entry>
     <title>Is This Thing On?</title>
     <link href="https://blog.aclark.net/2007/10/17/is-this-thing-on/index.html"/>
-    <id>urn:uuid:2aba0537-2a53-4a13-964f-08dae629879e</id>
+    <id>urn:uuid:1b0c2d8d-e5dc-4a8c-b108-803689a21a67</id>
     <updated>2007-10-17T00:00:00</updated>
     <summary>Is This Thing On?
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -10019,7 +9743,7 @@ planet
   <entry>
     <title>Help Improve Plone's API Documentation</title>
     <link href="https://blog.aclark.net/2007/06/25/help-improve-plones-api-documentation/index.html"/>
-    <id>urn:uuid:0b7f6b07-1b97-4a12-89be-7e712e874c7f</id>
+    <id>urn:uuid:3788506f-ba9d-41c8-9b05-114cd7913a15</id>
     <updated>2007-06-25T00:00:00</updated>
     <summary>Help Improve Plone's API Documentation
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
@@ -10050,7 +9774,7 @@ Pudge
   <entry>
     <title>First Post</title>
     <link href="https://blog.aclark.net/2007/03/16/first-post/index.html"/>
-    <id>urn:uuid:07301907-abc6-423d-ba05-d7433a9e05e8</id>
+    <id>urn:uuid:3e60efce-5de1-4503-a64b-9dcc606c3717</id>
     <updated>2007-03-16T00:00:00</updated>
     <summary>First Post
 No directive entry for "post" in module "docutils.parsers.rst.languages.en".
