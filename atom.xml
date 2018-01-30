@@ -4,8 +4,968 @@
 
   <title>Alex Clark's Blog</title>
   <link href="https://blog.aclark.net"/>
-  <updated>2018-01-30T17:52:27.169736</updated>
+  <updated>2018-01-30T17:58:38.556397</updated>
   <author>
     <name>Alex Clark</name>
   </author>
-  <id>urn:uuid:250074da-6f31-42e6-8bbc-71f55c635374</id>
+  <id>urn:uuid:e69dc530-3f7e-4c93-8db7-75f87c3417f4</id>
+  <entry>
+    <title>Python</title>
+    <link href="https://blog.aclark.net/2017/06/26/saml-1-alex-clark-0/index.html"/>
+    <id>urn:uuid:392b525d-e4b2-4db5-a838-bc04f8703bcc</id>
+    <updated>2017-06-26T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Todo</title>
+    <link href="https://blog.aclark.net/2016/12/15/shout-out-to-shout-irc/index.html"/>
+    <id>urn:uuid:5b4db478-0435-4195-9d8b-4cc3346b8228</id>
+    <updated>2016-12-15T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Open for Business</title>
+    <link href="https://blog.aclark.net/2016/11/23/project-makefile-open-business/index.html"/>
+    <id>urn:uuid:1436bfda-cf66-42ef-a8ba-7b9771deb3dc</id>
+    <updated>2016-11-23T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Yup, this blog is now powered by ABlog</title>
+    <link href="https://blog.aclark.net/2016/04/03/yup-this-blog-is-now-powered-by-ablog/index.html"/>
+    <id>urn:uuid:0affdef0-baee-468f-8686-fa550861b17b</id>
+    <updated>2016-04-03T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Other nice features</title>
+    <link href="https://blog.aclark.net/2016/02/21/updated-django-website/index.html"/>
+    <id>urn:uuid:8ceaaa0a-b5f1-4b23-b89a-439237106b7b</id>
+    <updated>2016-02-21T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Plock 0-5-0 is out</title>
+    <link href="https://blog.aclark.net/2015/10/10/plock-0-5-0-is-out/index.html"/>
+    <id>urn:uuid:e22998a3-5db9-4b1f-811d-fed58d1a0477</id>
+    <updated>2015-10-10T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Instructions</title>
+    <link href="https://blog.aclark.net/2015/10/07/dc-python-jobs/index.html"/>
+    <id>urn:uuid:cba5f495-dd4c-44fe-b068-0b2be4f28a0b</id>
+    <updated>2015-10-07T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Don't sudo pip install</title>
+    <link href="https://blog.aclark.net/2015/10/05/dont-sudo-pip-install/index.html"/>
+    <id>urn:uuid:b1181214-b8cb-4639-ac84-046fbaf4efd8</id>
+    <updated>2015-10-05T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Pillow 3-0-0 is Out</title>
+    <link href="https://blog.aclark.net/2015/10/03/pillow-3-0-0-is-out/index.html"/>
+    <id>urn:uuid:cda2920f-f47b-47aa-b1f4-2317c6648953</id>
+    <updated>2015-10-03T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Report issues</title>
+    <link href="https://blog.aclark.net/2015/06/28/pillow-2-9-0-is-almost-out/index.html"/>
+    <id>urn:uuid:5bdcff4d-3df6-4486-ac31-8d1e191d3b86</id>
+    <updated>2015-06-28T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Opinionated</title>
+    <link href="https://blog.aclark.net/2015/06/27/plone-on-heroku/index.html"/>
+    <id>urn:uuid:6c771516-456e-4053-a2e3-b6e1af4dd28a</id>
+    <updated>2015-06-27T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Notes</title>
+    <link href="https://blog.aclark.net/2015/06/05/pillow-2015-report/index.html"/>
+    <id>urn:uuid:c026f103-0279-4b0d-ad62-95c4e796b14b</id>
+    <updated>2015-06-05T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Plone Add-On Development For Command-Line Savvy Developers</title>
+    <link href="https://blog.aclark.net/2015/06/01/plone-add-on-development-for-command-line-savvy-developers/index.html"/>
+    <id>urn:uuid:e60cfd82-cde5-4176-8b54-5a7fb0b6bfba</id>
+    <updated>2015-06-01T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Footnotes</title>
+    <link href="https://blog.aclark.net/2015/04/26/plock-rocks/index.html"/>
+    <id>urn:uuid:c314649e-d5fd-4d20-b640-861eb55e16d9</id>
+    <updated>2015-04-26T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Please Do My Homework</title>
+    <link href="https://blog.aclark.net/2015/02/10/please-do-my-homework/index.html"/>
+    <id>urn:uuid:4d3afa39-9b2e-4fc1-86ee-9e1787642fb9</id>
+    <updated>2015-02-10T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Overall</title>
+    <link href="https://blog.aclark.net/2015/01/11/new-django-website/index.html"/>
+    <id>urn:uuid:b0128a73-956d-4572-813f-2ac8326eb795</id>
+    <updated>2015-01-11T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Packt is Having a Sale</title>
+    <link href="https://blog.aclark.net/2015/01/05/packt-is-having-a-sale/index.html"/>
+    <id>urn:uuid:e87904ab-1dcd-4bdb-b7ec-342553c9ca15</id>
+    <updated>2015-01-05T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Pillow Runs Itself</title>
+    <link href="https://blog.aclark.net/2014/10/02/pillow-runs-itself/index.html"/>
+    <id>urn:uuid:d0b20c86-624c-451b-9e13-7328be91693a</id>
+    <updated>2014-10-02T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Acknowledgements</title>
+    <link href="https://blog.aclark.net/2014/07/05/pillow-2-5-0-is-out/index.html"/>
+    <id>urn:uuid:f06f5481-c09e-4835-95ce-332820ae0368</id>
+    <updated>2014-07-05T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Thanks</title>
+    <link href="https://blog.aclark.net/2014/06/18/plone-5-0-alpha2-is-here/index.html"/>
+    <id>urn:uuid:82d2223a-cf02-4b59-b25b-d9300daca74f</id>
+    <updated>2014-06-18T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Plone site debug</title>
+    <link href="https://blog.aclark.net/2014/06/02/i-love-collective-recipe-plonesite/index.html"/>
+    <id>urn:uuid:aeb18d6a-99ac-41d0-b33c-56b58cfe925b</id>
+    <updated>2014-06-02T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Conclusion</title>
+    <link href="https://blog.aclark.net/2014/05/19/matplotlib-plotting-cookbook-review/index.html"/>
+    <id>urn:uuid:bc5d6ce1-c13d-4519-9837-37502791b6ce</id>
+    <updated>2014-05-19T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Conclusion</title>
+    <link href="https://blog.aclark.net/2014/05/03/we-pioneer/index.html"/>
+    <id>urn:uuid:66c4ab9a-25f5-4ca4-95c8-4bfc482efb8d</id>
+    <updated>2014-05-03T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Logo</title>
+    <link href="https://blog.aclark.net/2014/04/07/bro-do-you-even-pillow/index.html"/>
+    <id>urn:uuid:a77f20c0-5b87-49e0-b29c-a6aabf80ab7f</id>
+    <updated>2014-04-07T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Introducing Plock Pins</title>
+    <link href="https://blog.aclark.net/2014/03/20/introducing-plock-pins/index.html"/>
+    <id>urn:uuid:3f9c9afc-39e3-4735-9525-adf229ba8aeb</id>
+    <updated>2014-03-20T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Virtualenv and setuptools</title>
+    <link href="https://blog.aclark.net/2014/03/19/virtualenv-support-update/index.html"/>
+    <id>urn:uuid:6f5e41f1-c134-41c3-b2a0-97c5b93bc2de</id>
+    <updated>2014-03-19T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>ZopeSkel</title>
+    <link href="https://blog.aclark.net/2014/01/11/hello-plone-updated/index.html"/>
+    <id>urn:uuid:0ab29c3c-3583-4fdd-9076-8278b3f4ea65</id>
+    <updated>2014-01-11T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Distributions</title>
+    <link href="https://blog.aclark.net/2014/01/01/pillow-2-3-0-is-out/index.html"/>
+    <id>urn:uuid:503812c0-29d3-4651-b88c-bda0ad97d1db</id>
+    <updated>2014-01-01T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>What is the top software, application or library you wish someone would write next year?</title>
+    <link href="https://blog.aclark.net/2013/12/30/new-years-python-meme-2014/index.html"/>
+    <id>urn:uuid:ec29580d-bf3a-44e1-8d80-248512aff1bc</id>
+    <updated>2013-12-30T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Removed themes</title>
+    <link href="https://blog.aclark.net/2013/12/29/plonetheme-report/index.html"/>
+    <id>urn:uuid:95633cfd-f93c-4aa6-a816-3400ce2f2523</id>
+    <updated>2013-12-29T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Enjoy</title>
+    <link href="https://blog.aclark.net/2013/10/13/python-packages-open-sourced/index.html"/>
+    <id>urn:uuid:d7ca8da4-2d96-4ac6-a787-59b8860b504a</id>
+    <updated>2013-10-13T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Support</title>
+    <link href="https://blog.aclark.net/2013/10/03/pillow-2.2.1-released/index.html"/>
+    <id>urn:uuid:5f37946f-bed9-4100-ab23-cd6b54924fab</id>
+    <updated>2013-10-03T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Issues</title>
+    <link href="https://blog.aclark.net/2013/07/29/whats-new-as-of-plock-0-1-2/index.html"/>
+    <id>urn:uuid:d6b79cac-94d0-4cc9-8899-a2b6b7a31946</id>
+    <updated>2013-07-29T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Add-ons</title>
+    <link href="https://blog.aclark.net/2013/07/19/introducing-plock/index.html"/>
+    <id>urn:uuid:aadfcdde-23b2-4a77-bd10-c531558b3851</id>
+    <updated>2013-07-19T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Go get it now</title>
+    <link href="https://blog.aclark.net/2013/07/02/pillow-2-1-0-is-out/index.html"/>
+    <id>urn:uuid:281f7f69-153f-4508-933f-f17ee2054344</id>
+    <updated>2013-07-02T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Conclusion</title>
+    <link href="https://blog.aclark.net/2013/06/22/plone-org-upgraded/index.html"/>
+    <id>urn:uuid:e5c97b3d-2877-473d-bc10-4202749ec395</id>
+    <updated>2013-06-22T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Who cares</title>
+    <link href="https://blog.aclark.net/2013/04/22/new-pyramid-site/index.html"/>
+    <id>urn:uuid:fbb22816-e445-43fe-8443-80a4955f6113</id>
+    <updated>2013-04-22T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>About 2.0.0</title>
+    <link href="https://blog.aclark.net/2013/03/15/the-story-of-pillow/index.html"/>
+    <id>urn:uuid:c3e387dd-e6e6-4a6a-b316-7b15479c4f6f</id>
+    <updated>2013-03-15T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Built with Plone, Powered by GitHub Pages</title>
+    <link href="https://blog.aclark.net/2013/02/23/built-with-plone-powered-by-github-pages/index.html"/>
+    <id>urn:uuid:d4658b31-8b06-48d9-9a14-78d91ae5321d</id>
+    <updated>2013-02-23T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Checkoutmanager</title>
+    <link href="https://blog.aclark.net/2013/02/08/i-love-checkoutmanager-and-dotfiles/index.html"/>
+    <id>urn:uuid:b6d2e88c-6ce9-4ca6-8fde-88c513d12c12</id>
+    <updated>2013-02-08T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Play as Work</title>
+    <link href="https://blog.aclark.net/2013/01/31/please-help-me-do-open-source-work/index.html"/>
+    <id>urn:uuid:f9518bc2-9746-4c5f-adbf-ef10accaca69</id>
+    <updated>2013-01-31T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>What's in it for you</title>
+    <link href="https://blog.aclark.net/2013/01/10/python-3-porting/index.html"/>
+    <id>urn:uuid:081996c4-9673-4022-a880-7f1a62a37861</id>
+    <updated>2013-01-10T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Introducing The Plone Kitty</title>
+    <link href="https://blog.aclark.net/2013/01/09/introducing-the-plone-kitty/index.html"/>
+    <id>urn:uuid:b15f67a3-5849-4860-acce-4e1aa303dfd7</id>
+    <updated>2013-01-09T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>New Year's Python Meme 2012</title>
+    <link href="https://blog.aclark.net/2012/12/29/new-years-python-meme-2012/index.html"/>
+    <id>urn:uuid:496514db-bd69-49a6-bf1e-c33332bbfd0d</id>
+    <updated>2012-12-29T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>The Zen of Zope, by Alex Clark</title>
+    <link href="https://blog.aclark.net/2012/12/09/the-zen-of-zope/index.html"/>
+    <id>urn:uuid:1e020b75-35a7-470b-81e1-e6b941fd9110</id>
+    <updated>2012-12-09T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>How much?</title>
+    <link href="https://blog.aclark.net/2012/11/23/plone-guide/index.html"/>
+    <id>urn:uuid:97d18e7f-e7d9-4f94-8b0e-131c3431e391</id>
+    <updated>2012-11-23T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Discussion</title>
+    <link href="https://blog.aclark.net/2012/11/02/pillow-1-7-8/index.html"/>
+    <id>urn:uuid:ace176d8-ddf5-4923-be45-9851b7e3ecff</id>
+    <updated>2012-11-02T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Greatness</title>
+    <link href="https://blog.aclark.net/2012/10/23/plone-secrets-episode-5-the-community/index.html"/>
+    <id>urn:uuid:db0d1e61-7bcd-41ca-8597-b5cc41a2033d</id>
+    <updated>2012-10-23T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Fix</title>
+    <link href="https://blog.aclark.net/2012/10/22/why-split-the-lists/index.html"/>
+    <id>urn:uuid:0d622ef5-55fe-4d49-afa5-a20b5617d980</id>
+    <updated>2012-10-22T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Policy makes perfect</title>
+    <link href="https://blog.aclark.net/2012/10/20/mailing-list-etiquette/index.html"/>
+    <id>urn:uuid:a949e1b1-60ef-4e75-9e33-8865dbbb0e89</id>
+    <updated>2012-10-20T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>I have vision</title>
+    <link href="https://blog.aclark.net/2012/10/19/gittip-misundood/index.html"/>
+    <id>urn:uuid:b3eb0fc0-f945-43d1-9e2b-073f17f998b9</id>
+    <updated>2012-10-19T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Final Thoughts</title>
+    <link href="https://blog.aclark.net/2012/10/17/top-3-favorite-logical-fallacies/index.html"/>
+    <id>urn:uuid:18d780c8-ab09-4703-b320-17fdca614077</id>
+    <updated>2012-10-17T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Test post</title>
+    <link href="https://blog.aclark.net/2012/10/15/django-test/index.html"/>
+    <id>urn:uuid:6e76fa2d-7551-4609-a9a2-bb2931a6279d</id>
+    <updated>2012-10-15T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Looking For Projects</title>
+    <link href="https://blog.aclark.net/2012/10/04/looking-for-projects/index.html"/>
+    <id>urn:uuid:344a67d0-4a29-48aa-a1ec-1694a18772ee</id>
+    <updated>2012-10-04T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>My deployment is awesome</title>
+    <link href="https://blog.aclark.net/2012/10/03/plone-4-3-alpha-1-in-production/index.html"/>
+    <id>urn:uuid:3589c09c-e657-4ac6-88f0-ab3291766d94</id>
+    <updated>2012-10-03T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>What can you do to help?</title>
+    <link href="https://blog.aclark.net/2012/09/28/pythonpackages-com-one-year-later/index.html"/>
+    <id>urn:uuid:4762d92a-9a13-4793-b10c-0f63544fc030</id>
+    <updated>2012-09-28T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>What is the point?</title>
+    <link href="https://blog.aclark.net/2012/09/24/diazo-themes-revisited/index.html"/>
+    <id>urn:uuid:3c51ee9a-ac32-421b-ac56-b63c71f5cca2</id>
+    <updated>2012-09-24T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>publishconf.py</title>
+    <link href="https://blog.aclark.net/2012/09/22/sorry-for-the-blog-spam/index.html"/>
+    <id>urn:uuid:c3c97617-033c-48ab-bd59-8513db919a2c</id>
+    <updated>2012-09-22T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Gittip is the Future</title>
+    <link href="https://blog.aclark.net/2012/09/21/gittip-is-the-future/index.html"/>
+    <id>urn:uuid:f327f6c3-068c-431e-9a31-704367d2f5d9</id>
+    <updated>2012-09-21T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Bootstrapping a Buildout 1-6 release</title>
+    <link href="https://blog.aclark.net/2012/08/13/bootstrapping-a-buildout-1-6-release/index.html"/>
+    <id>urn:uuid:ec7f08b6-3799-45e6-92ec-8cf43f5cb13e</id>
+    <updated>2012-08-13T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>PLONE DEVS: Y U NO MOVE REPOS?</title>
+    <link href="https://blog.aclark.net/2012/08/10/all-my-python-packages-are-belong-to-github/index.html"/>
+    <id>urn:uuid:04921d1a-a5d3-47dd-9de8-7848b5554622</id>
+    <updated>2012-08-10T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Register and upload your package</title>
+    <link href="https://blog.aclark.net/2012/08/07/pythonpackages-com-using-pypis-oauth1-support-to-register-and-upload-packages/index.html"/>
+    <id>urn:uuid:02adc697-b0d7-4551-b32d-ab690f927f72</id>
+    <updated>2012-08-07T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Big Picture</title>
+    <link href="https://blog.aclark.net/2012/08/01/building-windows-installers-in-the-cloud/index.html"/>
+    <id>urn:uuid:59171ddb-6a0b-4ddb-bc92-a24d9f023d2d</id>
+    <updated>2012-08-01T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Pillow Moved to python-imaging Organization</title>
+    <link href="https://blog.aclark.net/2012/07/25/pillow-moved-to-python-imaging-organization/index.html"/>
+    <id>urn:uuid:a3755364-5411-45c2-a5d7-47506094a3e0</id>
+    <updated>2012-07-25T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>The Plones Templer</title>
+    <link href="https://blog.aclark.net/2012/07/12/the-plones-templer/index.html"/>
+    <id>urn:uuid:b72f6070-1f6d-4568-bf39-b362a5bb855e</id>
+    <updated>2012-07-12T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>GitHub Organization support</title>
+    <link href="https://blog.aclark.net/2012/07/04/pythonpackages-com-beta-launch/index.html"/>
+    <id>urn:uuid:88387aab-d321-42f9-a447-09f1d7d6c4c5</id>
+    <updated>2012-07-04T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Zope2 Bootstrap</title>
+    <link href="https://blog.aclark.net/2012/06/12/zope2-bootstrap/index.html"/>
+    <id>urn:uuid:cb53a4b0-ec93-40af-a195-888080feafc7</id>
+    <updated>2012-06-12T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>A Simple Printer of Nested Lists</title>
+    <link href="https://blog.aclark.net/2012/05/23/a-simple-printer-of-nested-lists/index.html"/>
+    <id>urn:uuid:4181a329-d53b-4048-a31e-dbf95c095ffd</id>
+    <updated>2012-05-23T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Where we are all headed</title>
+    <link href="https://blog.aclark.net/2012/05/11/adam-yauch-has-passed/index.html"/>
+    <id>urn:uuid:75f7ce4e-50cd-4b98-bd28-6402a74b4a08</id>
+    <updated>2012-05-11T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Workflow</title>
+    <link href="https://blog.aclark.net/2012/04/04/test-plone-tmp/index.html"/>
+    <id>urn:uuid:7e06f93d-d0e7-4597-a5d2-77874d596861</id>
+    <updated>2012-04-04T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Pyramid</title>
+    <link href="https://blog.aclark.net/2012/01/30/new-vanity-release/index.html"/>
+    <id>urn:uuid:40c8be16-449d-4144-9b01-06b35cd72cd1</id>
+    <updated>2012-01-30T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Hello Plone theming</title>
+    <link href="https://blog.aclark.net/2012/01/25/hello-plone-theming/index.html"/>
+    <id>urn:uuid:4df97eb4-e85c-4524-87b7-802987637e87</id>
+    <updated>2012-01-25T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>New Year's Python Meme 2011</title>
+    <link href="https://blog.aclark.net/2011/12/21/new-years-python-meme-2011/index.html"/>
+    <id>urn:uuid:d788ffda-ce2d-4fdb-a6d8-cffccd89bede</id>
+    <updated>2011-12-21T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Conclusion</title>
+    <link href="https://blog.aclark.net/2011/11/29/introducing-pythonpackages-com/index.html"/>
+    <id>urn:uuid:41d21d45-4ae7-4a97-987d-dd30aa3910a6</id>
+    <updated>2011-11-29T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Notes</title>
+    <link href="https://blog.aclark.net/2011/11/09/plone-secrets-episode-4-varnish-in-front/index.html"/>
+    <id>urn:uuid:af88d115-83d8-4028-af19-d0fbfd826474</id>
+    <updated>2011-11-09T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Introducing: Plone packages!</title>
+    <link href="https://blog.aclark.net/2011/10/24/plone-first-class-python-citizen/index.html"/>
+    <id>urn:uuid:5e978743-9772-4175-8836-749b0175b719</id>
+    <updated>2011-10-24T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Bottom line accommodations</title>
+    <link href="https://blog.aclark.net/2011/10/14/pillow-one-year-later/index.html"/>
+    <id>urn:uuid:75cf05e0-e5f6-4701-a5df-f3c6760e4feb</id>
+    <updated>2011-10-14T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Notes</title>
+    <link href="https://blog.aclark.net/2011/10/03/vagrant-puppet-and-mozilla-oh-my/index.html"/>
+    <id>urn:uuid:24c4cafa-ba0f-4a72-a267-c5a94809cba2</id>
+    <updated>2011-10-03T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Notes</title>
+    <link href="https://blog.aclark.net/2011/09/22/mozilla-and-pypi/index.html"/>
+    <id>urn:uuid:756e43d7-ba9f-4720-a0ee-84edc48f7f45</id>
+    <updated>2011-09-22T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Setup</title>
+    <link href="https://blog.aclark.net/2011/08/28/hello-mod_wsgi/index.html"/>
+    <id>urn:uuid:d12bb8b6-36ca-41b8-80d9-b03c6ce9d627</id>
+    <updated>2011-08-28T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Step 3 - Next steps</title>
+    <link href="https://blog.aclark.net/2011/08/20/hello-plone/index.html"/>
+    <id>urn:uuid:198f86eb-da14-4594-a899-e9efc753a6a0</id>
+    <updated>2011-08-20T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Notes</title>
+    <link href="https://blog.aclark.net/2011/08/09/plone-secrets-episode-3-collective-recaptcha-installation/index.html"/>
+    <id>urn:uuid:72fc4e7c-fe83-4835-b452-35f1bdd637e4</id>
+    <updated>2011-08-09T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Notes</title>
+    <link href="https://blog.aclark.net/2011/07/06/plone-secrets-episode-2-collective-python-buildout/index.html"/>
+    <id>urn:uuid:e37c0d80-9314-4daf-a7e4-d483b8d70df6</id>
+    <updated>2011-07-06T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Results</title>
+    <link href="https://blog.aclark.net/2011/06/20/plone-secrets-episode-1-site-actions-contact-link/index.html"/>
+    <id>urn:uuid:3b3b226a-3841-45fd-9d69-6ba5ed28c731</id>
+    <updated>2011-06-20T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Notes</title>
+    <link href="https://blog.aclark.net/2011/06/16/youre-so-vain-so-why-not-use-vanity/index.html"/>
+    <id>urn:uuid:211710d6-c1c7-4d3b-ad17-345d5b836bf7</id>
+    <updated>2011-06-16T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Notes</title>
+    <link href="https://blog.aclark.net/2011/06/14/aclark-net-seeks-unique-candidate-for-part-time-business-consulting/index.html"/>
+    <id>urn:uuid:b7e3eb69-fd3f-4425-93e3-b895fa2abee9</id>
+    <updated>2011-06-14T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Disclaimer</title>
+    <link href="https://blog.aclark.net/2011/05/27/new-plone-theming-has-arrived/index.html"/>
+    <id>urn:uuid:1a95d83e-107f-4def-aab0-d75bb8a1d1a3</id>
+    <updated>2011-05-27T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>BaaS (Buildout as a Service)</title>
+    <link href="https://blog.aclark.net/2011/05/10/top-10-reasons-plone-3-3-site-admin-book-is-still-for-you/index.html"/>
+    <id>urn:uuid:8f674551-3f15-4817-9e86-deac304b190f</id>
+    <updated>2011-05-10T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>The story</title>
+    <link href="https://blog.aclark.net/2011/05/03/plone-conference-2008-is-a-wrap/index.html"/>
+    <id>urn:uuid:9df6aaf4-4da6-42da-a6e9-6ed43afd01d7</id>
+    <updated>2011-05-03T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Credits</title>
+    <link href="https://blog.aclark.net/2011/04/15/collective-transmogrifier-without-plone/index.html"/>
+    <id>urn:uuid:b7ad9d23-bbfe-482e-85a9-dbc15c8b8ae8</id>
+    <updated>2011-04-15T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>After charm</title>
+    <link href="https://blog.aclark.net/2011/03/29/introducing-charm-death-to-charm/index.html"/>
+    <id>urn:uuid:f609b128-8dfa-42e2-95b5-3822bf01362c</id>
+    <updated>2011-03-29T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Post-sprint sprinting</title>
+    <link href="https://blog.aclark.net/2011/02/16/cioppino-sprint-report/index.html"/>
+    <id>urn:uuid:ac11e74c-b759-4318-9b13-3a45d766b400</id>
+    <updated>2011-02-16T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Conclusion</title>
+    <link href="https://blog.aclark.net/2011/01/31/in-defense-of-pypi/index.html"/>
+    <id>urn:uuid:43319c11-d855-4666-ab06-636ff39f7a77</id>
+    <updated>2011-01-31T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Conclusion</title>
+    <link href="https://blog.aclark.net/2011/01/26/hostout-rules/index.html"/>
+    <id>urn:uuid:05b997fe-4cb3-41b5-8dcc-8cf9a70d4dce</id>
+    <updated>2011-01-26T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Conclusion</title>
+    <link href="https://blog.aclark.net/2011/01/25/you-should-buy-plone-3-for-education-right-now/index.html"/>
+    <id>urn:uuid:1fc34cd8-5edc-471f-8ba3-5c1812e4f9de</id>
+    <updated>2011-01-25T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>How much should you donate</title>
+    <link href="https://blog.aclark.net/2011/01/21/help-alex-clark-help-plone/index.html"/>
+    <id>urn:uuid:50dc6276-4ebf-4312-82c8-0b7b23171528</id>
+    <updated>2011-01-21T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>To the future</title>
+    <link href="https://blog.aclark.net/2011/01/19/new-website-for-2011/index.html"/>
+    <id>urn:uuid:89b761ba-61b1-45e1-a037-355b7175498a</id>
+    <updated>2011-01-19T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Bug report please?</title>
+    <link href="https://blog.aclark.net/2010/11/04/a-report-on-plonetheme/index.html"/>
+    <id>urn:uuid:26a6608d-c1ef-4c8b-b46c-1ee0b81454cb</id>
+    <updated>2010-11-04T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>I Reinstalled Recently</title>
+    <link href="https://blog.aclark.net/2010/10/15/i-reinstalled-recently/index.html"/>
+    <id>urn:uuid:1a2da865-a174-4b05-b1cc-b9d7d8918fd3</id>
+    <updated>2010-10-15T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Conclusion</title>
+    <link href="https://blog.aclark.net/2010/07/12/the-apache-modules-for-xdv/index.html"/>
+    <id>urn:uuid:552bed06-4bdd-49c8-9a95-5f1e9476f789</id>
+    <updated>2010-07-12T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>P.S. Looking for Plone experts? Hire ACLARK.NET, LLC.</title>
+    <link href="https://blog.aclark.net/2010/03/30/blood-sweat-tears-and-a-new-plone-book/index.html"/>
+    <id>urn:uuid:5ce80873-c13e-4db0-aaac-e3691f1a63dc</id>
+    <updated>2010-03-30T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>I Need Something To Do</title>
+    <link href="https://blog.aclark.net/2010/03/22/i-need-something-to-do/index.html"/>
+    <id>urn:uuid:72663886-2ade-46d7-9607-f24867c80e83</id>
+    <updated>2010-03-22T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>The actual point</title>
+    <link href="https://blog.aclark.net/2010/03/15/using-buildout-to-deploy-a-plone-2-1-site-to-the-cloud/index.html"/>
+    <id>urn:uuid:cdd6aed4-a6b4-4268-b6f7-b00e5e284af2</id>
+    <updated>2010-03-15T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>No, Really, You Can Just Use Buildout To Install Plone</title>
+    <link href="https://blog.aclark.net/2010/01/07/no-really-you-can-just-use-buildout-to-install-plone/index.html"/>
+    <id>urn:uuid:4fdf78c0-a25e-41e4-adfc-d7cc2d9431cc</id>
+    <updated>2010-01-07T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Yup, This Blog Is Now Powered By WordPress</title>
+    <link href="https://blog.aclark.net/2010/01/06/yup-this-blog-is-now-powered-by-wordpress/index.html"/>
+    <id>urn:uuid:93919d0c-adf1-43c1-aa8c-d8e0b4236470</id>
+    <updated>2010-01-06T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Next Sprint:</title>
+    <link href="https://blog.aclark.net/2010/01/01/toronto-plone-add-ons-sprint-1-report/index.html"/>
+    <id>urn:uuid:3b7d9d59-1579-4159-a697-f77100cae43e</id>
+    <updated>2010-01-01T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>What are the three top things you want to learn in 2010?</title>
+    <link href="https://blog.aclark.net/2009/12/31/new-years-python-meme/index.html"/>
+    <id>urn:uuid:944d4c18-cb57-4766-850d-e8eac0a05996</id>
+    <updated>2009-12-31T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Chapter 15</title>
+    <link href="https://blog.aclark.net/2009/09/22/review-of-veda-williams-plone-3-theming/index.html"/>
+    <id>urn:uuid:97f30868-047d-4f13-bedd-1da3c32b87d1</id>
+    <updated>2009-09-22T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>In Conclusion</title>
+    <link href="https://blog.aclark.net/2009/06/18/a-sane-buildout-for-repoze-zope2-plone/index.html"/>
+    <id>urn:uuid:05375b18-4cbf-46bf-89e9-7716e230c631</id>
+    <updated>2009-06-18T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Break It Down</title>
+    <link href="https://blog.aclark.net/2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/index.html"/>
+    <id>urn:uuid:0c1badac-9807-4118-8216-4933672d7daa</id>
+    <updated>2009-04-21T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Is Anyone Using plone.org's New PyPI Functionality?</title>
+    <link href="https://blog.aclark.net/2009/03/13/is-anyone-using-plone-orgs-new-pypi-functionality/index.html"/>
+    <id>urn:uuid:886715d4-5e2a-4349-ba54-4d369e1d8d5b</id>
+    <updated>2009-03-13T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Nirvana Old Age Interrupted</title>
+    <link href="https://blog.aclark.net/2009/02/07/nirvana-old-age-interrupted/index.html"/>
+    <id>urn:uuid:39bba298-5e5a-4f64-9689-10ca657312ed</id>
+    <updated>2009-02-07T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Help Eric Steele Go To Baarn</title>
+    <link href="https://blog.aclark.net/2009/01/23/help-esteele-go-to-baarn/index.html"/>
+    <id>urn:uuid:13c0e6e2-eaad-4c96-a859-3d2224f63a66</id>
+    <updated>2009-01-23T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Getting Excited About Plone as Eggs</title>
+    <link href="https://blog.aclark.net/2008/12/15/getting-excited-about-plone-as-eggs/index.html"/>
+    <id>urn:uuid:e2f9dd13-c0ac-4892-aa4a-6d4f557d331c</id>
+    <updated>2008-12-15T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>ZPUGDC Meeting Tonight</title>
+    <link href="https://blog.aclark.net/2008/12/02/zpugdc-meeting-tonight/index.html"/>
+    <id>urn:uuid:bb842707-be53-46ec-b527-743c50551dd2</id>
+    <updated>2008-12-02T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Naked Plone Theme</title>
+    <link href="https://blog.aclark.net/2008/11/19/naked-plone-theme/index.html"/>
+    <id>urn:uuid:b1aca9d3-ad86-4dce-9532-3feec381a4ee</id>
+    <updated>2008-11-19T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Products.todo 0.1</title>
+    <link href="https://blog.aclark.net/2008/11/13/products-todo-0-1/index.html"/>
+    <id>urn:uuid:dad3fcfa-55a0-489d-8122-4a04ca93ca9b</id>
+    <updated>2008-11-13T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>repoze.bfg Tonight</title>
+    <link href="https://blog.aclark.net/2008/09/02/repoze-bfg-tonight-ftw/index.html"/>
+    <id>urn:uuid:ad62ae3a-f869-404d-b997-7f7b4ac29f22</id>
+    <updated>2008-09-02T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>collective.recipe.supervisor: Thank You</title>
+    <link href="https://blog.aclark.net/2008/08/10/re-collective-recipe-supervisor-thank-you/index.html"/>
+    <id>urn:uuid:57fb7dd6-ebff-49a1-b740-7b6b05b5e691</id>
+    <updated>2008-08-10T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Plone Conference 2008: Please Register</title>
+    <link href="https://blog.aclark.net/2008/07/01/plone-conference-2008-please-register-for-an-early-bird-admission-today/index.html"/>
+    <id>urn:uuid:8357bfac-afb2-48ed-bb4d-02ecf8c9158d</id>
+    <updated>2008-07-01T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>3. Add CSS (Navigate to /portal_skins/plone_styles/ploneCustom.css and customize)</title>
+    <link href="https://blog.aclark.net/2008/06/02/placeful-theming/index.html"/>
+    <id>urn:uuid:819a59b3-0da2-42a1-8bf6-f05300dc15dc</id>
+    <updated>2008-06-02T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Plone.org Upgrade Remote Sprint</title>
+    <link href="https://blog.aclark.net/2008/05/22/plone-org-upgrade-remote-sprint/index.html"/>
+    <id>urn:uuid:33b11eed-23e7-45c4-97e0-a1efc33447c9</id>
+    <updated>2008-05-22T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Supervisor Rocks</title>
+    <link href="https://blog.aclark.net/2008/05/15/supervisor-rocks/index.html"/>
+    <id>urn:uuid:ab0b46dc-e5c7-40ad-8d1f-7bd5cf4a2194</id>
+    <updated>2008-05-15T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Plone.org Upgrade Update</title>
+    <link href="https://blog.aclark.net/2008/05/01/plone-org-upgrade-update/index.html"/>
+    <id>urn:uuid:430ac378-6499-4955-b257-36141a083b09</id>
+    <updated>2008-05-01T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Help Me Upgrade plone.org</title>
+    <link href="https://blog.aclark.net/2008/04/18/help-me-upgrade-plone-org/index.html"/>
+    <id>urn:uuid:f9ef01e2-453e-4a70-b013-e2258086266f</id>
+    <updated>2008-04-18T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>NASA Story Slashdotted</title>
+    <link href="https://blog.aclark.net/2008/04/12/nasa-story-slashdotted/index.html"/>
+    <id>urn:uuid:7bc7d39d-1290-4ab4-81fc-9e5b2ec2d1af</id>
+    <updated>2008-04-12T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>NASA Launches New Science Web Site Powered By Plone</title>
+    <link href="https://blog.aclark.net/2008/04/10/nasa-starts-new-science-web-site-powered-by-plone/index.html"/>
+    <id>urn:uuid:1bf44450-4e07-4bd3-a4f2-e24c72cdbbde</id>
+    <updated>2008-04-10T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Take Back The Tap</title>
+    <link href="https://blog.aclark.net/2008/03/17/take-back-the-tap/index.html"/>
+    <id>urn:uuid:fe1f97a3-e820-4786-bc46-248e52b99d2c</id>
+    <updated>2008-03-17T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>UNIX Tips For The Elderly</title>
+    <link href="https://blog.aclark.net/2008/03/06/unix-tips-for-the-elderly/index.html"/>
+    <id>urn:uuid:646602c1-dd1a-4e6d-98ec-0579653a2815</id>
+    <updated>2008-03-06T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Fix for Spaces in Mac OS X Leopard</title>
+    <link href="https://blog.aclark.net/2008/01/01/spaces-spaces-spaces-fix-for-spaces-app-in-mac-os-x-leopard/index.html"/>
+    <id>urn:uuid:01ed1d3e-143b-4a51-a237-4cce9c8c624e</id>
+    <updated>2008-01-01T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Buildout Recipe Tip: hexagonit.recipe.download</title>
+    <link href="https://blog.aclark.net/2007/11/28/zcbuildout-recipe-tip-hexagonitrecipedownload-ftw-for-the-win/index.html"/>
+    <id>urn:uuid:c27e3fad-281c-44b8-9b4e-7e4c119ab7d3</id>
+    <updated>2007-11-28T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Zope User Groups</title>
+    <link href="https://blog.aclark.net/2007/11/20/usergroup-a-palooza/index.html"/>
+    <id>urn:uuid:8ec5417d-d8bb-480c-bb2f-dbf978cf6480</id>
+    <updated>2007-11-20T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Repoze Meetups</title>
+    <link href="https://blog.aclark.net/2007/10/28/repoze-meetups/index.html"/>
+    <id>urn:uuid:3ec69a7f-e9d5-4611-ae01-7fd337019933</id>
+    <updated>2007-10-28T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>My Plone Days October 2007</title>
+    <link href="https://blog.aclark.net/2007/10/18/my-plone-days-october-2007/index.html"/>
+    <id>urn:uuid:233dcce0-8dee-4b1b-a662-12dff0acfd86</id>
+    <updated>2007-10-18T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Is This Thing On?</title>
+    <link href="https://blog.aclark.net/2007/10/17/is-this-thing-on/index.html"/>
+    <id>urn:uuid:2dcf2e50-0dc1-4fd7-8219-780da5f11b3c</id>
+    <updated>2007-10-17T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>Help Improve Plone's API Documentation</title>
+    <link href="https://blog.aclark.net/2007/06/25/help-improve-plones-api-documentation/index.html"/>
+    <id>urn:uuid:ef785280-977e-443a-a371-da517365e89e</id>
+    <updated>2007-06-25T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+  <entry>
+    <title>First Post</title>
+    <link href="https://blog.aclark.net/2007/03/16/first-post/index.html"/>
+    <id>urn:uuid:a0791068-0810-435a-ab09-fe86109b7fc2</id>
+    <updated>2007-03-16T00:00:00</updated>
+    <summary>Some text.</summary>
+  </entry>
+</feed>

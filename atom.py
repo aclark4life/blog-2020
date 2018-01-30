@@ -22,7 +22,7 @@ head = """
 entry = """
   <entry>
     <title>{{ title }}</title>
-    <link href="http://example.org/2003/12/13/atom03"/>
+    <link href="https://blog.aclark.net{{ path }}"/>
     <id>urn:uuid:{{ uuid }}</id>
     <updated>{{ date }}</updated>
     <summary>Some text.</summary>
@@ -88,7 +88,9 @@ for root, dirs, files in os.walk('doc'):
                 doc_obj.walk(visitor)
 
                 # Save the entries so we can sort them by date later
-                entry_out = entry_obj.render(date=date.isoformat(), uuid=uuid, title=data['title'])
+                path = path[3:]  # Chop doc
+                path = path.replace('index.rst', 'index.html')
+                entry_out = entry_obj.render(date=date.isoformat(), uuid=uuid, title=data['title'], path=path)
                 entries[date] = entry_out
                 fileobj.close()
 
