@@ -1,9 +1,6 @@
 Pillow 2-9-0 Is Almost Out
 ==========================
 
-.. post:: 2015/06/28
-    :category: Pillow, Python
-
 **Pillow 2.9.0 will be released on July 1, 2015.**
 
 Pre-release

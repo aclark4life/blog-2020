@@ -1,9 +1,6 @@
 Bro, do you even Pillow?
 ========================
 
-.. post:: 2014/04/07
-    :category: Pillow, Python
-
 .. image:: /images/bro-do-you-even-pillow.jpg
     :alt: Bro, do you even Pillow?
     :align: center

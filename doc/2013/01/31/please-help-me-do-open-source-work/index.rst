@@ -1,9 +1,6 @@
 Please Help Me Do Open Source Work
 ==================================
 
-.. post:: 2013/01/31
-    :category: Misc
-
 **From my 'mid-life-crisis' series of blog entries**
 
 .. image:: /images/open-source-work.png

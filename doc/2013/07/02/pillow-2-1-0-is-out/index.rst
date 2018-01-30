@@ -1,9 +1,6 @@
 Pillow 2-1-0 is Out
 ===================
 
-.. post:: 2013/07/02
-    :category: Pillow, Python
-
 **Pillow is a popular fork of PIL by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors**
 
 .. image:: /images/pillow-2.1.0.png

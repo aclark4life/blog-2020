@@ -1,9 +1,6 @@
 Looking For Projects
 ====================
 
-.. post:: 2012/10/04
-    :category: Misc, Python
-
 .. image:: /images/use_python.jpg
     :alt: I don't always work, but when I do I prefer to use Python.
     :align: center

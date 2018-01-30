@@ -1,9 +1,6 @@
 Packt is Having a Sale
 ======================
 
-.. post:: 2015/01/05
-    :category: Misc
-
 **Happy new year!**
 
 .. image:: /images/packt-5.png

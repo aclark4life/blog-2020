@@ -1,9 +1,6 @@
 Introducing The Plone Kitty
 ===========================
 
-.. post:: 2013/01/09
-    :category: Plone
-
 **Actually: re-introducing the Plone Kitty from Plone 1!**
 
 .. image:: /images/plone-kitty.png

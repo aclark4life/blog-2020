@@ -1,9 +1,6 @@
 Hello Plone Again
 =================
 
-.. post:: 2013/01/09
-    :category: Plone
-
 **I'm back!**
 
 Regarding my recent "Goodbye Plone" post:

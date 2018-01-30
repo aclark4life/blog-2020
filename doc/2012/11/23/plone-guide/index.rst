@@ -1,9 +1,6 @@
 Plone Guide
 ===========
 
-.. post:: 2012/11/23
-    :category: Plone
-
 **For anyone new to my blog, welcome.** 
 
 Who

@@ -1,9 +1,6 @@
 Pillow Runs Itself
 ==================
 
-.. post:: 2014/10/02
-    :category: Pillow, Python
-
 **As of Pillow 2.6.0, the Pillow project almost completely runs itself!**
 
 Of course when I say "runs itself" I mean "runs without me", which is what **every open source project lead hopes for**. For the first time ever, I was able to:

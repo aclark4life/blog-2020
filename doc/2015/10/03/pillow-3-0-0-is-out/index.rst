@@ -1,9 +1,6 @@
 Pillow 3-0-0 is Out
 ===================
 
-.. post:: 2015/10/03
-    :category: Pillow, Python
-
 **Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.**
 
 The `Pillow Team <https://github.com/python-pillow/Pillow/graphs/contributors>`_  is excited to announce the release of Pillow 3.0.0. While "3 is just a number after 2", there are some **significant changes in this release all users should be aware of**: 

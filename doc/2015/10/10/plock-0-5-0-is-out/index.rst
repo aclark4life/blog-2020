@@ -1,9 +1,6 @@
 Plock 0-5-0 is out
 ==================
 
-.. post:: 2015/10/10
-    :category: Plone
-
 **Pip installs Plock. Plock installs Plone.**
 
 The Plock installer for Plone has been **updated to support Plone 5**. To try Plone 5, just cut & paste::

@@ -1,9 +1,6 @@
 Why I Criticize The Plone Foundation Board
 ==========================================
 
-.. post:: 2012/10/17
-    :category: Plone
-
 .. image:: /images/aclark-conf.jpg
     :alt: alternate text
     :align: center

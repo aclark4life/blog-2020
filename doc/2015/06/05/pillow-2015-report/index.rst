@@ -1,9 +1,6 @@
 Pillow 2015 Report
 ==================
 
-.. post:: 2015/06/05
-    :category: Pillow, Python
-
 .. image:: /images/pillow-2015-report.png
     :alt: Most interesting man
     :align: center
