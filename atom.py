@@ -6,6 +6,8 @@ import datetime
 import docutils
 import os
 
+# https://eli.thegreenplace.net/2017/a-brief-tutorial-on-parsing-restructuredtext-rest/
+
 feed = """
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -42,15 +44,18 @@ class Visitor(docutils.nodes.GenericNodeVisitor):
 date = datetime.datetime.now().isoformat()
 uuid = uuid4()
 
-# https://eli.thegreenplace.net/2017/a-brief-tutorial-on-parsing-restructuredtext-rest/
 parser_settings = frontend.OptionParser(
     components=(rst.Parser, )).get_default_values()
 parser_obj = rst.Parser()
+
 feed_obj = Template(feed)
 feed_out = feed_obj.render(date=date, uuid=uuid)
+
 atom_xml = open('atom.xml', 'w')
 atom_xml.write(feed_out)
+
 entry_obj = Template(entry)
+
 for root, dirs, files in os.walk('doc'):
     for f in files:
         if f.endswith(".rst"):
