@@ -34,9 +34,15 @@ class Visitor(docutils.nodes.GenericNodeVisitor):
     """
     """
 
+    def __init__(self, document, data):
+        self.document = document
+        self.data = data
+
     def default_visit(self, node):
         """
         """
+        if node.tagname == 'title':
+            data['title'] = node.astext()
 
 
 date = datetime.datetime.now().isoformat()
@@ -77,7 +83,9 @@ for root, dirs, files in os.walk('doc'):
                 doc_obj = docutils.utils.new_document(fileobj.name,
                                                       parser_settings)
                 parser_obj.parse(fileobj.read(), doc_obj)
-                doc_obj.walk(Visitor(doc_obj))
+                data = {}
+                visitor = Visitor(doc_obj, data)
+                doc_obj.walk(visitor)
 
                 # Save the entries so we can sort them by date later
                 entry_out = entry_obj.render(date=date.isoformat(), uuid=uuid)
