@@ -39,12 +39,13 @@ class Visitor(docutils.nodes.GenericNodeVisitor):
         """
 
 
-# https://eli.thegreenplace.net/2017/a-brief-tutorial-on-parsing-restructuredtext-rest/
-default_settings = frontend.OptionParser(
-    components=(rst.Parser, )).get_default_values()
-parser = rst.Parser()
 date = datetime.datetime.now().isoformat()
 uuid = uuid4()
+
+# https://eli.thegreenplace.net/2017/a-brief-tutorial-on-parsing-restructuredtext-rest/
+parser_settings = frontend.OptionParser(
+    components=(rst.Parser, )).get_default_values()
+parser_obj = rst.Parser()
 feed_obj = Template(feed)
 feed_out = feed_obj.render(date=date, uuid=uuid)
 atom_xml = open('atom.xml', 'w')
@@ -55,8 +56,8 @@ for root, dirs, files in os.walk('doc'):
         if f.endswith(".rst"):
             article = open(os.path.join(root, f))
             document = docutils.utils.new_document(article.name,
-                                                   default_settings)
-            parser.parse(article.read(), document)
+                                                   parser_settings)
+            parser_obj.parse(article.read(), document)
             visitor = Visitor(document)
             document.walk(visitor)
             uuid = uuid4()
