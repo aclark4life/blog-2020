@@ -68,7 +68,7 @@ for root, dirs, files in os.walk('doc'):
                 year = int(path_obj[1])
                 month = int(path_obj[2])
                 day = int(path_obj[3])
-            
+
                 date = datetime.datetime(year, month, day)
 
                 fileobj = open(path)
