@@ -6,7 +6,6 @@ import datetime
 import docutils
 import os
 
-# https://eli.thegreenplace.net/2017/a-brief-tutorial-on-parsing-restructuredtext-rest/
 
 feed = """
 <?xml version="1.0" encoding="utf-8"?>
