@@ -25,7 +25,7 @@ entry = """
     <link href="https://blog.aclark.net{{ path }}"/>
     <id>urn:uuid:{{ uuid }}</id>
     <updated>{{ date }}</updated>
-    <summary>Some text.</summary>
+    <summary>{{ summary }}</summary>
   </entry>
 """
 
@@ -37,12 +37,16 @@ class Visitor(docutils.nodes.GenericNodeVisitor):
     def __init__(self, document, data):
         self.document = document
         self.data = data
+        self.summary = []
 
     def default_visit(self, node):
         """
         """
         if node.tagname == 'title':
             data['title'] = node.astext()
+        if node.tagname == '#text':
+            self.summary.append(node.astext()) 
+            data['summary'] = self.summary
 
 
 date = datetime.datetime.now().isoformat()
@@ -94,6 +98,7 @@ for root, dirs, files in os.walk('doc'):
                     date=date.isoformat(),
                     uuid=uuid,
                     title=data['title'],
+                    summary='\n'.join(data['summary']),
                     path=path)
                 entries[date] = entry_out
                 fileobj.close()
