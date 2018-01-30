@@ -66,22 +66,25 @@ for root, dirs, files in os.walk('doc'):
             if len(path_obj) == 6:  # This is a blog article
                 # of the form doc/YYYY/MM/DD/title/index.rst
 
+                # Grab the date from the path
                 year = int(path_obj[1])
                 month = int(path_obj[2])
                 day = int(path_obj[3])
                 date = datetime.datetime(year, month, day)
 
+                # Open and parse the blog entry file
                 fileobj = open(path)
                 doc_obj = docutils.utils.new_document(fileobj.name,
                                                       parser_settings)
                 parser_obj.parse(fileobj.read(), doc_obj)
                 doc_obj.walk(Visitor(doc_obj))
 
+                # Save the entries so we can sort them by date later
                 entry_out = entry_obj.render(date=date.isoformat(), uuid=uuid)
                 entries[date] = entry_out
                 fileobj.close()
 
-# Write entries
+# Reverse sort entries by date and write to atom file
 for key in sorted(entries.keys(), reverse=True):
     atom_xml.write(entries[key])
 
