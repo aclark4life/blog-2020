@@ -55,6 +55,7 @@ atom_xml = open('atom.xml', 'w')
 atom_xml.write(feed_out)
 
 entry_obj = Template(entry)
+entries = {}
 
 for root, dirs, files in os.walk('doc'):
     for f in files:
@@ -68,7 +69,7 @@ for root, dirs, files in os.walk('doc'):
                 month = int(path_obj[2])
                 day = int(path_obj[3])
             
-                date = datetime.datetime(year, month, day).isoformat()
+                date = datetime.datetime(year, month, day)
 
                 fileobj = open(path)
                 doc_obj = docutils.utils.new_document(fileobj.name,
@@ -77,8 +78,11 @@ for root, dirs, files in os.walk('doc'):
                 parser_obj.parse(fileobj.read(), doc_obj)
                 doc_obj.walk(Visitor(doc_obj))
 
-                entry_out = entry_obj.render(date=date, uuid=uuid)
-                atom_xml.write(entry_out)
+                entry_out = entry_obj.render(date=date.isoformat(), uuid=uuid)
+
+                entries[date] = entry_out
+
+                # atom_xml.write(entry_out)
 
                 fileobj.close()
 
