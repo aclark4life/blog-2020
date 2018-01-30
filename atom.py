@@ -59,16 +59,19 @@ entry_obj = Template(entry)
 for root, dirs, files in os.walk('doc'):
     for f in files:
         if f.endswith(".rst"):
+            uuid = uuid4()
+
             fileobj = open(os.path.join(root, f))
             doc_obj = docutils.utils.new_document(fileobj.name,
                                                   parser_settings)
+
             parser_obj.parse(fileobj.read(), doc_obj)
-            visitor = Visitor(doc_obj)
-            doc_obj.walk(visitor)
-            uuid = uuid4()
+            doc_obj.walk(Visitor(doc_obj))
+
             entry_out = entry_obj.render(date=date, uuid=uuid)
-            fileobj.close()
             atom_xml.write(entry_out)
+
+            fileobj.close()
 
 atom_xml.write('\n</feed>\n')
 atom_xml.close()
