@@ -61,10 +61,14 @@ for root, dirs, files in os.walk('doc'):
         if f == "index.rst":
             uuid = uuid4()
             path = os.path.join(root, f)
-            if len(path.split('/')) == 6:
-                year = path[1]
-                month = path[2]
-                day = path[3]
+            path_obj = path.split('/')
+
+            if len(path_obj) == 6:
+                year = int(path_obj[1])
+                month = int(path_obj[2])
+                day = int(path_obj[3])
+            
+                date = datetime.datetime(year, month, day).isoformat()
 
                 fileobj = open(path)
                 doc_obj = docutils.utils.new_document(fileobj.name,
