@@ -64,23 +64,20 @@ for root, dirs, files in os.walk('doc'):
             path_obj = path.split('/')
 
             if len(path_obj) == 6:
+
                 year = int(path_obj[1])
                 month = int(path_obj[2])
                 day = int(path_obj[3])
-
                 date = datetime.datetime(year, month, day)
 
                 fileobj = open(path)
                 doc_obj = docutils.utils.new_document(fileobj.name,
                                                       parser_settings)
-
                 parser_obj.parse(fileobj.read(), doc_obj)
                 doc_obj.walk(Visitor(doc_obj))
 
                 entry_out = entry_obj.render(date=date.isoformat(), uuid=uuid)
-
                 entries[date] = entry_out
-
                 fileobj.close()
 
 # Write entries
