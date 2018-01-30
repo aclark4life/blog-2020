@@ -63,7 +63,8 @@ for root, dirs, files in os.walk('doc'):
             path = os.path.join(root, f)
             path_obj = path.split('/')
 
-            if len(path_obj) == 6:
+            if len(path_obj) == 6:  # This is a blog article
+                                    # of the form doc/YYYY/MM/DD/title/index.rst
 
                 year = int(path_obj[1])
                 month = int(path_obj[2])
