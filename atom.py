@@ -86,5 +86,8 @@ for root, dirs, files in os.walk('doc'):
 
                 fileobj.close()
 
+for key in sorted(entries.keys(), reverse=True):
+    atom_xml.write(entries[key])
+
 atom_xml.write('\n</feed>\n')
 atom_xml.close()
