@@ -90,7 +90,11 @@ for root, dirs, files in os.walk('doc'):
                 # Save the entries so we can sort them by date later
                 path = path[3:]  # Chop doc
                 path = path.replace('index.rst', 'index.html')
-                entry_out = entry_obj.render(date=date.isoformat(), uuid=uuid, title=data['title'], path=path)
+                entry_out = entry_obj.render(
+                    date=date.isoformat(),
+                    uuid=uuid,
+                    title=data['title'],
+                    path=path)
                 entries[date] = entry_out
                 fileobj.close()
 
