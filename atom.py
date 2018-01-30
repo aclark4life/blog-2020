@@ -58,10 +58,10 @@ entry_obj = Template(entry)
 
 for root, dirs, files in os.walk('doc'):
     for f in files:
-        if f.endswith(".rst"):
+        if f == "index.rst":
             uuid = uuid4()
             path = os.path.join(root, f)
-            if len(path.split('/')) == 5:
+            if len(path.split('/')) == 6:
                 fileobj = open(path)
                 doc_obj = docutils.utils.new_document(fileobj.name,
                                                       parser_settings)
