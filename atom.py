@@ -62,6 +62,10 @@ for root, dirs, files in os.walk('doc'):
             uuid = uuid4()
             path = os.path.join(root, f)
             if len(path.split('/')) == 6:
+                year = path[1]
+                month = path[2]
+                day = path[3]
+
                 fileobj = open(path)
                 doc_obj = docutils.utils.new_document(fileobj.name,
                                                       parser_settings)
