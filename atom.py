@@ -6,7 +6,7 @@ import datetime
 import docutils
 import os
 
-feed = """
+head = """
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
@@ -46,7 +46,7 @@ parser_settings = frontend.OptionParser(
     components=(rst.Parser, )).get_default_values()
 parser_obj = rst.Parser()
 
-feed_obj = Template(feed)
+feed_obj = Template(head)
 feed_out = feed_obj.render(date=date, uuid=uuid)
 
 atom_xml = open('atom.xml', 'w')
