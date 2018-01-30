@@ -6,7 +6,6 @@ import datetime
 import docutils
 import os
 
-
 feed = """
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -56,6 +55,7 @@ atom_xml.write(feed_out)
 entry_obj = Template(entry)
 entries = {}
 
+# Gather entries
 for root, dirs, files in os.walk('doc'):
     for f in files:
         if f == "index.rst":
@@ -81,10 +81,9 @@ for root, dirs, files in os.walk('doc'):
 
                 entries[date] = entry_out
 
-                # atom_xml.write(entry_out)
-
                 fileobj.close()
 
+# Write entries
 for key in sorted(entries.keys(), reverse=True):
     atom_xml.write(entries[key])
 
