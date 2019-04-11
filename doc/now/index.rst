@@ -9,7 +9,7 @@ I'm in Bethesda, MD, USA, spending all my time on:
 - **Systems Administrator** at |nih_nimh|. 
 - **President & Partner** at |aclark_net|.
 - **Founder and Project Leader** at |python_pillow|.
-- **President & Executive Director** at `DC Python <http://dcpython.org>`_.
+- **President & Executive Director** at |dc_python|.
 - **Webmaster & Executive Committee Member** at `Parkwood Residents Association <http://parkwoodresidents.org>`_.
 
 Last updated April 2019. More `sites with a now page <https://nownownow.com>`_.
@@ -31,3 +31,7 @@ Last updated April 2019. More `sites with a now page <https://nownownow.com>`_.
 .. |python_pillow| raw:: html
 
     <a href="https://tidelift.com/subscription/pkg/pypi-pillow" target="_blank">Python Pillow</a>
+
+.. |dc_python| raw:: html
+
+    <a href="https://dcpython.org" target="_blank">DC Python</a>
