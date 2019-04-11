@@ -11,4 +11,4 @@ I'm in Bethesda, MD, USA, spending all my time on:
 - **Musician** at `Headstraight <http://headstraight.net>`_.
 - **Webmaster & Executive Committee Member** at `Parkwood Residents Association <http://parkwoodresidents.org>`_.
 
-Last updated January 2018. More `sites with a now page <https://nownownow.com>`_.
+Last updated April 2019. More `sites with a now page <https://nownownow.com>`_.
