@@ -116,12 +116,12 @@ django-install:
 	-@$(MAKE) git-commit-auto-push
 django-lint: django-yapf  # Alias
 django-migrate:
-	bin/python manage.py migrate
+	python manage.py migrate
 django-migrations:
 	bin/python manage.py makemigrations $(APP)
 	git add $(PROJECT)/$(APP)/migrations/*.py
 django-serve:
-	bin/python manage.py runserver 0.0.0.0:8000
+	python manage.py runserver 0.0.0.0:8000
 django-test:
 	bin/python manage.py test
 django-settings:
@@ -144,6 +144,7 @@ migrate: django-migrate  # Alias
 migrations: django-migrations  # Alias
 static: django-static  # Alias
 su: django-su  # Alias
+test: django-test  # Alias
 
 # Elastic Beanstalk
 eb-init: 
@@ -273,7 +274,6 @@ plone-serve:
 install: python-install  # Alias
 lint: python-lint  # Alias
 serve: python-serve  # Alias
-test: python-test  # Alias
 python-clean:
 	find . -name \*.pyc | xargs rm -v
 python-flake:
@@ -292,6 +292,8 @@ python-virtualenv-2-7:
 	virtualenv --python=python2.7 .
 python-virtualenv-3-6:
 	virtualenv --python=python3.6 .
+python-virtualenv-3-7:
+	virtualenv --python=python3.7 .
 python-yapf:
 	-yapf -i *.py
 	-yapf -i $(PROJECT)/*.py
@@ -300,8 +302,14 @@ python-wc:
 	-wc -l *.py
 	-wc -l $(PROJECT)/*.py
 	-wc -l $(PROJECT)/$(APP)/*.py
-virtualenv: python-virtualenv-3-6  # Alias
+python-pipenv:
+	pipenv install
+	git add Pipfile
+	git add Pipfile.lock
+	git commit -a -m "Add pipenv"; git push
+virtualenv: python-virtualenv-3-7  # Alias
 virtualenv-2: python-virtualenv-2-7  # Alias
+pipenv: python-pipenv # Alias
 
 # Python Package
 package: package-init  # Alias
@@ -342,7 +350,7 @@ readme:
 review:
 ifeq ($(UNAME), Darwin)
 	@open -a $(EDITOR) `find $(PROJECT) -name \*.py | grep -v __init__.py | grep -v migrations`\
-		`find $(PROJECT) -name \*.html`
+		`find $(PROJECT) -name \*.html` `find $(PROJECT) -name \*.js`
 else
 	@echo "Unsupported"
 endif
@@ -385,13 +393,5 @@ webpack-init:
 	touch app.js
 	echo "module.exports = { entry: './app.js', output: { filename: 'bundle.js' } }" > webpack.config.js
 webpack:
-	webpack
+	./node_modules/.bin/webpack
 pack: webpack  # Alias
-
-# Blog
-sphinx-deploy:
-	aws s3 cp --recursive doc/_build/html/ s3://blog.aclark.net
-#	aws s3 cp atom.xml s3://blog.aclark.net
-	aws cloudfront create-invalidation --distribution-id ER61U0W7M90OK --paths "/*"
-sphinx-atom:
-	bin/python atom.py
