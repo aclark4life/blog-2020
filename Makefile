@@ -395,3 +395,11 @@ webpack-init:
 webpack:
 	./node_modules/.bin/webpack
 pack: webpack  # Alias
+
+# Blog
+sphinx-deploy:
+	aws s3 cp --recursive doc/_build/html/ s3://blog.aclark.net
+#	aws s3 cp atom.xml s3://blog.aclark.net
+	aws cloudfront create-invalidation --distribution-id ER61U0W7M90OK --paths "/*"
+sphinx-atom:
+	bin/python atom.py
