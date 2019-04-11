@@ -400,5 +400,6 @@ pack: webpack  # Alias
 d:
 #	python atom.py
 #	aws s3 cp atom.xml s3://blog.aclark.net
+	$(MAKE) sphinx-build
 	aws s3 cp --recursive doc/_build/html/ s3://blog.aclark.net
 	aws cloudfront create-invalidation --distribution-id ER61U0W7M90OK --paths "/*"
