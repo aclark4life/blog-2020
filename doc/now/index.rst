@@ -10,7 +10,7 @@ I'm in Bethesda, MD, USA, spending all my time on:
 - **Husband** to Amy.
 - **Owner** of Pomeranian "Quincey".
 - **Musician** at |headstraight|.
-- **Systems Administrator** at `NIH/NIMH <https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/research-support-services/nif/index.shtml>`_
+- **Systems Administrator** at |nih_nimh|. 
 - **President & Partner** at `ACLARK.NET, LLC <http://aclark.net>`_.
 - **Founder and Project Leader** at `Python Pillow <https://tidelift.com/subscription/pkg/pypi-pillow>`_.
 - **President & Executive Director** at `DC Python <http://dcpython.org>`_.
@@ -21,3 +21,7 @@ Last updated April 2019. More `sites with a now page <https://nownownow.com>`_.
 .. |headstraight| raw:: html
 
     <a href="http://headstraight.net" target="_blank">Headstraight</a>
+
+.. |nih_nimh| raw:: html
+
+    <a href="https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/research-support-services/nif/index.shtml" target="_blank">NIH/NIMH</a>
