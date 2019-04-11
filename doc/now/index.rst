@@ -10,7 +10,7 @@ I'm in Bethesda, MD, USA, spending all my time on:
 - **President & Partner** at |aclark_net|.
 - **Founder and Project Leader** at |python_pillow|.
 - **President & Executive Director** at |dc_python|.
-- **Webmaster & Executive Committee Member** at `Parkwood Residents Association <http://parkwoodresidents.org>`_.
+- **Webmaster & Executive Committee Member** at |pra|.
 
 Last updated April 2019. More `sites with a now page <https://nownownow.com>`_.
 
@@ -35,3 +35,7 @@ Last updated April 2019. More `sites with a now page <https://nownownow.com>`_.
 .. |dc_python| raw:: html
 
     <a href="https://dcpython.org" target="_blank">DC Python</a>
+
+.. |pra| raw:: html
+
+    <a href="http://parkwoodresidents.org" target="_blank">Parkwood Residents Association</a>
