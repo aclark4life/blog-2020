@@ -398,7 +398,7 @@ pack: webpack  # Alias
 
 # Blog
 d:
-	$(MAKE) git-commit-auto-push
+	-$(MAKE) git-commit-auto-push
 #	python atom.py
 #	aws s3 cp atom.xml s3://blog.aclark.net
 	$(MAKE) sphinx-build
