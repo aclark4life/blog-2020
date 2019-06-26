@@ -15,7 +15,7 @@ Pillow 1.0 was released on 2010-07-31, a little over a year later came Pillow 1.
 -  Windows binaries
 -  Over 13K downloads
 
-Pillow is used in Plone's `UnifiedInstaller`_, and I know `folks from the Django community`_\ are using it.
+Pillow is used in Plone's `UnifiedInstaller`_, and I know `folks from the Django community`_ are using it.
 
 Future creature comforts
 ------------------------
