@@ -28,15 +28,12 @@ Articles
    ./2016/11/23/project-makefile-open-business/index.rst
    ./2015/10/07/dc-python-jobs/index.rst
    ./2015/10/05/i-reinstalled-again/index.rst
-   ./2015/10/05/dont-sudo-pip-install/index.rst
    ./2015/10/03/pillow-3-0-0-is-out/index.rst
    ./2015/06/28/pillow-2-9-0-is-almost-out/index.rst
    ./2015/06/05/pillow-2015-report/index.rst
    ./2015/02/10/please-do-my-homework/index.rst
-   ./2015/01/05/packt-is-having-a-sale/index.rst
    ./2014/10/02/pillow-runs-itself/index.rst
    ./2014/07/05/pillow-2-5-0-is-out/index.rst
-   ./2014/05/19/matplotlib-plotting-cookbook-review/index.rst
    ./2014/05/03/we-pioneer/index.rst
    ./2014/04/07/bro-do-you-even-pillow/index.rst
    ./2014/03/20/introducing-plock-pins/index.rst
@@ -58,7 +55,6 @@ Articles
    ./2012/12/29/new-years-python-meme-2012/index.rst
    ./2012/12/09/the-zen-of-zope/index.rst
    ./2012/11/02/pillow-1-7-8/index.rst
-   ./2012/10/23/django-hello/index.rst
    ./2012/10/22/why-split-the-lists/index.rst
    ./2012/10/20/mailing-list-etiquette/index.rst
    ./2012/10/19/gittip-misundood/index.rst
@@ -80,11 +76,9 @@ Articles
    ./2011/10/14/pillow-one-year-later/index.rst
    ./2011/10/03/vagrant-puppet-and-mozilla-oh-my/index.rst
    ./2011/09/22/mozilla-and-pypi/index.rst
-   ./2011/08/28/hello-mod_wsgi/index.rst
    ./2011/02/16/cioppino-sprint-report/index.rst
    ./2011/01/31/in-defense-of-pypi/index.rst
    ./2010/10/15/i-reinstalled-recently/index.rst
-   ./2010/07/12/the-apache-modules-for-xdv/index.rst
    ./2009/12/31/new-years-python-meme/index.rst
    ./2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/index.rst
    ./2008/05/15/supervisor-rocks/index.rst
