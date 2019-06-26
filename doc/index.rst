@@ -65,15 +65,12 @@ Articles
    ./2012/10/17/top-3-favorite-logical-fallacies/index.rst
    ./2012/10/15/django-test/index.rst
    ./2012/10/04/looking-for-projects/index.rst
-   ./2012/09/28/pythonpackages-com-one-year-later/index.rst
    ./2012/09/24/diazo-themes-revisited/index.rst
    ./2012/09/22/sorry-for-the-blog-spam/index.rst
    ./2012/09/21/yes-this-blog-is-now-powered-by-pelican/index.rst
    ./2012/09/21/gittip-is-the-future/index.rst
-   ./2012/08/13/pythonpackages-com-pyformance-0-2/index.rst
    ./2012/08/13/bootstrapping-a-buildout-1-6-release/index.rst
    ./2012/08/10/all-my-python-packages-are-belong-to-github/index.rst
-   ./2012/08/07/pythonpackages-com-using-pypis-oauth1-support-to-register-and-upload-packages/index.rst
    ./2012/08/01/building-windows-installers-in-the-cloud/index.rst
    ./2012/07/25/pillow-moved-to-python-imaging-organization/index.rst
    ./2012/06/12/zope2-bootstrap/index.rst
