@@ -92,9 +92,9 @@ html_theme = 'alabaster'
 #
 
 html_theme_options = {
-    'show_powered_by': True,
+    'show_powered_by': False,
 #    'pre_bg': '#FCF6E5',
-    'pre_bg': '#f5f5f5',
+    'pre_bg': '#000',
 }
 
 html_theme_path = ['_themes']
