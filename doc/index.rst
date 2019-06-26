@@ -26,16 +26,12 @@ Articles
    ./2017/03/31/ten-years-blogged.rst
    ./2016/12/15/shout-out-to-shout-irc/index.rst
    ./2016/11/23/project-makefile-open-business/index.rst
-   ./2016/04/03/yup-this-blog-is-now-powered-by-ablog/index.rst
-   ./2016/02/21/updated-django-website/index.rst
-   ./2015/10/10/plock-0-5-0-is-out/index.rst
    ./2015/10/07/dc-python-jobs/index.rst
    ./2015/10/05/i-reinstalled-again/index.rst
    ./2015/10/05/dont-sudo-pip-install/index.rst
    ./2015/10/03/pillow-3-0-0-is-out/index.rst
    ./2015/06/28/pillow-2-9-0-is-almost-out/index.rst
    ./2015/06/05/pillow-2015-report/index.rst
-   ./2015/04/26/plock-rocks/index.rst
    ./2015/02/10/please-do-my-homework/index.rst
    ./2015/01/05/packt-is-having-a-sale/index.rst
    ./2014/10/02/pillow-runs-itself/index.rst
@@ -80,7 +76,6 @@ Articles
    ./2012/08/07/pythonpackages-com-using-pypis-oauth1-support-to-register-and-upload-packages/index.rst
    ./2012/08/01/building-windows-installers-in-the-cloud/index.rst
    ./2012/07/25/pillow-moved-to-python-imaging-organization/index.rst
-   ./2012/07/04/pythonpackages-com-beta-launch/index.rst
    ./2012/06/12/zope2-bootstrap/index.rst
    ./2012/05/23/a-simple-printer-of-nested-lists/index.rst
    ./2012/05/11/adam-yauch-has-passed/index.rst
@@ -95,7 +90,6 @@ Articles
    ./2010/07/12/the-apache-modules-for-xdv/index.rst
    ./2009/12/31/new-years-python-meme/index.rst
    ./2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/index.rst
-   ./2009/02/07/nirvana-old-age-interrupted/index.rst
    ./2008/05/15/supervisor-rocks/index.rst
    ./2008/04/12/nasa-story-slashdotted/index.rst
    ./2008/04/10/nasa-starts-new-science-web-site-powered-by-plone/index.rst
