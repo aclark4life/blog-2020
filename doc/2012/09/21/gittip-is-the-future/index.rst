@@ -42,9 +42,7 @@ You can read the rest of the article here:
 
 - http://blog.gittip.com/post/31960853095/back-the-stack-pythonpackages-com
 
-And if you'd like to help me, I'm attempting to cover the hosting costs for my startup business: `pythonpackages.com`_, so I can keep developing it for another year. I truly believe in my vision of a "hosted packaging service", and I really want to help the Python community fix its packaging story in any way that I can. If in no other way, than by making it so you don't have to think about Python packaging at all (i.e. I'll worry about the various complexities, so you don't have to). You can find me on gittip here:
-
-- https://www.gittip.com/aclark4life/
+And if you'd like to help me, I'm attempting to cover the hosting costs for my startup business: `pythonpackages.com`_, so I can keep developing it for another year. I truly believe in my vision of a "hosted packaging service", and I really want to help the Python community fix its packaging story in any way that I can. If in no other way, than by making it so you don't have to think about Python packaging at all (i.e. I'll worry about the various complexities, so you don't have to).
 
 Now, go be generous and help build the commons!
 
