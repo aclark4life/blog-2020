@@ -80,12 +80,10 @@ Articles
    ./2011/01/31/in-defense-of-pypi/index.rst
    ./2010/10/15/i-reinstalled-recently/index.rst
    ./2009/12/31/new-years-python-meme/index.rst
-   ./2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/index.rst
    ./2008/05/15/supervisor-rocks/index.rst
    ./2008/04/12/nasa-story-slashdotted/index.rst
    ./2008/04/10/nasa-starts-new-science-web-site-powered-by-plone/index.rst
    ./2008/03/06/unix-tips-for-the-elderly/index.rst
-   ./2007/10/17/i-love-the-slrn-news-reader/index.rst
    ./2007/03/16/first-post/index.rst
 
 |
