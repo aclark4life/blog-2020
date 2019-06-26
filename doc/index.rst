@@ -46,10 +46,8 @@ Articles
    ./2013/01/10/pillow-python-3/index.rst
    ./2012/12/29/new-years-python-meme-2012/index.rst
    ./2012/11/02/pillow-1-7-8/index.rst
-   ./2012/08/13/bootstrapping-a-buildout-1-6-release/index.rst
    ./2012/08/01/building-windows-installers-in-the-cloud/index.rst
    ./2012/07/25/pillow-moved-to-python-imaging-organization/index.rst
-   ./2012/06/12/zope2-bootstrap/index.rst
    ./2012/05/23/a-simple-printer-of-nested-lists/index.rst
    ./2012/05/11/adam-yauch-has-passed/index.rst
    ./2011/12/21/new-years-python-meme-2011/index.rst
