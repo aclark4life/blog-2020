@@ -34,39 +34,19 @@ Articles
    ./2015/02/10/please-do-my-homework/index.rst
    ./2014/10/02/pillow-runs-itself/index.rst
    ./2014/07/05/pillow-2-5-0-is-out/index.rst
-   ./2014/05/03/we-pioneer/index.rst
    ./2014/04/07/bro-do-you-even-pillow/index.rst
-   ./2014/03/20/introducing-plock-pins/index.rst
    ./2014/03/19/virtualenv-support-update/index.rst
    ./2014/01/01/pillow-2-3-0-is-out/index.rst
    ./2013/12/30/new-years-python-meme-2014/index.rst
-   ./2013/12/29/introducing-plock-again/index.rst
-   ./2013/10/13/python-packages-open-sourced/index.rst
    ./2013/10/03/pillow-2.2.1-released/index.rst
-   ./2013/07/19/introducing-plock/index.rst
    ./2013/07/02/pillow-2-1-0-is-out/index.rst
    ./2013/03/15/the-story-of-pillow/index.rst
    ./2013/02/23/trading-places-trading-scene-explained/index.rst
    ./2013/02/08/i-love-checkoutmanager-and-dotfiles/index.rst
-   ./2013/01/31/please-help-me-do-open-source-work/index.rst
-   ./2013/01/10/python-3-porting/index.rst
    ./2013/01/10/pillow-python-3/index.rst
-   ./2013/01/10/about-my-work/index.rst
    ./2012/12/29/new-years-python-meme-2012/index.rst
-   ./2012/12/09/the-zen-of-zope/index.rst
    ./2012/11/02/pillow-1-7-8/index.rst
-   ./2012/10/22/why-split-the-lists/index.rst
-   ./2012/10/20/mailing-list-etiquette/index.rst
-   ./2012/10/19/gittip-misundood/index.rst
-   ./2012/10/17/top-3-favorite-logical-fallacies/index.rst
-   ./2012/10/15/django-test/index.rst
-   ./2012/10/04/looking-for-projects/index.rst
-   ./2012/09/24/diazo-themes-revisited/index.rst
-   ./2012/09/22/sorry-for-the-blog-spam/index.rst
-   ./2012/09/21/yes-this-blog-is-now-powered-by-pelican/index.rst
-   ./2012/09/21/gittip-is-the-future/index.rst
    ./2012/08/13/bootstrapping-a-buildout-1-6-release/index.rst
-   ./2012/08/10/all-my-python-packages-are-belong-to-github/index.rst
    ./2012/08/01/building-windows-installers-in-the-cloud/index.rst
    ./2012/07/25/pillow-moved-to-python-imaging-organization/index.rst
    ./2012/06/12/zope2-bootstrap/index.rst
