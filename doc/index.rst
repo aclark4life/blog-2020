@@ -85,27 +85,17 @@ Articles
    ./2012/05/23/a-simple-printer-of-nested-lists/index.rst
    ./2012/05/11/adam-yauch-has-passed/index.rst
    ./2011/12/21/new-years-python-meme-2011/index.rst
-   ./2011/11/29/introducing-pythonpackages-com/index.rst
    ./2011/10/14/pillow-one-year-later/index.rst
    ./2011/10/03/vagrant-puppet-and-mozilla-oh-my/index.rst
    ./2011/09/22/mozilla-and-pypi/index.rst
    ./2011/08/28/hello-mod_wsgi/index.rst
-   ./2011/06/16/youre-so-vain-so-why-not-use-vanity/index.rst
-   ./2011/06/14/aclark-net-seeks-unique-candidate-for-part-time-business-consulting/index.rst
    ./2011/02/16/cioppino-sprint-report/index.rst
    ./2011/01/31/in-defense-of-pypi/index.rst
-   ./2011/01/26/hostout-rules/index.rst
    ./2010/10/15/i-reinstalled-recently/index.rst
    ./2010/07/12/the-apache-modules-for-xdv/index.rst
-   ./2010/03/22/i-need-something-to-do/index.rst
-   ./2010/01/06/yup-this-blog-is-now-powered-by-wordpress/index.rst
    ./2009/12/31/new-years-python-meme/index.rst
    ./2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/index.rst
    ./2009/02/07/nirvana-old-age-interrupted/index.rst
-   ./2008/12/02/zpugdc-meeting-tonight/index.rst
-   ./2008/09/02/repoze-bfg-tonight-ftw/index.rst
-   ./2008/08/10/re-collective-recipe-supervisor-thank-you/index.rst
-   ./2008/06/02/placeful-theming/index.rst
    ./2008/05/15/supervisor-rocks/index.rst
    ./2008/04/12/nasa-story-slashdotted/index.rst
    ./2008/04/10/nasa-starts-new-science-web-site-powered-by-plone/index.rst
