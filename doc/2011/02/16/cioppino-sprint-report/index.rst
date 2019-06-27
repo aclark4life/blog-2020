@@ -6,7 +6,7 @@ Cioppino Sprint Report
 
 **The Cioppino Sprint was held in Bodega Bay, CA in 2011.**
 
-The `Cioppino Sprint`_ was held in Bodega Bay, CA in 2011. It was a `beautiful location`_ for a gathering of awesome Plone folks; and much was accomplished.
+It was a `beautiful location`_ for a gathering of awesome Plone folks; and much was accomplished.
 
 .. image:: /images/bodega.jpg
     :alt: Bodega Bay
@@ -105,7 +105,6 @@ That's it! Just so you don't worry the sprinters worked too hard, you can rest a
 
 *If you enjoyed reading this report and/or appreciate all the fun-but-hard work that goes in to attending a sprint, please consider* `donating to my travel fund`_. *Only three days left, and I'm still a few dollars short!*
 
-.. _Cioppino Sprint: http://coactivate.org/projects/snow-sprint-west-2011/project-home
 .. _beautiful location: http://twitpic.com/3y21yk
 .. _ExternalStorage: http://pypi.python.org/pypi/Products.ExternalStorage
 .. _`http://associacao.python.org.br/doacoes-familia-dorneles`: http://associacao.python.org.br/doacoes-familia-dorneles
