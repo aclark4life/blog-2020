@@ -13,34 +13,36 @@ The `Cioppino Sprint`_ was recently held in Bodega Bay, CA. It was a `beautiful 
     :align: center
     :class: img-thumbnail
 
-The passing of Dorneles Treméa
-------------------------------
+.. dorneles
 
-I didn't know Dorneles very well, but he was certainly someone I idolized during my initial Plone fascination days (e.g. "Who are all these cool people with such cool names!"). And after digging through my old emails, I now remember we had several pleasant exchanges over the years.
+    The passing of Dorneles Treméa
+    ------------------------------
 
-Memories
-~~~~~~~~
+    I didn't know Dorneles very well, but he was certainly someone I idolized during my initial Plone fascination days (e.g. "Who are all these cool people with such cool names!"). And after digging through my old emails, I now remember we had several pleasant exchanges over the years.
 
-In particular, I have this memory of Dorneles and Alan Runyan sitting together at the Plone Conference 2008 sprint, smiling and working on their laptops. Before his death, it was just a random image that would occasionally pop into my head. Now, it's something I'll remember him by.
+    Memories
+    ~~~~~~~~
 
-We also corresponded briefly about his `ExternalStorage`_ add-on for Plone, around the time we upgraded plone.org from Plone 2.5 to Plone 3.0 (circa 2008), as well as traded emails about his invitation to attend Plone Conference 2008 in DC (for his visa application).  
+    In particular, I have this memory of Dorneles and Alan Runyan sitting together at the Plone Conference 2008 sprint, smiling and working on their laptops. Before his death, it was just a random image that would occasionally pop into my head. Now, it's something I'll remember him by.
 
-The funniest thing he ever said to me was when I was making the rounds asking for donations for Plone Conference 2008. He replied,
+    We also corresponded briefly about his `ExternalStorage`_ add-on for Plone, around the time we upgraded plone.org from Plone 2.5 to Plone 3.0 (circa 2008), as well as traded emails about his invitation to attend Plone Conference 2008 in DC (for his visa application).  
 
-    "Are you aware that you're talking with a 3rd world citizen?"
+    The funniest thing he ever said to me was when I was making the rounds asking for donations for Plone Conference 2008. He replied,
 
-I'm not sure if I offended him, or what. But it struck me funny at the time (and he went on to joke about how donations usually flow in the other direction, ending with his tongue stuck out i.e. ":-p"). It also reminded me of one the things I love most about Plone: the opportunity (I may never get otherwise) to correspond/collaborate with cool, passionate people all over the world.
+        "Are you aware that you're talking with a 3rd world citizen?"
 
-To me, Dorneles was one of the living embodiments of the *coolness* and *worldliness* of the Plone project.
+    I'm not sure if I offended him, or what. But it struck me funny at the time (and he went on to joke about how donations usually flow in the other direction, ending with his tongue stuck out i.e. ":-p"). It also reminded me of one the things I love most about Plone: the opportunity (I may never get otherwise) to correspond/collaborate with cool, passionate people all over the world.
 
-Wishes
-~~~~~~
+    To me, Dorneles was one of the living embodiments of the *coolness* and *worldliness* of the Plone project.
 
-My condolences and best wishes to his family, I hope you know how much he meant to so many folks in the Plone and Python communities. And just how many lives he touched with his work. And goodbye Dorneles; though I knew you very little, I will miss you very much. May your legacy live on, long in to the future.
+    Wishes
+    ~~~~~~
 
-Incidentally, if you would like to give money to help support Dorneles' family in the aftermath of this tragedy, you can do so here: `http://associacao.python.org.br/doacoes-familia-dorneles`_.
+    My condolences and best wishes to his family, I hope you know how much he meant to so many folks in the Plone and Python communities. And just how many lives he touched with his work. And goodbye Dorneles; though I knew you very little, I will miss you very much. May your legacy live on, long in to the future.
 
-Anyway, the sprint (or at least my part of it) was awesome! Amidst the very sad and shocking news of Dorneles' passing, we all kept busy with our work.
+    Incidentally, if you would like to give money to help support Dorneles' family in the aftermath of this tragedy, you can do so here: `http://associacao.python.org.br/doacoes-familia-dorneles`_.
+
+    Anyway, the sprint (or at least my part of it) was awesome! Amidst the very sad and shocking news of Dorneles' passing, we all kept busy with our work.
 
 Sprint report
 -------------
