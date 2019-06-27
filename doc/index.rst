@@ -48,7 +48,6 @@ Featured Articles
    ./2012/11/02/pillow-1-7-8/index.rst
    ./2012/07/25/pillow-moved-to-python-imaging-organization/index.rst
    ./2012/05/23/a-simple-printer-of-nested-lists/index.rst
-   ./2012/05/11/adam-yauch-has-passed/index.rst
    ./2015/01/11/new-django-website/index.rst
    ./2011/12/21/new-years-python-meme-2011/index.rst
    ./2011/10/14/pillow-one-year-later/index.rst
