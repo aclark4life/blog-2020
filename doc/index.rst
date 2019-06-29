@@ -26,7 +26,6 @@ Featured Articles
    ./2017/03/31/ten-years-blogged.rst
    ./2016/11/23/project-makefile-open-business/index.rst
    ./2015/10/07/dc-python-jobs/index.rst
-   ./2015/10/05/i-reinstalled-again/index.rst
    ./2015/10/03/pillow-3-0-0-is-out/index.rst
    ./2015/06/28/pillow-2-9-0-is-almost-out/index.rst
    ./2015/06/05/pillow-2015-report/index.rst
@@ -54,7 +53,6 @@ Featured Articles
    ./2011/09/22/mozilla-and-pypi/index.rst
    ./2011/02/16/cioppino-sprint-report/index.rst
    ./2011/01/31/in-defense-of-pypi/index.rst
-   ./2010/10/15/i-reinstalled-recently/index.rst
    ./2009/12/31/new-years-python-meme/index.rst
    ./2008/05/15/supervisor-rocks/index.rst
    ./2008/04/12/nasa-story-slashdotted/index.rst
