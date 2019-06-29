@@ -33,7 +33,6 @@ Featured Articles
    ./2014/10/02/pillow-runs-itself/index.rst
    ./2014/07/05/pillow-2-5-0-is-out/index.rst
    ./2014/04/07/bro-do-you-even-pillow/index.rst
-   ./2014/03/19/virtualenv-support-update/index.rst
    ./2014/01/01/pillow-2-3-0-is-out/index.rst
    ./2013/12/30/new-years-python-meme-2014/index.rst
    ./2013/10/03/pillow-2.2.1-released/index.rst
@@ -45,7 +44,6 @@ Featured Articles
    ./2012/12/29/new-years-python-meme-2012/index.rst
    ./2012/11/02/pillow-1-7-8/index.rst
    ./2012/07/25/pillow-moved-to-python-imaging-organization/index.rst
-   ./2012/05/23/a-simple-printer-of-nested-lists/index.rst
    ./2015/01/11/new-django-website/index.rst
    ./2011/12/21/new-years-python-meme-2011/index.rst
    ./2011/10/14/pillow-one-year-later/index.rst
