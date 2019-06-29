@@ -10,9 +10,7 @@ Alex Clark
     :align: center
     :figclass: align-center
 
-    **President & Co-Founder of ACLARK.NET**
-
-    **President & Executive Director of DC Python**
+    **President & Co-Founder of ACLARK.NET** • **President & Executive Director of DC Python**
 
     .. code-block:: python
 
