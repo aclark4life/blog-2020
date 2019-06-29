@@ -92,6 +92,7 @@ html_theme = 'alabaster'
 
 html_theme_options = {
     'show_powered_by': False,
+    'show_related': True,
 }
 
 html_theme_path = ['_themes']
