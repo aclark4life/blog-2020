@@ -26,7 +26,7 @@ Last updated June 2019. More `sites with a now page <https://nownownow.com>`_.
 
 .. |aclark_net| raw:: html
 
-    <a href="https://aclark.net" target="_blank">ACLARK.NET</a> 
+    <a href="https://aclark.net">ACLARK.NET</a> 
 
 .. |python_pillow| raw:: html
 
