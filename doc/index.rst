@@ -8,7 +8,6 @@ Alex Clark
 
 .. figure:: images/aclark-jobs.jpg
     :align: center
-
     .. code-block:: python
 
         from PIL import Image
