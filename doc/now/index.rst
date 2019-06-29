@@ -22,7 +22,7 @@ Last updated June 2019. More `sites with a now page <https://nownownow.com>`_.
 
 .. |nih_nimh| raw:: html
 
-    <a href="https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/research-support-services/nif/index.shtml" target="_blank">NIH/NIMH</a>
+    <a href="https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/research-support-services/nif/index.shtml" target="_blank">NIH/NIMH/DIRP/NIF</a>
 
 .. |aclark_net| raw:: html
 
