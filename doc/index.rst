@@ -10,14 +10,13 @@ Alex Clark
     :align: center
     :figclass: align-center
 
-    **President & Co-Founder of ACLARK.NET** • **President & Executive Director of DC Python**
+    **President & Co-Founder of ACLARK.NET** • **President & Executive Director of DC Python • Creator & Projector leader of Pillow**
 
     .. code-block:: python
 
-        Python 3.7.3 (default, Mar 27 2019, 09:23:15) 
-        [Clang 10.0.1 (clang-1001.0.46.3)] on darwin
-        Type "help", "copyright", "credits" or "license" for more information.
         >>> from PIL import Image
+        >>> Image.PILLOW_VERSION
+        '6.0.0'
 
 Featured Articles
 -----------------
