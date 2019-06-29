@@ -6,7 +6,7 @@
 Alex Clark
 ==========
 
-.. image:: images/aclark-jobs.jpg
+.. figure:: images/aclark-jobs.jpg
     :align: center
 
 Featured Articles
