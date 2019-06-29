@@ -10,7 +10,7 @@ Alex Clark
     :align: center
     :figclass: align-center
 
-    **President & Co-Founder of ACLARK.NET** | **President & Executive Director of DC Python | Creator & Project leader of Pillow**
+    **President & Co-Founder of ACLARK.NET** | **President & Executive Director of DC Python | Creator & Project Leader of Pillow**
 
     .. code-block:: python
 
