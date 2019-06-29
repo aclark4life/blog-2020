@@ -38,7 +38,6 @@ Featured Articles
    ./2013/07/02/pillow-2-1-0-is-out/index.rst
    ./2013/03/15/the-story-of-pillow/index.rst
    ./2013/02/23/trading-places-trading-scene-explained/index.rst
-   ./2013/02/08/i-love-checkoutmanager-and-dotfiles/index.rst
    ./2013/01/10/pillow-python-3/index.rst
    ./2012/12/29/new-years-python-meme-2012/index.rst
    ./2012/11/02/pillow-1-7-8/index.rst
