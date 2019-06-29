@@ -6,8 +6,8 @@ I'm in Bethesda, MD, USA spending all my time on:
 - **Husband** to Amy
 - **Co-Owner** of Quincey (Pomeranian)
 - **Musician** at |headstraight|.
-- **President & Partner** at |aclark_net|.
-- **Founder and Project Leader** at |python_pillow|.
+- **President & Co-Founder** at |aclark_net|.
+- **Creator and Project Leader** of |python_pillow|.
 - **Systems Administrator** at |nih_nimh|. 
 - **President & Executive Director** at |dc_python|.
 - **Webmaster & Executive Committee Member** at |pra|.
