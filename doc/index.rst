@@ -6,13 +6,6 @@
 Alex Clark
 ==========
 
-.. raw:: html
-
-    <!-- https://codepen.io/ibrahimjabbari/pen/ozinB -->
-    <hr style="border: 0; height: 1px; background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); ">
-
-|
-
 .. image:: images/aclark-jobs.jpg
     :align: center
 
@@ -63,8 +56,3 @@ Now
    :maxdepth: 1
 
    ./now/index.rst
-
-.. raw:: html
-
-    <!-- https://codepen.io/ibrahimjabbari/pen/ozinB -->
-    <hr style="border: 0; height: 1px; background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); ">
