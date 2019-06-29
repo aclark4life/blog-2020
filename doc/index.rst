@@ -10,13 +10,15 @@ Alex Clark
     :align: center
     :figclass: align-center
 
-    President & Co-Founder of ACLARK.NET
-    President & Executive Director of DC Python
+    **President & Co-Founder of ACLARK.NET**
+
+    **President & Executive Director of DC Python**
 
     .. code-block:: python
 
-
-        from PIL import Image
+        >>> from PIL import Image
+        >>> dir(Image)
+        ['ADAPTIVE', 'AFFINE', 'ANTIALIAS', 'BICUBIC', 'BILINEAR', 'BOX', 'CONTAINER', 'CUBIC', 'Callable', 'DECODERS', 'DEFAULT_STRATEGY', 'DecompressionBombError', 'DecompressionBombWarning', 'ENCODERS', 'EXTENSION', 'EXTENT', 'Exif', 'FASTOCTREE', 'FILTERED', 'FIXED', 'FLIP_LEFT_RIGHT', 'FLIP_TOP_BOTTOM', 'FLOYDSTEINBERG', 'HAMMING', 'HAS_PATHLIB', 'HUFFMAN_ONLY', 'ID', 'Image', 'ImageMode', 'ImagePointHandler', 'ImageTransformHandler', 'LANCZOS', 'LIBIMAGEQUANT', 'LINEAR', 'MAXCOVERAGE', 'MAX_IMAGE_PIXELS', 'MEDIANCUT', 'MESH', 'MIME', 'MODES', 'MutableMapping', 'NEAREST', 'NONE', 'NORMAL', 'OPEN', 'ORDERED', 'PERSPECTIVE', 'PILLOW_VERSION', 'Path', 'QUAD', 'RASTERIZE', 'RLE', 'ROTATE_180', 'ROTATE_270', 'ROTATE_90', 'SAVE', 'SAVE_ALL', 'SEQUENCE', 'TRANSPOSE', 'TRANSVERSE', 'TiffTags', 'USE_CFFI_ACCESS', 'WEB', '_E', '_ENDIAN', '_MAPMODES', '_MODEINFO', '_MODE_CONV', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_apply_env_variables', '_check_size', '_conv_type_shape', '_decompression_bomb_check', '_fromarray_typemap', '_getdecoder', '_getencoder', '_getscaleoffset', '_imaging_not_installed', '_initialized', '_plugins', '_show', '_showxv', '_wedge', 'alpha_composite', 'atexit', 'blend', 'builtins', 'cffi', 'coerce_e', 'composite', 'core', 'deferred_error', 'effect_mandelbrot', 'effect_noise', 'eval', 'fromarray', 'frombuffer', 'frombytes', 'fromqimage', 'fromqpixmap', 'fromstring', 'getmodebandnames', 'getmodebands', 'getmodebase', 'getmodetype', 'i32le', 'i8', 'init', 'io', 'isImageType', 'isPath', 'isStringType', 'linear_gradient', 'logger', 'logging', 'math', 'merge', 'new', 'numbers', 'open', 'os', 'preinit', 'py3', 'radial_gradient', 'register_decoder', 'register_encoder', 'register_extension', 'register_extensions', 'register_mime', 'register_open', 'register_save', 'register_save_all', 'registered_extensions', 'struct', 'sys', 'warnings']
 
 
 Featured Articles
