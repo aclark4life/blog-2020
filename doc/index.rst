@@ -48,7 +48,6 @@ Featured Articles
    ./2011/10/03/vagrant-puppet-and-mozilla-oh-my/index.rst
    ./2011/09/22/mozilla-and-pypi/index.rst
    ./2011/02/16/cioppino-sprint-report/index.rst
-   ./2011/01/31/in-defense-of-pypi/index.rst
    ./2009/12/31/new-years-python-meme/index.rst
    ./2008/05/15/supervisor-rocks/index.rst
    ./2008/04/12/nasa-story-slashdotted/index.rst
