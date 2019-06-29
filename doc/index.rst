@@ -29,7 +29,6 @@ Featured Articles
    ./2015/10/03/pillow-3-0-0-is-out/index.rst
    ./2015/06/28/pillow-2-9-0-is-almost-out/index.rst
    ./2015/06/05/pillow-2015-report/index.rst
-   ./2015/02/10/please-do-my-homework/index.rst
    ./2014/10/02/pillow-runs-itself/index.rst
    ./2014/07/05/pillow-2-5-0-is-out/index.rst
    ./2014/04/07/bro-do-you-even-pillow/index.rst
