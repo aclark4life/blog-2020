@@ -7,7 +7,7 @@ I'm in Bethesda, MD, USA spending all my time on:
 - **Co-Owner** of Quincey (Pomeranian)
 - **Musician** at |headstraight|.
 - **President & Co-Founder** of |aclark_net|.
-- **Creator and Project Leader** of |python_pillow|.
+- **Creator & Project Leader** of |python_pillow|.
 - **Systems Administrator** at |nih_nimh|. 
 - **President & Executive Director** of |dc_python|.
 - **Webmaster & Executive Committee Member** at |pra|.
