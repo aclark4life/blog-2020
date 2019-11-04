@@ -16,7 +16,7 @@ Alex Clark
 
         >>> from PIL import Image
         >>> Image.PILLOW_VERSION
-        '6.1.0'
+        '6.2.0'
 
 Featured Articles
 -----------------
