@@ -4,15 +4,15 @@ What I am doing now
 I'm in Bethesda, MD, USA spending all my time on:
 
 - **Husband** to Amy
-- **Co-Owner** of Quincey (Pomeranian)
+- **Owner** of Python Programming Pomeranian, Quincey
 - **Musician** at |headstraight|.
-- **President & Co-Founder** of |aclark_net|.
-- **Creator & Project Leader** of |python_pillow|.
+- **President** of |aclark_net|.
+- **Creator** of |python_pillow|.
 - **Systems Administrator** at |nih_nimh|. 
 - **President & Executive Director** of |dc_python|.
 - **Webmaster & Executive Committee Member** at |pra|.
 
-Last updated June 2019. More `sites with a now page <https://nownownow.com>`_.
+Last updated November 2019. More `sites with a now page <https://nownownow.com>`_.
 
 .. https://stackoverflow.com/a/11718325/185820
 
