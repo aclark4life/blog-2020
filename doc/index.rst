@@ -27,7 +27,6 @@ Featured Articles
    ./2017/06/26/saml-1-alex-clark-0/index.rst
    ./2017/03/31/ten-years-blogged/index.rst
    ./2016/11/23/project-makefile-open-business/index.rst
-   ./2015/10/07/dc-python-jobs/index.rst
    ./2015/10/03/pillow-3-0-0-is-out/index.rst
    ./2015/06/28/pillow-2-9-0-is-almost-out/index.rst
    ./2015/06/05/pillow-2015-report/index.rst
