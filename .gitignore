@@ -1,1 +1,5 @@
 doc/_build/
+.Python
+bin/
+include/
+lib/
