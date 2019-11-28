@@ -10,7 +10,7 @@ Alex Clark
     :align: center
     :figclass: align-center
 
-    President of ACLARKNET. President & Executive Director of DC Python. Creator of Python Pillow.
+    President of aclark.net. President & Executive Director of dcpython.org. Creator of python-pillow.org.
 
     .. code-block:: python
 
