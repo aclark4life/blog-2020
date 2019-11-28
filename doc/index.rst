@@ -46,8 +46,6 @@ Featured Articles
    ./2015/01/11/new-django-website/index.rst
    ./2011/12/21/new-years-python-meme-2011/index.rst
    ./2011/10/14/pillow-one-year-later/index.rst
-   ./2011/10/03/vagrant-puppet-and-mozilla-oh-my/index.rst
-   ./2011/09/22/mozilla-and-pypi/index.rst
    ./2009/12/31/new-years-python-meme/index.rst
 
 |
