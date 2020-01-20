@@ -1,5 +1,5 @@
-DC Python Jobs 
-==============
+DC Python Job Board
+===================
 
 **Updated January 2020**
 
