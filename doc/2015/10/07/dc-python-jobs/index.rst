@@ -1,9 +1,7 @@
 DC Python Jobs 
 ==============
 
-**This information may eventually live within the DC Python corpus, but for now I prefer to post-it-now-move-it-later.**
-
-DC Python, for those not familiar, is: 
+DC Python is:
 
 1. A thriving community full of awesome Python programmers in Washington, DC, USA (DC, MD, VA).
 #. The name of a Meetup group with over 3,000 members.
@@ -14,7 +12,6 @@ As the President & Executive Director of DC Python (see: #3), I try to be as hel
 Ideally we'd have a professional job board, but that would require a lot of effort from a lot of volunteers. In the meantime, ever since it was suggested by Gloria W from the NYC Python Meetup, we've been using Meetup's message boards to perform a similar function.
 
 This has worked surprisingly well however there *are* some issues. In this post, I will explain how to use DC Python's "Job Board" according to guidelines established by our community.
-
 
 The `DC Python Job Board <http://www.meetup.com/DCPython/messages/boards/>`_ features:
 
