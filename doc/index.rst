@@ -10,7 +10,7 @@ Alex Clark
     :align: center
     :figclass: align-center
 
-    President of aclark.net. President & Executive Director of dcpython.org. Creator of python-pillow.org.
+    President of aclark.net. President & Executive Director of dcpython.org. Creator of python-pillow.org. Musician at headstraight.net.
 
     .. code-block:: python
 
