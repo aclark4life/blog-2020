@@ -10,13 +10,11 @@ Alex Clark
     :align: center
     :figclass: align-center
 
-    President of aclark.net. President & Executive Director of dcpython.org. Creator of python-pillow.org. Musician at headstraight.net.
+.. code-block:: python
 
-    .. code-block:: python
-
-        >>> from PIL import Image
-        >>> Image.PILLOW_VERSION
-        '7.0.0'
+    >>> from PIL import Image
+    >>> Image.PILLOW_VERSION
+    '7.0.0'
 
 Featured Articles
 -----------------
