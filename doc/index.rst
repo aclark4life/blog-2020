@@ -24,8 +24,6 @@ Now
 
    ./now/index.rst
 
-|
-
 Featured Articles
 -----------------
 

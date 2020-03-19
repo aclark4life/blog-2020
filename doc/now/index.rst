@@ -1,7 +1,9 @@
 What I am doing now
 ===================
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Everybody&#39;s distancing their social! <a href="https://twitter.com/hashtag/StayAtHomeChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#StayAtHomeChallenge</a> <a href="https://t.co/Yjv6zSt13d">pic.twitter.com/Yjv6zSt13d</a></p>&mdash; Alex Clark 👍 (@aclark4life) <a href="https://twitter.com/aclark4life/status/1239686866464628737?ref_src=twsrc%5Etfw">March 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+.. raw:: html
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Everybody&#39;s distancing their social! <a href="https://twitter.com/hashtag/StayAtHomeChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#StayAtHomeChallenge</a> <a href="https://t.co/Yjv6zSt13d">pic.twitter.com/Yjv6zSt13d</a></p>&mdash; Alex Clark 👍 (@aclark4life) <a href="https://twitter.com/aclark4life/status/1239686866464628737?ref_src=twsrc%5Etfw">March 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I'm in Bethesda, MD, USA spending all my time on:
 
