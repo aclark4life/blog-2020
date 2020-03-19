@@ -3,30 +3,22 @@ What I am doing now
 
 I'm in Bethesda, MD, USA spending all my time on:
 
-- **Husband** to Amy
-- **Owner** of Python Programming Pomeranian, Quincey
-- **Musician** at |headstraight|.
 - **President** of |aclark_net|.
-- **Creator** of |python_pillow|.
-- **Systems Administrator** at |nih_nimh|. 
 - **President & Executive Director** of |dc_python|.
-- **Webmaster & Executive Committee Member** at |pra|.
+- **Creator** of |python_pillow|.
+- **Musician** at |headstraight|.
 
-Last updated November 2019. More `sites with a now page <https://nownownow.com>`_.
+Last updated March 2020. More `sites with a now page <https://nownownow.com>`_.
 
 .. https://stackoverflow.com/a/11718325/185820
 
 .. |headstraight| raw:: html
 
-    <a href="http://headstraight.net" target="_blank">Headstraight</a>
-
-.. |nih_nimh| raw:: html
-
-    <a href="https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/research-support-services/nif/index.shtml" target="_blank">NIH/NIMH/DIRP/NIF</a>
+    <a href="http://headstraightband.com" target="_blank">Headstraight</a>
 
 .. |aclark_net| raw:: html
 
-    <a href="https://aclark.net">ACLARK.NET</a> 
+    <a href="https://aclark.net">ACLARKNET</a> 
 
 .. |python_pillow| raw:: html
 
@@ -35,7 +27,3 @@ Last updated November 2019. More `sites with a now page <https://nownownow.com>`
 .. |dc_python| raw:: html
 
     <a href="https://dcpython.org" target="_blank">DC Python</a>
-
-.. |pra| raw:: html
-
-    <a href="http://parkwoodresidents.org" target="_blank">Parkwood Residents Association</a>
