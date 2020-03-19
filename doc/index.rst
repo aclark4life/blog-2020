@@ -16,6 +16,16 @@ Alex Clark
     >>> Image.PILLOW_VERSION
     '7.0.0'
 
+Now
+---
+
+.. toctree::
+   :maxdepth: 1
+
+   ./now/index.rst
+
+|
+
 Featured Articles
 -----------------
 
@@ -46,13 +56,3 @@ Featured Articles
    ./2011/12/21/new-years-python-meme-2011/index.rst
    ./2011/10/14/pillow-one-year-later/index.rst
    ./2009/12/31/new-years-python-meme/index.rst
-
-|
-
-Now
----
-
-.. toctree::
-   :maxdepth: 1
-
-   ./now/index.rst
