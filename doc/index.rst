@@ -30,6 +30,7 @@ Featured Articles
 .. toctree::
    :maxdepth: 1
 
+   ./2020/03/30/distancing-my-social/index.rst
    ./2017/06/26/saml-1-alex-clark-0/index.rst
    ./2017/03/31/ten-years-blogged/index.rst
    ./2016/11/23/project-makefile-open-business/index.rst
