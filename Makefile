@@ -1,8 +1,8 @@
-# https://github.com/aclark4life/project-makefile
+# https://github.com/aclark4life/makefile
 #
 # The MIT License (MIT)
 #
-# Copyright (c) 2016 Alex Clark
+# Copyright (c) 2016–2020 Alex Clark
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -22,6 +22,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+#-------------------------------------------------------------------------------
+
 # Default Goal
 # 
 # https://www.gnu.org/software/make/manual/html_node/Goals.html
@@ -35,7 +37,9 @@
 # of the default goal from within your makefile using the .DEFAULT_GOAL variable
 # (see Other Special Variables). 
 
-.DEFAULT_GOAL=git-commit-auto-push
+.DEFAULT_GOAL=usage
+
+#-------------------------------------------------------------------------------
 
 # Variables
 
@@ -45,13 +49,33 @@
 #
 # https://www.gnu.org/software/make/manual/html_node/Using-Variables.html
 
-APP=app
-DOC=doc
-NAME="Alex Clark"
-PROJECT=project
-TMP:=$(shell echo `tmp`)
-UNAME:=$(shell uname)
-REMOTE=remotehost
+# Flavors
+
+# https://www.gnu.org/software/make/manual/html_node/Flavors.html#Flavors
+
+COMMIT_MESSAGE = "Update"
+PROJECT = project
+APP = app
+# https://stackoverflow.com/a/589260/185820
+TMPDIR := $(shell mktemp -d)
+RANDIR := $(shell openssl rand -base64 12 | sed 's/\///g')
+UNAME := $(shell uname)
+# http://unix.stackexchange.com/a/37316
+REMOTE_BRANCHES = `git branch -a | grep remote | grep -v HEAD | grep -v master`
+
+#-------------------------------------------------------------------------------
+
+# Additional Concepts for this Makefile
+#
+# "Alias" - A new target definition that only exists to create a shorter target 
+# name for another target that already exists.
+#
+# "Multi-target Alias" - Like an "Alias", but with multiple targets.
+#
+# "BBB" - For backwards compatibility. Via
+# https://docs.plone.org/appendices/glossary.html
+
+#-------------------------------------------------------------------------------
 
 # Rules
 #
@@ -61,292 +85,135 @@ REMOTE=remotehost
 # create or update the target. 
 #
 # https://www.gnu.org/software/make/manual/html_node/Rules.html
-#
-# (Note I am not using Make's implicit rules to remake files, because there are no
-# files to manage, just tasks to perform. Also note the terms "Alias" and "Chain"
-# in the comments below are mine, not Make's. In particular, I'm not referring to
-# Make's Implicit Chaining feature. Rather, a "Chain" as I've defined it is a series
-# of prerequisites required to satisfy the target. And an "Alias" is a target that
-# only exists to define a shorter name for its prerequisite.)
 
-# ABlog
-ablog: ablog-clean ablog-install ablog-init ablog-build ablog-serve  # Chain
-ablog-clean:
-	-rm conf.py index.rst
-ablog-init:
-	bin/ablog start
-ablog-install:
-	@echo "ablog\n" > requirements.txt
-	@$(MAKE) python-virtualenv
-	@$(MAKE) python-install
-ablog-build:
-	bin/ablog build
-ablog-serve:
-	bin/ablog serve
+##########
+# Django #
+##########
 
-# Django
-django-app-clean:
-	@-rm -rvf $(PROJECT)
-	@-rm -v manage.py
-django-app-init:
+django-init-app:
 	-mkdir -p $(PROJECT)/$(APP)/templates
 	-touch $(PROJECT)/$(APP)/templates/base.html
 	-django-admin startproject $(PROJECT) .
 	-django-admin startapp $(APP) $(PROJECT)/$(APP)
-django-db-clean:  # PostgreSQL
+django-init-db:  # PostgreSQL
 	-dropdb $(PROJECT)
-django-db-init:  # PostgreSQL
-	-createdb $(PROJECT)_$(APP)
-db-init: django-db-init  # Alias
-django-debug: django-shell  # Alias
+	-createdb $(PROJECT)
+init-db: django-init-db  # Alias
 django-graph:
-	bin/python manage.py graph_models $(APP) -o graph_models_$(PROJECT)_$(APP).png 
+	python manage.py graph_models $(APP) -o graph_models_$(PROJECT)_$(APP).png 
 django-init: 
-	@$(MAKE) django-db-init
-	@$(MAKE) django-app-init
-	@$(MAKE) django-settings
+	@$(MAKE) pip-install-django
+	@$(MAKE) django-init-db
+	@$(MAKE) django-init-app
+	@$(MAKE) django-up-settings
 	git add $(PROJECT)
 	git add manage.py
-	@$(MAKE) git-commit-auto-push
-django-install:
-	@echo "Django\ndj-database-url\npsycopg2\n" > requirements.txt
-	@$(MAKE) python-install
-	@$(MAKE) freeze
-	-git add requirements.txt
-	-@$(MAKE) git-commit-auto-push
-django-lint: django-yapf  # Alias
+	@$(MAKE) commit-push
 django-migrate:
 	python manage.py migrate
-django-migrations:
-	bin/python manage.py makemigrations $(APP)
+django-migrations-default:
+	python manage.py makemigrations $(APP)
 	git add $(PROJECT)/$(APP)/migrations/*.py
-django-serve:
+django-serve-default:
 	python manage.py runserver 0.0.0.0:8000
 django-test:
-	bin/python manage.py test
-django-settings:
+	python manage.py test
+django-up-settings:
 	echo "STATIC_ROOT = 'static'" >> $(PROJECT)/settings.py
 	echo "ALLOWED_HOSTS = ['*']" >> $(PROJECT)/settings.py
 	echo "AUTH_PASSWORD_VALIDATORS = [{'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator', }, { 'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator', },]" >> $(PROJECT)/settings.py
 	echo "import dj_database_url; DATABASES = { 'default': dj_database_url.config(default=os.environ.get( 'DATABASE_URL', 'postgres://%s:%s@%s:%s/%s' % (os.environ.get('DB_USER', ''), os.environ.get('DB_PASS', ''), os.environ.get('DB_HOST', 'localhost'), os.environ.get('DB_PORT', '5432'), os.environ.get('DB_NAME', 'project_app'))))}" >> $(PROJECT)/settings.py
 django-shell:
-	bin/python manage.py shell
+	python manage.py shell
 django-static:
-	bin/python manage.py collectstatic --noinput
+	python manage.py collectstatic --noinput
 django-su:
-	bin/python manage.py createsuperuser
+	python manage.py createsuperuser
+django-loaddata-default:
+	python manage.py loaddata
 django-yapf:
 	-yapf -i *.py
-	-yapf -i -e $(PROJECT)/urls.py $(PROJECT)/*.py  # Don't format urls.py
+	-yapf -i $(PROJECT)/*.py
 	-yapf -i $(PROJECT)/$(APP)/*.py
+django-wc:
+	-wc -l *.py
+	-wc -l $(PROJECT)/*.py
+	-wc -l $(PROJECT)/$(APP)/*.py
 graph: django-graph
 migrate: django-migrate  # Alias
 migrations: django-migrations  # Alias
 static: django-static  # Alias
 su: django-su  # Alias
 test: django-test  # Alias
+loaddata: django-loaddata  # Alias
 
-# Elastic Beanstalk
-eb-init: 
-	eb init -i
-eb-create:
-	eb create
+##########
+# Drupal #
+##########
 
-# Git
-MESSAGE="Update"
-REMOTES=`\
-	git branch -a |\
-	grep remote   |\
-	grep -v HEAD  |\
-	grep -v master`  # http://unix.stackexchange.com/a/37316
-co: git-checkout-remotes  # Alias
-commit: git-commit  # Alias
-commit-auto: git-commit-auto-push  # Alias
-commit-edit: git-commit-edit-push  # Alias
-git-commit: git-commit-auto  # Alias
-git-commit-auto-push: git-commit-auto git-push  # Chain
-git-commit-edit-push: git-commit-edit git-push  # Chain
-push: git-push
-git-checkout-remotes:
-	-for i in $(REMOTES) ; do \
+drupal-init-composer-8:
+	composer create-project drupal/recommended-project $(RANDIR) --no-interaction
+drupal-init-docksal-7:
+	git clone https://github.com/docksal/boilerplate-drupal7.git d7
+	cd d7; fin init
+drupal-init-docksal-8:
+	git clone https://github.com/docksal/boilerplate-drupal8.git d8
+	cd d8; fin init
+d7: drupal-init-docksal-7  # Alias
+d8: drupal-init-docksal-8  # Alias
+
+#######
+# Git #
+#######
+
+git-ignore:
+	echo ".Python\nbin/\ninclude/\nlib/\n.vagrant/\n" >> .gitignore
+	git add .gitignore
+	$(MAKE) commit-push
+git-init:
+	git init
+	hub create $(RAND)
+	hub browse
+git-branches:
+	-for i in $(REMOTE_BRANCHES) ; do \
         git checkout -t $$i ; done
-git-commit-auto:
-	git commit -a -m $(MESSAGE)
+git-prune:
+	git remote update origin --prune
+git-commit:
+	git commit -a -m $(COMMIT_MESSAGE)
 git-commit-edit:
 	git commit -a
 git-push:
 	git push
-
-# Grunt
-grunt: grunt-init grunt-serve
-grunt-init: grunt-install grunt-file
-grunt-file:
-	curl -O https://raw.githubusercontent.com/gruntjs/grunt-init-gruntfile/master/template.js
-	node_modules/grunt-init/bin/grunt-init --force gruntfile
-	@echo "***Add to GruntFile:***\n\n\tgrunt.loadNpmTasks('grunt-serve');\n\n"
-grunt-install:
-	npm install grunt-init grunt-serve
-grunt-serve:  
-	@echo "\nServing HTTP on http://0.0.0.0:9000 ...\n"
-	grunt serve
-
-# Help
-h: help  # Alias
-he: help  # Alias
-help:
-	@echo "Usage: make [TARGET]\nAvailable targets:\n"
-	@$(MAKE) -pRrq -f $(lastword $(MAKEFILE_LIST)) : 2>/dev/null | awk -v RS= -F:\
-        '/^# File/,/^# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}'\
-        | sort | egrep -v -e '^[^[:alnum:]]' -e '^$@$$' | xargs | tr ' ' '\n' | awk\
-        '{print "    - "$$0}' | less  # http://stackoverflow.com/a/26339924
-	@echo "\n"
-upstream:
+git-push-up:
 	git push --set-upstream origin master
+commit: git-commit  # Alias
+ce: commit-edit  # Alias
+cp: commit-push  # Alias
+push: git-push  # Alias
+p: push  # Alias
+commit-push: git-commit git-push  # Multi-target Alias
+commit-push-up: git-commit git-push-up  # Multi-target Alias
+commit-edit: git-commit-edit git-push  # Multi-target Alias
+git-commit-auto-push: commit-push  # BBB
+git-commit-edit-push: commit-edit-push  # BBB
 
-# Heroku
-heroku: heroku-init
-heroku-debug-on:
-	heroku config:set DEBUG=1
-heroku-debug-off:
-	heroku config:unset DEBUG
-heroku-django-migrate:
-	heroku run python manage.py migrate
-heroku-init:
-	heroku apps:create $(PROJECT)-$(APP)	
-heroku-maint-on:
-	heroku maintenance:on
-heroku-maint-off:
-	heroku maintenance:off
-heroku-push:
-	git push heroku
-heroku-remote-add:
-	git remote add heroku
-heroku-shell:
-	heroku run bash
-heroku-web-on:
-	heroku ps:scale web=1
-heroku-web-off:
-	heroku ps:scale web=0
+########
+# Misc #
+########
 
-# Makefile
-make:
-	git add Makefile
-	@$(MAKE) git-commit-auto-push
+rand:
+	@openssl rand -base64 12 | sed 's/\///g'
+r: rand  # Alias
 
-# Misc
-
-pdf:
-	rst2pdf README.rst
-
-# Node Package Manager
-npm: npm-init npm-install
-npm-init:
-	npm init -y
-npm-install:
-	npm install
-
-# Pip
-freeze: pip-freeze
-pip-freeze:
-	bin/pip freeze | sort > $(TMP)/requirements.txt
-	mv -f $(TMP)/requirements.txt .
-
-# Plone
-plone: plone-install plone-init plone-serve  # Chain
-plone-heroku:
-	-@createuser -s plone > /dev/null 2>&1
-	-@createdb -U plone plone > /dev/null 2>&1
-	@export PORT=8080 && \
-		export USERNAME=admin && \
-		export PASSWORD=admin && \
-		bin/buildout -c heroku.cfg
-plone-install:
-	@echo plock > requirements.txt
-	@$(MAKE) python-virtualenv
-	@$(MAKE) python-install
-plone-init:
-	plock --force --no-cache --no-virtualenv .
-plone-serve:
-	@echo "\n\tServing HTTP on http://0.0.0.0:8080\n"
-	@bin/plone fg
-
-# Python
-install: python-install  # Alias
-lint: python-lint  # Alias
-serve: python-serve  # Alias
-python-clean:
-	find . -name \*.pyc | xargs rm -v
-python-flake:
-	-flake8 *.py
-	-flake8 $(PROJECT)/*.py
-	-flake8 $(PROJECT)/$(APP)/*.py
-python-install:
-	bin/pip install -r requirements.txt
-python-lint: python-yapf python-flake python-wc  # Chain
-python-serve:
-	@echo "\n\tServing HTTP on http://0.0.0.0:8000\n"
-	bin/python -m SimpleHTTPServer
-package-test:
-	bin/python setup.py test
-python-virtualenv-2-7:
-	virtualenv --python=python2.7 .
-python-virtualenv-3-6:
-	virtualenv --python=python3.6 .
-python-virtualenv-3-7:
-	virtualenv --python=python3.7 .
-python-yapf:
-	-yapf -i *.py
-	-yapf -i $(PROJECT)/*.py
-	-yapf -i $(PROJECT)/$(APP)/*.py
-python-wc:
-	-wc -l *.py
-	-wc -l $(PROJECT)/*.py
-	-wc -l $(PROJECT)/$(APP)/*.py
-python-pipenv:
-	pipenv install
-	git add Pipfile
-	git add Pipfile.lock
-	git commit -a -m "Add pipenv"; git push
-virtualenv: python-virtualenv-3-7  # Alias
-virtualenv-2: python-virtualenv-2-7  # Alias
-pipenv: python-pipenv # Alias
-
-# Python Package
-package: package-init  # Alias
-release: package-release  # Alias
-release-test: package-release-test  # Alias
-package-check-manifest:
-	check-manifest
-package-init:
-	mkdir -p $(PROJECT)/$(APP)
-	touch $(PROJECT)/$(APP)/__init__.py
-	touch $(PROJECT)/__init__.py
-	@echo "setup(){}" > setup.py
-package-lint: package-check-manifest package-pyroma  # Chain
-package-pyroma:
-	pyroma .
-package-readme:
-	rst2html.py README.rst > readme.html; open readme.html
-package-release:
-	bin/python setup.py sdist --format=gztar,zip upload
-package-release-test:
-	bin/python setup.py sdist --format=gztar,zip upload -r test
-
-# Redhat
-redhat-update:
-	sudo yum update
-	sudo yum upgrade -y
-
-# Readme
 readme:
 	echo "Creating README.rst"
-	@echo $(PROJECT)-$(APP) > README.rst
+	@echo $(PROJECT) > README.rst
 	@echo ================================================================================ >> README.rst
 	echo "Done."
 	git add README.rst
-	@$(MAKE) git-commit-auto-push
+	@$(MAKE) commit-push
 
-# Review
 review:
 ifeq ($(UNAME), Darwin)
 	@open -a $(EDITOR) `find $(PROJECT) -name \*.py | grep -v __init__.py | grep -v migrations`\
@@ -355,55 +222,111 @@ else
 	@echo "Unsupported"
 endif
 
-# Sphinx
-sphinx-build:
-	sphinx-build -b html -d $(DOC)/_build/doctrees $(DOC) $(DOC)/_build/html
-sphinx-init:
-	sphinx-quickstart -q -p $(PROJECT)-$(APP) -a $(NAME) -v 0.0.1 $(DOC)
-sphinx-install:
+list-targets:
+	@$(MAKE) -pRrq -f $(lastword $(MAKEFILE_LIST)) : 2>/dev/null | awk -v RS= -F:\
+        '/^# File/,/^# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}'\
+        | sort | egrep -v -e '^[^[:alnum:]]' -e '^$@$$' | xargs | tr ' ' '\n' | awk\
+        '{print "make "$$0}' | less  # http://stackoverflow.com/a/26339924
+help: list-targets  # Alias
+h: list-targets  # Alias
+
+usage:
+	@echo "Project Makefile"
+	@echo "Usage:\n"
+	@echo "\tmake <target>\n"
+	@echo "Help:\n"
+	@echo "\tmake help"
+
+make:
+	git add Makefile
+	@$(MAKE) commit-push-up
+
+deploy-default:
+	eb deploy
+d: deploy  # Alias
+
+#######
+# Pip #
+#######
+
+pip-freeze-default:
+	pip freeze | sort > $(TMPDIR)/requirements.txt
+	mv -f $(TMPDIR)/requirements.txt .
+pip-install:
+	pip install -r requirements.txt
+pip-install-test:
+	pip install -r requirements-test.txt
+pip-install-django:
+	@echo "Django\ndj-database-url\npsycopg2-binary\n" > requirements.txt
+	@$(MAKE) pip-install
+	@$(MAKE) freeze
+	-git add requirements.txt
+	-@$(MAKE) commit-push-up
+pip-install-sphinx:
 	@echo "Sphinx\n" > requirements.txt
-	@$(MAKE) python-install
-# https://stackoverflow.com/a/32302366/185820
-sphinx-serve:
+	@$(MAKE) pip-install
+	@$(MAKE) freeze
+	-git add requirements.txt
+	-@$(MAKE) commit-push-up
+pip-upgrade-default:
+	cat requirements.txt | awk -F \= '{print $1}' > $(TMPDIR)/requirements.txt
+	mv -f $(TMPDIR)/requirements.txt .
+	pip install -U -r requirements.txt
+	$(MAKE) pip-freeze
+freeze: pip-freeze  # Alias
+
+##########
+# Python # 
+##########
+
+python-serve:
 	@echo "\n\tServing HTTP on http://0.0.0.0:8000\n"
-	pushd $(DOC)/_build/html; python3 -m http.server
+	python -m http.server
+python-virtualenv-2-6:
+	virtualenv --python=python2.6 .
+python-virtualenv-2-7:
+	virtualenv --python=python2.7 .
+python-virtualenv-3-7:
+	virtualenv --python=python3.7 .
+python-virtualenv: python-virtualenv-3-7  # Alias
+virtualenv: python-virtualenv-3-7  # Alias
+virtualenv-2: python-virtualenv-2-7  # Alias
+serve: python-serve  # Alias
 
-# Ubuntu
-ubuntu-update:
-	sudo aptitude update
-	sudo aptitude upgrade -y
+##########
+# Sphinx #
+##########
 
-# Vagrant
-vagrant: vagrant-clean vagrant-init vagrant-up  # Chain
-vm: vagrant  # Alias
-vagrant-clean:
-	-rm Vagrantfile
-	-vagrant destroy
-vagrant-down:
-	vagrant suspend
+sphinx-init:
+	$(MAKE) pip-install-sphinx
+	sphinx-quickstart -q -p $(PROJECT) -a $(USER) -v 0.0.1 $(RANDIR)
+	sphinx-build -b html -d $(RANDIR)/_build/doctrees $(RANDIR) $(RANDIR)/_build/html
+
+###########
+# Vagrant #
+###########
+
 vagrant-init:
 	vagrant init ubuntu/trusty64
+	git add Vagrantfile
+	$(MAKE) git-push-up
+	$(MAKE) vagrant-up
 vagrant-up:
 	vagrant up --provider virtualbox
-vagrant-update:
-	vagrant box update
+vagrant: vagrant-init  # Alias
+vm: vagrant-init  # Alias
 
-# Webpack
-webpack-init:
-	touch app.js
-	echo "module.exports = { entry: './app.js', output: { filename: 'bundle.js' } }" > webpack.config.js
-webpack:
-	./node_modules/.bin/webpack
-pack: webpack  # Alias
+#-------------------------------------------------------------------------------
 
-# Blog
-d:
-	-$(MAKE) git-commit-auto-push
-#	python atom.py
-#	aws s3 cp atom.xml s3://blog.aclark.net
-	rm -rvf doc/_build
-	$(MAKE) sphinx-build
-	aws s3 cp --recursive doc/_build/html/ s3://blog.aclark.net
-	aws cloudfront create-invalidation --distribution-id ER61U0W7M90OK --paths "/*"
+# Overrides
+#
+# https://www.gnu.org/software/make/manual/html_node/Overriding-Makefiles.html
+#
+# https://stackoverflow.com/a/49804748
+%: %-default
+	@ true
 
-.DEFAULT_GOAL=d
+#PROJECT = project
+#APP = app
+#.DEFAULT_GOAL=commit-push
+#install: pip-install
